@@ -547,8 +547,17 @@
   flex: 1;
   min-height: 0;
 }
-.chart-modal-body > .tab-content:not(#tab-chart) {
+.chart-modal-body > #tab-chart {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.chart-modal-body > #tab-financials {
+  display: block;
   overflow: auto;
+}
+.chart-modal-body > .tab-content.tab-content--hidden {
+  display: none;
 }
 .chart-container {
   width: 100%;

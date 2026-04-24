@@ -608,18 +608,18 @@
 .fin-stmt {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.85em;
+  font-size: 0.92em;
   min-width: 100%;
 }
 .fin-stmt thead th {
   background: var(--surface-container-low);
-  color: var(--on-surface-variant);
-  font-weight: 500;
+  color: var(--on-surface);
+  font-weight: 600;
   padding: 10px 12px;
   text-align: right;
   white-space: nowrap;
-  font-size: 0.85em;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+  font-size: 0.88em;
+  border-bottom: 1px solid rgba(255,255,255,0.14);
   position: sticky;
   top: 0;
   z-index: 2;
@@ -630,7 +630,7 @@
   padding: 10px 12px;
   background: var(--surface, #0c141f);
   color: var(--on-surface);
-  font-weight: 500;
+  font-weight: 600;
   white-space: nowrap;
   position: sticky;
   left: 0;
@@ -639,7 +639,7 @@
 }
 .fin-stmt .fin-subtle {
   font-size: 0.78em;
-  color: var(--on-surface-variant);
+  color: rgba(219,227,244,0.7);
   font-weight: 400;
   margin-top: 2px;
 }
@@ -648,7 +648,8 @@
   text-align: right;
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
-  border-bottom: 1px solid rgba(255,255,255,0.03);
+  color: var(--on-surface);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
 }
 .fin-stmt tbody tr:hover td { background: rgba(255,255,255,0.02); }
 .fin-stmt tbody tr:hover .fin-rowhead { background: var(--surface-container-low); }
@@ -664,7 +665,7 @@
 
 /* Per-cell YoY badge shown under the dollar value */
 .fin-yoy {
-  font-size: 0.78em;
+  font-size: 0.82em;
   font-weight: 500;
   margin-top: 2px;
   font-variant-numeric: tabular-nums;

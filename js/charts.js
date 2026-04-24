@@ -219,10 +219,10 @@ async function openChartModal(ticker) {
         <button class="chart-modal-tab" data-tab="financials">Financials</button>
       </div>
       <div class="chart-modal-body">
-        <div id="tab-chart" class="tab-content" style="display:flex; flex-direction:column; height:100%;">
+        <div id="tab-chart" class="tab-content">
           <div id="tv-chart-host" class="chart-container" style="flex: 1; min-height:0;"></div>
         </div>
-        <div id="tab-financials" class="tab-content" style="display:none;">
+        <div id="tab-financials" class="tab-content tab-content--hidden">
           <div id="fin-statements-host"></div>
         </div>
       </div>
@@ -247,19 +247,12 @@ async function openChartModal(ticker) {
   overlay.querySelectorAll('.chart-modal-tab').forEach(tab => {
     tab.onclick = () => {
       overlay.querySelectorAll('.chart-modal-tab').forEach(t => t.classList.remove('active'));
-      overlay.querySelectorAll('.tab-content').forEach(c => c.style.display = 'none');
+      overlay.querySelectorAll('.tab-content').forEach(c => c.classList.add('tab-content--hidden'));
       tab.classList.add('active');
       const activeTab = document.getElementById(`tab-${tab.dataset.tab}`);
-      activeTab.style.display = '';
+      activeTab.classList.remove('tab-content--hidden');
 
-      // Fix for TradingView iframe going stale on redisplay:
-      // 1) Nudge with a resize event (works for most in-DOM iframe libs)
-      // 2) Belt-and-suspenders: remount the Advanced Chart widget when
-      //    returning to the Chart tab, since its autosize can latch to 0px
-      //    after being hidden.
       if (tab.dataset.tab === 'chart') {
-        window.dispatchEvent(new Event('resize'));
-        // Always remount the chart widget — cheap (~1s) and guarantees full size.
         const host = overlay.querySelector('#tv-chart-host');
         if (host) mountTVAdvancedChart(host, tvSymbol);
       }
@@ -524,12 +517,12 @@ function renderFinancials(ticker, container) {
         const hlClass = row.highlight ? 'fin-hl' : '';
         // Value row
         h += `<tr class="fin-row-val ${hlClass}">
-          <td class="fin-rowhead">${row.label}${row.highlight ? '<div class="fin-subtle">YoY growth</div>' : ''}</td>
+          <td class="fin-rowhead">${row.label}<div class="fin-subtle">YoY growth</div></td>
           ${extended.map((v, i) => {
             const neg = (v != null && v < 0);
             return `<td class="${neg ? 'fin-neg' : ''}">
               ${fmtFin(v)}
-              ${row.highlight && yoys[i] ? `<div class="fin-yoy ${yoys[i].positive ? 'pos' : 'neg'}">${yoys[i].label}</div>` : ''}
+              ${yoys[i] ? `<div class="fin-yoy ${yoys[i].positive ? 'pos' : 'neg'}">${yoys[i].label}</div>` : ''}
             </td>`;
           }).join('')}
         </tr>`;
