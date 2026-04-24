@@ -28,8 +28,10 @@
 
 /* Give quiz slides a little more breathing room too */
 .reveal .slides section.quiz-slide {
-  max-width: 1200px;
+  max-width: 1480px;
   margin: 0 auto;
+  padding: 32px 56px 60px !important;
+  box-sizing: border-box;
 }
 
 .socratic-slide h2 {
