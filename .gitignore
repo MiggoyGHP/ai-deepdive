@@ -1,0 +1,11 @@
+# Secrets — never commit
+.env
+.env.local
+.env.*.local
+
+# Generated from .env.local by load_env.py
+js/gemini-key.js
+
+# Python
+__pycache__/
+*.pyc

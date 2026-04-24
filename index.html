@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Deep-Dive — The Open vs. Closed Divide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/socratic.css">
+  <link rel="stylesheet" href="css/gemini-chat.css">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- ══════════════════════════════════════════════════════════════
+           SLIDE 1 — Title
+           ══════════════════════════════════════════════════════════════ -->
+      <section>
+        <div class="slide-title">
+          <h1 style="font-size: 3em;">AI DEEP-DIVE</h1>
+          <div class="divider"></div>
+          <div class="subtitle">The Open vs. Closed AI Divide</div>
+          <div class="meta">A Socratic walkthrough of the GS Thematic Coverage Report</div>
+          <div class="credit">Made by Miggoy Patajo for the GHP Fund</div>
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════════════════
+           SLIDE 2 — Agenda (clickable)
+           ══════════════════════════════════════════════════════════════ -->
+      <section>
+        <h2>How this deck works</h2>
+        <p class="prompt" style="max-width: 860px;">
+          You'll work through the AI industry's most important structural question — <span class="term" data-term="Closed-weight">closed-weight</span> vs
+          <span class="term" data-term="Open-weight">open-weight</span> — by <b>hypothesizing</b>, <b>estimating</b>, <b>sorting</b>, and <b>reasoning through second-order effects</b>.
+          Click tickers to open live charts; click underlined terms for definitions.
+        </p>
+        <ol class="agenda-list" id="agenda">
+          <li class="agenda-link" data-section="0"><span class="agenda-num">01</span> <span>The Great Divide — open vs closed at the model layer</span></li>
+          <li class="agenda-link" data-section="1"><span class="agenda-num">02</span> <span>Strategic Frameworks — capability rent vs commoditize your complements</span></li>
+          <li class="agenda-link" data-section="2"><span class="agenda-num">03</span> <span>Who's Who — the labs, the numbers, the valuations</span></li>
+          <li class="agenda-link" data-section="3"><span class="agenda-num">04</span> <span>How to Own It — proxy, CEF, and direct secondary exposure</span></li>
+          <li class="agenda-link" data-section="4"><span class="agenda-num">05</span> <span>The Physical Stack — CoWoS, HBM, and the picks-and-shovels trade</span></li>
+          <li class="agenda-link" data-section="5"><span class="agenda-num">06</span> <span>What's Changing Now — Q1 2026 catalysts and second-order effects</span></li>
+          <li class="agenda-link" data-section="6"><span class="agenda-num">07</span> <span>Synthesis, Risks, and Your Portfolio</span></li>
+        </ol>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════════════════
+           §01 The Great Divide
+           ══════════════════════════════════════════════════════════════ -->
+      <section class="section-header" data-transition="zoom-in fade-out">
+        <span class="section-label">Section 01</span>
+        <h1>The Great Divide</h1>
+        <hr class="section-divider">
+        <p style="font-size:1.1em; color: var(--on-surface-variant);">Where the weights live — and why it's the single most important structural feature of the AI stack.</p>
+      </section>
+
+      <!-- SLIDE 4 — Pattern C: Sort labs into Open vs Closed -->
+      <section class="socratic-slide" data-pattern="sort" data-id="sort-open-closed"></section>
+
+      <!-- SLIDE 5 — Definitions + framework table (passive) -->
+      <section>
+        <h2>Closed vs Open-weight — the definitions that matter</h2>
+        <div class="two-col">
+          <div class="card card-accent">
+            <h3 style="color: var(--primary); margin-top: 0;">Closed-weight</h3>
+            <p>Parameters kept private. Access gated through commercial APIs. Pricing power anchored in <span class="term" data-term="Capability Rent">capability rent</span>, proprietary <span class="term" data-term="RLHF">RLHF</span>, and enterprise distribution.</p>
+            <p style="font-size: 0.9em; color: var(--on-surface-variant)">OpenAI, Anthropic, Google DeepMind, xAI.</p>
+          </div>
+          <div class="card card-accent">
+            <h3 style="color: var(--primary); margin-top: 0;">Open-weight</h3>
+            <p>Parameters publicly released. Anyone can self-host, fine-tune, redistribute. Monetized via <span class="term" data-term="Commoditize Your Complements">adjacent businesses</span> (ads, cloud) — not the model itself.</p>
+            <p style="font-size: 0.9em; color: var(--on-surface-variant)">Meta Llama, Mistral, DeepSeek, Alibaba Qwen, Zhipu, NVIDIA Nemotron.</p>
+          </div>
+        </div>
+        <div class="insight-box" style="margin-top: 20px;">
+          <strong>The nuance:</strong> "open weight" ≠ <span class="term" data-term="Open source (strict)">"open source"</span>. True open source requires training data + code + weights — which almost nobody ships. Meta's Llama license even caps commercial use above 700M MAU. It's source-<em>available</em>, not open source.
+        </div>
+      </section>
+
+      <!-- SLIDE 6 — Pattern A: Hypothesize Q1 2026 VC share -->
+      <section class="socratic-slide" data-pattern="hypothesize" data-id="hy-vc-share"></section>
+
+      <!-- ══════════════════════════════════════════════════════════════
+           §02 Strategic Frameworks
+           ══════════════════════════════════════════════════════════════ -->
+      <section class="section-header" data-transition="zoom-in fade-out">
+        <span class="section-label">Section 02</span>
+        <h1>Strategic Frameworks</h1>
+        <hr class="section-divider">
+        <p style="font-size:1.1em; color: var(--on-surface-variant);">Two playbooks, two different games.</p>
+      </section>
+
+      <!-- SLIDE 8a — Closed-weight playbook: the thesis -->
+      <section>
+        <h2>Closed-weight playbook — <em>Capture the Capability Rent</em></h2>
+        <div style="max-width: 960px; margin: 0 auto;">
+          <p style="font-size: 1.15em; line-height: 1.55;">
+            If a model automates a <b>$150,000 engineer's output</b> — as Anthropic's Claude Code increasingly does —
+            then charging <b>$200 / month per seat captures only a fraction</b> of the value created.
+          </p>
+          <div class="insight-box" style="margin-top: 20px;">
+            <strong>The economics:</strong> training cost is fixed, revenue scales linearly with enterprise seat count.
+            <b>Software-like growth, infrastructure-like scale.</b>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 8b — Hypothesize: Anthropic's enterprise mix (BEFORE we reveal the 80% stat) -->
+      <section class="socratic-slide" data-pattern="hypothesize" data-id="hy-anthropic-enterprise"></section>
+
+      <!-- SLIDE 8c — Closed-weight playbook: the numbers -->
+      <section>
+        <h2>Closed-weight — the numbers behind the thesis</h2>
+        <div class="stat-row" style="justify-content: center; gap: 28px; margin-top: 30px;">
+          <div class="stat-box"><div class="stat-number">$25B</div><div class="stat-label"><span class="term" data-term="ARR">ARR</span><br>OpenAI (Apr 2026)</div></div>
+          <div class="stat-box"><div class="stat-number">$30B</div><div class="stat-label">ARR<br>Anthropic (Apr 2026)</div></div>
+          <div class="stat-box"><div class="stat-number">200%+</div><div class="stat-label">YoY growth<br>both labs</div></div>
+          <div class="stat-box"><div class="stat-number">~80%</div><div class="stat-label">Anthropic's<br>enterprise mix</div></div>
+        </div>
+        <div class="insight-box" style="max-width: 1000px; margin: 30px auto 0;">
+          <strong>The risk:</strong> capability convergence erodes pricing power faster than costs decline.
+          Anthropic's viral Claude Code adoption alone has driven an estimated <b>$2T in software-sector market-cap destruction</b> —
+          these are AI labs' own customers being disintermediated.
+        </div>
+        <p style="font-size:0.95em; color: var(--on-surface-variant); margin-top: 18px; text-align: center;">
+          Public proxies: <span class="ticker" data-ticker="MSFT">MSFT</span> · <span class="ticker" data-ticker="GOOGL">GOOGL</span> · <span class="ticker" data-ticker="AMZN">AMZN</span>
+        </p>
+      </section>
+
+      <!-- SLIDE 9a — Open-weight playbook: the strategy (split for clarity) -->
+      <section>
+        <h2>Open-weight playbook — <em>Commoditize your complements</em></h2>
+        <div style="max-width: 1000px; margin: 0 auto;">
+          <p style="font-size: 1.15em; line-height: 1.55;">
+            <span class="ticker" data-ticker="META">META</span>'s Llama is the canonical example of Joel Spolsky's maxim.
+            Meta's revenue comes from <em>ads</em>, not model licensing.
+            By open-sourcing the frontier, Meta undermines OpenAI and Anthropic — <b>without cannibalizing its own revenue</b>.
+          </p>
+          <p style="font-size: 1.1em; line-height: 1.5; margin-top: 18px;">
+            Same logic for <span class="ticker" data-ticker="BABA">BABA</span> (Qwen drives Alibaba Cloud),
+            Mistral (drives its inference service), and the Chinese labs (openness sidesteps US chip export controls and builds global developer loyalty).
+          </p>
+          <div class="insight-box" style="margin-top: 22px;">
+            <strong>The risk:</strong> free-rider economics. Meta has reportedly invested <b>$65B+ in AI capex in 2026</b> with no direct licensing revenue.
+            The bet — that AI capability becomes foundational to ads + Reality Labs — is unproven and has generated shareholder friction.
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 9b — Open-weight leaderboard -->
+      <section>
+        <h2>Open-weight leaders — Q1 2026 snapshot</h2>
+        <div class="two-col" style="max-width: 1180px; margin: 0 auto;">
+          <div class="card card-accent">
+            <h4 style="margin-top:0; color: var(--primary)">Chinese labs are winning open</h4>
+            <ul style="line-height: 1.8; margin: 0; padding-left: 18px;">
+              <li><b>Zhipu GLM-5.1</b> — tops BenchLM; 8hr agentic sessions</li>
+              <li><b>Alibaba Qwen 3.5 397B</b> — <span class="term" data-term="MoE">MoE</span> + hybrid gated delta</li>
+              <li><b>DeepSeek V4</b> — imminent on Huawei <span class="term" data-term="Ascend 950PR">Ascend 950PR</span></li>
+              <li><b>Moonshot Kimi K2.6</b> — 1T params; 13hr autonomous refactors</li>
+            </ul>
+          </div>
+          <div class="card card-accent">
+            <h4 style="margin-top:0; color: var(--primary)">Western open players</h4>
+            <ul style="line-height: 1.8; margin: 0; padding-left: 18px;">
+              <li><b>Meta Llama 4 Scout / Maverick</b> — largest ecosystem</li>
+              <li><b>Mistral Small 4</b> — Apache 2.0, 128-expert <span class="term" data-term="MoE">MoE</span></li>
+              <li><b>Google Gemma 4 26B</b> — Apache 2.0</li>
+              <li><b>NVIDIA Nemotron Ultra 253B</b> — NVDA's own open model</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 10 — Pattern D: Meta CFO defense -->
+      <section class="socratic-slide" data-pattern="tradeoff" data-id="to-meta-capex"></section>
+
+      <!-- ══════════════════════════════════════════════════════════════
+           §03 Who's Who
+           ══════════════════════════════════════════════════════════════ -->
+      <section class="section-header" data-transition="zoom-in fade-out">
+        <span class="section-label">Section 03</span>
+        <h1>Who's Who</h1>
+        <hr class="section-divider">
+        <p style="font-size:1.1em; color: var(--on-surface-variant);">The labs, the numbers, and the investor proxies.</p>
+      </section>
+
+      <!-- SLIDE 12 — Closed-weight leaderboard table -->
+      <section>
+        <h2>Closed-weight frontier labs</h2>
+        <table style="width:100%; font-size: 0.85em;">
+          <thead><tr><th>Lab</th><th>Flagship Model</th><th>Valuation / Cap</th><th>Public Proxy</th></tr></thead>
+          <tbody>
+            <tr><td><b>OpenAI</b></td><td>GPT-5.4, Codex</td><td>$852B post-money (Feb 2026)</td><td><span class="ticker" data-ticker="MSFT">MSFT</span> — 27% equity + 20% rev-share</td></tr>
+            <tr><td><b>Anthropic</b></td><td>Claude Opus 4.6 / Mythos 5</td><td>$380B (Feb); ~$1T on secondaries</td><td><span class="ticker" data-ticker="GOOGL">GOOGL</span> ~10% equity; <span class="ticker" data-ticker="AMZN">AMZN</span> $25B</td></tr>
+            <tr><td><b>Google DeepMind</b></td><td>Gemini 3.1 Pro</td><td>Implied $600B+ inside Alphabet</td><td><span class="ticker" data-ticker="GOOGL">GOOGL</span></td></tr>
+            <tr><td><b>xAI</b></td><td>Grok 4.20 Beta 2</td><td>Part of $1.5–1.75T SpaceX IPO target</td><td>Private (SpaceX merger Feb 2026)</td></tr>
+            <tr><td><b>Microsoft AI</b></td><td>Phi-4, internal Copilot stack</td><td>Public — inside <span class="ticker" data-ticker="MSFT">MSFT</span></td><td><span class="ticker" data-ticker="MSFT">MSFT</span></td></tr>
+          </tbody>
+        </table>
+        <p class="prompt" style="margin-top:14px;">
+          Click any ticker to open its chart + financials. Notice: <b>every closed-weight lab is either publicly tradeable or exposed via a public parent</b> — there's almost always a proxy.
+        </p>
+      </section>
+
+      <!-- SLIDE 13 — Open-weight leaderboard table -->
+      <section>
+        <h2>Open-weight developers</h2>
+        <table style="width:100%; font-size: 0.85em;">
+          <thead><tr><th>Developer</th><th>Flagship</th><th>License</th><th>Listing</th></tr></thead>
+          <tbody>
+            <tr><td><b>Meta AI</b></td><td>Llama 4 Scout / Maverick</td><td>Meta Community License</td><td><span class="ticker" data-ticker="META">META</span></td></tr>
+            <tr><td><b>Alibaba (Qwen)</b></td><td>Qwen 3.5 397B, Qwen3-Coder</td><td>Apache 2.0</td><td><span class="ticker" data-ticker="BABA">BABA</span></td></tr>
+            <tr><td><b>Google (Gemma)</b></td><td>Gemma 4 26B</td><td>Apache 2.0</td><td><span class="ticker" data-ticker="GOOGL">GOOGL</span></td></tr>
+            <tr><td><b>Microsoft (Phi)</b></td><td>Phi-4, Phi-4-Reasoning</td><td>MIT</td><td><span class="ticker" data-ticker="MSFT">MSFT</span></td></tr>
+            <tr><td><b>NVIDIA (Nemotron)</b></td><td>Nemotron Ultra 253B, Cascade 2</td><td>NVIDIA Open Model License</td><td><span class="ticker" data-ticker="NVDA">NVDA</span></td></tr>
+            <tr><td><b>Mistral AI</b></td><td>Mistral Small 4, Devstral 2</td><td>Apache 2.0</td><td>Private (France)</td></tr>
+            <tr><td><b>DeepSeek</b></td><td>V3.2, R1, V4 (pending)</td><td>MIT</td><td>Private (CN) — no retail access</td></tr>
+            <tr><td><b>Zhipu AI</b></td><td>GLM-5 / GLM-5.1</td><td>Custom (commercial-friendly)</td><td>Private; rumored A-share listing</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- SLIDE 14 — Pattern B: OpenAI valuation estimate -->
+      <section class="socratic-slide" data-pattern="estimate" data-id="est-openai-val"></section>
+
+      <!-- SLIDE 15 — Checkpoint MC quiz -->
+      <section class="quiz-slide" data-quiz="quiz1">
+        <div class="quiz-container"></div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════════════════
+           §04 How to Own It
+           ══════════════════════════════════════════════════════════════ -->
+      <section class="section-header" data-transition="zoom-in fade-out">
+        <span class="section-label">Section 04</span>
+        <h1>How to Own It</h1>
+        <hr class="section-divider">
+        <p style="font-size:1.1em; color: var(--on-surface-variant);">Three tiers of exposure for private-company AI.</p>
+      </section>
+
+      <!-- SLIDE 17a — Three tiers: overview -->
+      <section>
+        <h2>Three tiers of pre-IPO AI exposure</h2>
+        <p class="prompt" style="text-align:center; font-size: 1.1em; max-width: 900px; margin: 0 auto 30px;">
+          With OpenAI, Anthropic, xAI, and Mistral all private, the practical question is <em>how</em> to access them.
+          Three tiers, each with very different liquidity, purity, and ticket-size characteristics.
+        </p>
+        <div style="display: flex; justify-content: center; gap: 18px; font-size: 1.4em; margin-top: 40px; font-family: var(--font-heading);">
+          <div style="text-align:center;"><div style="color: var(--primary); font-weight: 700;">Tier 1</div><div style="font-size: 0.7em; color: var(--on-surface-variant)">Proxies</div></div>
+          <div style="color: var(--on-surface-variant); align-self: center;">→</div>
+          <div style="text-align:center;"><div style="color: var(--primary); font-weight: 700;">Tier 2</div><div style="font-size: 0.7em; color: var(--on-surface-variant)">Venture CEFs</div></div>
+          <div style="color: var(--on-surface-variant); align-self: center;">→</div>
+          <div style="text-align:center;"><div style="color: var(--primary); font-weight: 700;">Tier 3</div><div style="font-size: 0.7em; color: var(--on-surface-variant)">Direct Secondaries</div></div>
+        </div>
+        <p style="text-align:center; color: var(--on-surface-variant); margin-top: 40px;">
+          Moving right: <b>higher purity</b>, <b>lower liquidity</b>, <b>bigger tickets</b>.
+        </p>
+      </section>
+
+      <!-- SLIDE 17b — Tier 1 deep-dive -->
+      <section>
+        <h2>Tier 1 · Strategic-investor proxies</h2>
+        <div style="max-width: 1060px; margin: 0 auto;">
+          <p style="font-size: 1.1em; line-height: 1.55;">
+            Public equities of the hyperscalers who already hold massive private AI stakes.
+            <b>Most liquid, lowest friction, lowest AI purity.</b>
+          </p>
+          <div class="two-col" style="margin-top: 18px;">
+            <div class="card card-accent">
+              <h4 style="margin-top:0"><span class="ticker" data-ticker="MSFT">MSFT</span> — cleanest OpenAI proxy</h4>
+              <p style="font-size:0.92em;">27% equity + 20% revenue share in OpenAI through 2032. Plus Azure AI tailwind.</p>
+            </div>
+            <div class="card card-accent">
+              <h4 style="margin-top:0"><span class="ticker" data-ticker="GOOGL">GOOGL</span> — triple-vector</h4>
+              <p style="font-size:0.92em;">~10% of Anthropic. In-house Gemini + DeepMind. TPU as a platform. ~$185B 2026 capex.</p>
+            </div>
+          </div>
+          <p style="font-size: 0.95em; margin-top: 14px;">
+            <span class="ticker" data-ticker="AMZN">AMZN</span> — $25B+ committed to Anthropic plus 2GW of AWS <span class="term" data-term="Trainium">Trainium</span>.
+            Cleanest second-order beneficiary via AWS.
+          </p>
+        </div>
+      </section>
+
+      <!-- SLIDE 17c — Tier 2 deep-dive -->
+      <section>
+        <h2>Tier 2 · Publicly-traded venture vehicles</h2>
+        <div style="max-width: 1060px; margin: 0 auto;">
+          <p style="font-size: 1.08em; line-height: 1.55;">
+            <span class="term" data-term="Closed-End Fund">Closed-end funds</span> and
+            <span class="term" data-term="Interval Fund">interval funds</span> that hold real private-AI positions.
+            <b>Mid-liquidity, mid-purity.</b>
+          </p>
+          <table style="width: 100%; margin-top: 16px; font-size: 0.92em;">
+            <thead><tr><th>Vehicle</th><th>Key holdings</th><th>Mechanics</th></tr></thead>
+            <tbody>
+              <tr><td><span class="ticker" data-ticker="DXYZ">DXYZ</span> (Destiny Tech100)</td><td>OpenAI, SpaceX, Anthropic, Epic Games</td><td>CEF — trades at persistent <span class="term" data-term="NAV Premium">NAV premium</span></td></tr>
+              <tr><td>ARKVX (ARK Venture Fund)</td><td>SpaceX ~17%, OpenAI ~11%, Anthropic ~4%</td><td>Interval fund — quarterly redemption only; 2.9% expense ratio</td></tr>
+              <tr><td>USVC (AngelList)</td><td>xAI (largest), OpenAI, Anthropic + 4 others</td><td>Launched Apr 22, 2026. <b>$500 minimum, non-accredited eligible.</b> 1% mgmt, no carry</td></tr>
+            </tbody>
+          </table>
+          <p style="font-size: 0.95em; margin-top: 14px;">
+            Also new: <b>Robinhood Ventures Fund I</b> — bought $75M of OpenAI in April 2026, publicly tradable to retail.
+          </p>
+        </div>
+      </section>
+
+      <!-- SLIDE 17d — Tier 3 deep-dive -->
+      <section>
+        <h2>Tier 3 · Direct pre-IPO secondaries</h2>
+        <div style="max-width: 1060px; margin: 0 auto;">
+          <p style="font-size: 1.1em; line-height: 1.55;">
+            Secondary marketplaces <b>Hiive</b> and <b>Forge</b> facilitate direct purchase of shares from employees,
+            early investors, and VC firms. <b>Highest purity, lowest liquidity, biggest tickets.</b>
+          </p>
+          <div class="card card-accent" style="margin-top: 18px;">
+            <p style="margin: 0; font-size: 0.98em;">
+              Anthropic is among the most active names on Hiive — <b>46 active orders</b> as of the report's writing.
+              OpenAI, xAI, and Cerebras shares are also directly available.
+            </p>
+          </div>
+          <div class="insight-box" style="margin-top: 18px;">
+            <strong>Practical takeaway:</strong> accredited-investor only. $25–250k typical tickets.
+            Spreads matter — reserve for accounts with <b>multi-year lockup tolerance</b>. For sub-$100k the CEFs (Tier 2) are usually more efficient.
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 18 — Pattern D: $50k exposure dilemma -->
+      <section class="socratic-slide" data-pattern="tradeoff" data-id="to-50k-exposure"></section>
+
+      <!-- ══════════════════════════════════════════════════════════════
+           §05 The Physical Stack
+           ══════════════════════════════════════════════════════════════ -->
+      <section class="section-header" data-transition="zoom-in fade-out">
+        <span class="section-label">Section 05</span>
+        <h1>The Physical Stack</h1>
+        <hr class="section-divider">
+        <p style="font-size:1.1em; color: var(--on-surface-variant);">Picks and shovels — every AI lab buys from the same supply chain.</p>
+      </section>
+
+      <!-- SLIDE 20 — Supply chain value chain -->
+      <section>
+        <h2>The AI supply chain — full stack</h2>
+        <p class="prompt">Both open-weight and closed-weight labs consume the same physical supply chain. The competitive question between model camps is almost entirely upstream of the silicon. <b>All of them land on TSMC-fabricated, SK Hynix-memoried, CoWoS-packaged NVIDIA (or hyperscaler equivalent) GPUs.</b></p>
+        <table style="width:100%; font-size: 0.82em; margin-top: 12px;">
+          <thead><tr><th>Layer</th><th>Key Players</th><th>Role</th></tr></thead>
+          <tbody>
+            <tr><td>Lithography</td><td><span class="ticker" data-ticker="ASML">ASML</span></td><td>Sole EUV + <span class="term" data-term="High-NA EUV">High-NA EUV</span> supplier; required for 3nm/2nm/1.4nm</td></tr>
+            <tr><td>Wafer Fab</td><td><span class="ticker" data-ticker="TSM">TSM</span></td><td>Produces AI chips for NVDA, AMD, AVGO, GOOGL, AAPL</td></tr>
+            <tr><td>Packaging</td><td>TSMC <span class="term" data-term="CoWoS">CoWoS</span></td><td>Integrates logic dies with HBM on silicon interposers — the actual bottleneck</td></tr>
+            <tr><td><span class="term" data-term="HBM">HBM</span> Memory</td><td>SK Hynix · Samsung · <span class="ticker" data-ticker="MU">MU</span></td><td>Stacked DRAM on GPU packages; core bandwidth constraint</td></tr>
+            <tr><td>GPU / Accel</td><td><span class="ticker" data-ticker="NVDA">NVDA</span> · <span class="ticker" data-ticker="AMD">AMD</span></td><td>Blackwell, Vera Rubin dominate training silicon</td></tr>
+            <tr><td><span class="term" data-term="ASIC">Custom ASIC</span></td><td><span class="ticker" data-ticker="AVGO">AVGO</span></td><td>Designs Google <span class="term" data-term="TPU">TPU</span>, AWS <span class="term" data-term="Trainium">Trainium</span>, Meta MTIA</td></tr>
+            <tr><td>Server OEMs</td><td><span class="ticker" data-ticker="DELL">DELL</span> · <span class="ticker" data-ticker="SMCI">SMCI</span></td><td>Rack-scale GPU + liquid-cooling + networking integration</td></tr>
+            <tr><td>Power / Grid</td><td><span class="ticker" data-ticker="CEG">CEG</span> · <span class="ticker" data-ticker="VST">VST</span> · <span class="ticker" data-ticker="NEE">NEE</span> · <span class="ticker" data-ticker="OKLO">OKLO</span> · <span class="ticker" data-ticker="NNE">NNE</span></td><td>US DC demand: 176 TWh (2023) → 325–580 TWh (2028)</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- SLIDE 21a — Pattern B: CoWoS wafer capacity estimate -->
+      <section class="socratic-slide" data-pattern="estimate" data-id="est-cowos"></section>
+
+      <!-- SLIDE 21b — Pattern B: HBM share estimate -->
+      <section class="socratic-slide" data-pattern="estimate" data-id="est-hbm-share"></section>
+
+      <!-- SLIDE 22 — Three structural bottlenecks -->
+      <section>
+        <h2>Three structural bottlenecks</h2>
+        <div class="two-col" style="grid-template-columns: 1fr 1fr 1fr; gap: 12px;">
+          <div class="card card-accent">
+            <h4 style="margin-top:0; color: var(--primary)">1. <span class="term" data-term="CoWoS">CoWoS</span></h4>
+            <p style="font-size:0.88em;">The <b>single most binding constraint</b>. Capacity ~75k wafers/mo in 2025, expanding 30% into 2026 but still <b>sold out through mid-2026</b>.</p>
+            <p><span class="ticker" data-ticker="TSM">TSM</span>, ASE, Amkor</p>
+          </div>
+          <div class="card card-accent">
+            <h4 style="margin-top:0; color: var(--primary)">2. HBM Memory</h4>
+            <p style="font-size:0.88em;">SK Hynix ~62% share, supplies ~90% of NVDA's HBM. <b>Entire 2026 capacity already allocated.</b> <span class="term" data-term="HBM4">HBM4</span> ramp in 2026.</p>
+            <p><span class="ticker" data-ticker="MU">MU</span> · SK Hynix · Samsung</p>
+          </div>
+          <div class="card card-accent">
+            <h4 style="margin-top:0; color: var(--primary)">3. High-NA EUV</h4>
+            <p style="font-size:0.88em;"><span class="ticker" data-ticker="ASML">ASML</span> monopoly — required for Intel 18A and sub-1.4nm nodes. ~$380M per tool vs $180–200M standard EUV.</p>
+            <p><span class="ticker" data-ticker="ASML">ASML</span></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 23 — Pattern F: Chart probe on NVDA catalysts (blind-pick) -->
+      <section class="socratic-slide" data-pattern="chart-probe" data-id="cp-nvda-catalysts">
+        <h2>NVDA catalyst trail — which one cracked the bull case?</h2>
+        <p class="prompt">Five catalysts are marked on NVDA's chart. Four reinforced or only mildly challenged the hyperscaler AI-capex thesis. <b>One</b> fundamentally cracked the narrative — NVDA's worst single-day loss since the 2020 pandemic crash — and strategists are still debating whether it marked a durable re-rating. Labels are hidden. Pick the marker you believe it is from the price action alone.</p>
+        <div class="chart-probe"
+             data-ticker="NVDA"
+             data-markers='[
+               {"n":1,"time":"2024-03-18","label":"GTC 2024 — Blackwell announced","reaction":"-2.1% sell-the-news; forward demand picture unchanged.","correct":false},
+               {"n":2,"time":"2024-08-28","label":"Q2 FY25 earnings — Blackwell shipment delay disclosed","reaction":"-2.0% on a beat-and-raise; delay spooked short term, order book intact.","correct":false},
+               {"n":3,"time":"2025-01-27","label":"DeepSeek R1 shock — open-weight Chinese model at ~1/50 serving cost","reaction":"Fri→Mon gap-down: $142.57 → $118.38 (-17%). Worst single day since March 2020.","correct":true},
+               {"n":4,"time":"2026-03-05","label":"GPT-5.4 release — 83% on GDPval (single-model frontier)","reaction":"+1.2% — confirms frontier compute demand, but largely priced in.","correct":false},
+               {"n":5,"time":"2026-04-22","label":"Google announces 2 new TPUs (v7 + successor)","reaction":"+0.8% — ASIC competition noted; NVDA CUDA/NVLink moat still decisive.","correct":false}
+             ]'
+             data-explanation="DeepSeek R1 was the moment the AI-capex thesis was genuinely, not rhetorically, challenged. An open-weight Chinese lab claiming near-frontier reasoning at roughly 1/50 the serving cost forced investors to model — for the first time — a world where hyperscaler GPU capex could plateau or turn negative. NVDA shed ~$600B of market cap in one session. The price recovered within months; the narrative scar did not. Every cost-deflation headline since (Google TPU v7, Anthropic's multi-GW Trainium deal, Cerebras inference runs) is now priced against this re-rated baseline — which is precisely why the 'obvious' bullish catalysts 4 and 5 barely moved the stock.">
+        </div>
+        <div class="chart-probe-feedback" aria-live="polite"></div>
+      </section>
+
+      <!-- SLIDE 23b — Checkpoint MC: supply chain -->
+      <section class="quiz-slide" data-quiz="quiz2">
+        <div class="quiz-container"></div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════════════════
+           §06 What's Changing Now
+           ══════════════════════════════════════════════════════════════ -->
+      <section class="section-header" data-transition="zoom-in fade-out">
+        <span class="section-label">Section 06</span>
+        <h1>What's Changing Now</h1>
+        <hr class="section-divider">
+        <p style="font-size:1.1em; color: var(--on-surface-variant);">Q1 2026 was the most catalyst-dense period in AI coverage history.</p>
+      </section>
+
+      <!-- SLIDE 25 — Q1 2026 catalyst timeline -->
+      <section>
+        <h2>Q1 2026 catalysts — the past 90 days</h2>
+        <div class="two-col">
+          <div>
+            <h4 style="color: var(--primary); margin-top:0">Closed-weight side</h4>
+            <ul style="line-height: 1.75; font-size:0.92em;">
+              <li><b>Feb 12</b> — Anthropic $30B Series G at $380B</li>
+              <li><b>Feb 2026</b> — SpaceX + xAI merger; combined IPO target $1.5–1.75T</li>
+              <li><b>Mar 5</b> — GPT-5.4 release; 83% on <span class="term" data-term="GDPval">GDPval</span></li>
+              <li><b>Mar 31</b> — OpenAI closes $122B round at $852B post-money</li>
+              <li><b>Apr 2026</b> — Anthropic <span class="term" data-term="Project Glasswing">Mythos 5 restricted release</span>; <span class="term" data-term="TPU">TPU</span> multi-GW commitment with <span class="ticker" data-ticker="GOOGL">GOOGL</span></li>
+              <li><b>Apr 22</b> — Google announces 2 new TPU chips</li>
+            </ul>
+          </div>
+          <div>
+            <h4 style="color: var(--primary); margin-top:0">Open-weight + supply chain</h4>
+            <ul style="line-height: 1.75; font-size:0.92em;">
+              <li><b>Feb 2026</b> — Alibaba Qwen 3.5 family (397B, Apache 2.0)</li>
+              <li><b>Mar 3</b> — Mistral Small 4 (128-expert <span class="term" data-term="MoE">MoE</span>)</li>
+              <li><b>Mar 4</b> — Ratepayer Protection Pledge signed</li>
+              <li><b>Apr 7</b> — Zhipu GLM-5.1 tops BenchLM</li>
+              <li><b>Q2 2026 (expected)</b> — DeepSeek V4 on Ascend 950PR at $0.14–0.30/M tokens</li>
+              <li><b>Q1 earnings</b> — TSMC +58% YoY profit beat; HBM4 samples delivered to NVDA</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 26 — Pattern E: Causal chain (Anthropic TPU) -->
+      <section class="socratic-slide" data-pattern="causal" data-id="ca-anthropic-tpu"></section>
+
+      <!-- SLIDE 26b — Checkpoint MC: exposure & catalysts -->
+      <section class="quiz-slide" data-quiz="quiz3">
+        <div class="quiz-container"></div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════════════════
+           §07 Synthesis & Risks
+           ══════════════════════════════════════════════════════════════ -->
+      <section class="section-header" data-transition="zoom-in fade-out">
+        <span class="section-label">Section 07</span>
+        <h1>Synthesis &amp; Risks</h1>
+        <hr class="section-divider">
+        <p style="font-size:1.1em; color: var(--on-surface-variant);">Three truths most allocators haven't fully internalized.</p>
+      </section>
+
+      <!-- SLIDE 28 — Tailwinds/Headwinds + risks -->
+      <section>
+        <h2>Tailwinds · Headwinds · Top Risks</h2>
+        <div class="two-col">
+          <div class="card card-accent card-positive">
+            <h4 style="margin-top:0; color: var(--positive)">Tailwinds</h4>
+            <ul style="font-size:0.86em; line-height:1.55; margin: 0; padding-left:18px;">
+              <li>Enterprise adoption from pilots to production; <span class="term" data-term="MCP">MCP</span> crossed 97M installs in March</li>
+              <li>Capital availability: $188B in Q1 2026 AI mega-deals</li>
+              <li>OpenAI $25B ARR, Anthropic $30B — both growing 200%+ YoY</li>
+              <li>Cost deflation: DeepSeek V3.2 ≈ 90% of GPT-5.4 quality at ~1/50 price</li>
+              <li>IPO pipeline thawing: SpaceX/xAI, OpenAI, Anthropic all telegraphing 2026–27</li>
+            </ul>
+          </div>
+          <div class="card card-accent card-negative">
+            <h4 style="margin-top:0; color: var(--error)">Headwinds</h4>
+            <ul style="font-size:0.86em; line-height:1.55; margin: 0; padding-left:18px;">
+              <li>Energy: PJM 6GW reliability shortfall by 2027; 27 US states considering "large load" legislation</li>
+              <li>DC pipeline: only ~1/3 of announced 240GW actually being built; <span class="term" data-term="Stargate">$500B Stargate stalled</span></li>
+              <li>Regulatory: EU AI Act enforcement, state-level moratoriums, NYT copyright suit</li>
+              <li>Inference commoditization: base-intelligence layer pricing racing to zero</li>
+              <li>Float scarcity: ~$3T combined post-IPO cap with 3–8% floats could cause extreme distortion</li>
+            </ul>
+          </div>
+        </div>
+        <div class="insight-box" style="margin-top:16px;">
+          <strong>Top 5 risks to monitor:</strong>
+          <b>(1)</b> DeepSeek V4 launch and pricing · <b>(2)</b> hyperscaler capex cuts · <b>(3)</b> post-IPO float mechanics on ~$3T combined cap · <b>(4)</b> state-level DC moratoriums ·
+          <b>(5)</b> PJM 6GW shortfall binding by 2027.
+        </div>
+        <p style="font-size:0.85em; color: var(--on-surface-variant); margin-top: 12px;">
+          <b>Goldman's suggested core basket (60–70% of AI sleeve):</b> <span class="ticker" data-ticker="NVDA">NVDA</span>, <span class="ticker" data-ticker="MSFT">MSFT</span>, <span class="ticker" data-ticker="GOOGL">GOOGL</span>, <span class="ticker" data-ticker="TSM">TSM</span>, <span class="ticker" data-ticker="ASML">ASML</span>, <span class="ticker" data-ticker="AMZN">AMZN</span>, <span class="ticker" data-ticker="META">META</span>. Satellite: <span class="ticker" data-ticker="AVGO">AVGO</span>, <span class="ticker" data-ticker="MU">MU</span>, <span class="ticker" data-ticker="AMD">AMD</span>, <span class="ticker" data-ticker="DELL">DELL</span>, <span class="ticker" data-ticker="VST">VST</span>, <span class="ticker" data-ticker="CEG">CEG</span>.
+        </p>
+      </section>
+
+      <!-- SLIDE 29 — Pattern G: Capstone Portfolio Builder -->
+      <section class="socratic-slide" data-pattern="portfolio" data-id="cap-portfolio"></section>
+
+      <!-- Final thanks slide -->
+      <section>
+        <div class="slide-title">
+          <h1>Thank You</h1>
+          <div class="divider"></div>
+          <div class="subtitle">AI Deep-Dive — The Open vs Closed Divide</div>
+          <div class="meta">Questions &amp; Discussion</div>
+          <div class="confidential" style="margin-top:3em;">Educational simulation. Not investment advice.</div>
+        </div>
+      </section>
+
+    </div><!-- .slides -->
+  </div><!-- .reveal -->
+
+  <!-- Reveal.js -->
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+  <!-- TradingView Lightweight Charts (for Pattern F chart probe only) -->
+  <script src="https://unpkg.com/lightweight-charts@4/dist/lightweight-charts.standalone.production.js"></script>
+  <!-- Data layer -->
+  <script src="js/financials-data.js"></script>
+  <script src="js/socratic-data.js"></script>
+  <script src="js/glossary-data.js"></script>
+  <script src="js/report-context.js"></script>
+  <script src="js/gemini-key.js"></script>
+  <!-- App scripts -->
+  <script src="js/glossary.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/socratic.js"></script>
+  <script src="js/socratic-sort.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/gemini-chat.js"></script>
+</body>
+</html>

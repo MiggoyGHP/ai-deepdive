@@ -1,0 +1,224 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   gemini-chat.css — Floating "Ask Gemini" chat widget
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.gemini-fab {
+  position: fixed;
+  bottom: 90px;      /* sits above the bottom-placed pill-nav */
+  right: 28px;
+  z-index: 10000;
+  background: linear-gradient(135deg, var(--primary-light, #fff4c3), var(--primary, #f2d801));
+  color: #1d2530;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 22px;
+  font-family: var(--font-body, 'Inter'), sans-serif;
+  font-weight: 700;
+  font-size: 0.95em;
+  letter-spacing: 0.02em;
+  box-shadow: 0 10px 28px rgba(242, 216, 1, 0.28), 0 2px 8px rgba(0,0,0,0.4);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.gemini-fab:hover { transform: translateY(-2px); box-shadow: 0 16px 36px rgba(242, 216, 1, 0.35), 0 4px 12px rgba(0,0,0,0.45); }
+.gemini-fab .spark { font-size: 1.15em; line-height: 1; }
+
+.gemini-panel {
+  position: fixed;
+  right: 28px;
+  bottom: 100px;
+  width: 440px;
+  max-width: calc(100vw - 40px);
+  height: 620px;
+  max-height: calc(100vh - 150px);
+  z-index: 10000;
+  background: var(--surface, #0c141f);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: var(--font-body, 'Inter'), sans-serif;
+}
+.gemini-panel.open { display: flex; }
+
+.gemini-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  background: var(--surface-container-low, #141c28);
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.gemini-header-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  color: var(--primary, #f2d801);
+  font-size: 1em;
+}
+.gemini-header-title .badge {
+  font-size: 0.7em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--on-surface-variant);
+  font-weight: 500;
+}
+.gemini-close {
+  background: none;
+  border: none;
+  color: var(--on-surface-variant);
+  font-size: 1.4em;
+  line-height: 1;
+  cursor: pointer;
+  padding: 2px 8px;
+  border-radius: 6px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.gemini-close:hover { background: var(--surface-container); color: var(--primary); }
+
+.gemini-messages {
+  flex: 1;
+  padding: 16px 18px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary-dim) transparent;
+}
+.gemini-msg {
+  padding: 11px 14px;
+  border-radius: 12px;
+  line-height: 1.5;
+  font-size: 0.92em;
+  max-width: 90%;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.gemini-msg.user {
+  align-self: flex-end;
+  background: rgba(242,216,1,0.12);
+  color: var(--on-surface);
+  border: 1px solid rgba(242,216,1,0.2);
+}
+.gemini-msg.assistant {
+  align-self: flex-start;
+  background: var(--surface-container-low, #141c28);
+  color: var(--on-surface);
+  border-left: 3px solid var(--primary, #f2d801);
+}
+.gemini-msg.assistant p { margin: 0 0 8px; }
+.gemini-msg.assistant p:last-child { margin-bottom: 0; }
+.gemini-msg.assistant code {
+  background: rgba(0,0,0,0.3);
+  padding: 1px 5px;
+  border-radius: 4px;
+  font-family: ui-monospace, SF Mono, Menlo, monospace;
+  font-size: 0.88em;
+}
+.gemini-msg.assistant strong { color: var(--primary, #f2d801); }
+.gemini-msg.system {
+  align-self: center;
+  color: var(--on-surface-variant);
+  font-size: 0.82em;
+  background: transparent;
+  border: none;
+  font-style: italic;
+  padding: 4px 0;
+}
+.gemini-msg.error {
+  align-self: stretch;
+  background: rgba(230,57,70,0.08);
+  border-left: 3px solid var(--error, #E63946);
+  color: var(--on-surface);
+}
+
+.gemini-msg.typing .dots::after {
+  content: '';
+  display: inline-block;
+  animation: dotsBlink 1.2s steps(4, end) infinite;
+}
+@keyframes dotsBlink {
+  0%   { content: ''; }
+  25%  { content: '.'; }
+  50%  { content: '..'; }
+  75%  { content: '...'; }
+  100% { content: ''; }
+}
+
+.gemini-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 0 18px 10px;
+}
+.gemini-suggestion {
+  background: var(--surface-container-low, #141c28);
+  color: var(--on-surface);
+  border: 1px solid rgba(255,255,255,0.05);
+  padding: 6px 10px;
+  border-radius: 14px;
+  font-size: 0.78em;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+.gemini-suggestion:hover {
+  background: var(--surface-container);
+  border-color: var(--primary-dim);
+}
+
+.gemini-input-row {
+  display: flex;
+  gap: 8px;
+  padding: 12px 14px 14px;
+  border-top: 1px solid rgba(255,255,255,0.04);
+  background: var(--surface-container-low, #141c28);
+}
+.gemini-input {
+  flex: 1;
+  min-height: 42px;
+  max-height: 120px;
+  resize: none;
+  background: var(--surface, #0c141f);
+  color: var(--on-surface);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-family: inherit;
+  font-size: 0.92em;
+  line-height: 1.4;
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+.gemini-input:focus { border-color: var(--primary, #f2d801); }
+
+.gemini-send {
+  background: var(--primary, #f2d801);
+  color: #1d2530;
+  border: none;
+  border-radius: 10px;
+  padding: 0 16px;
+  font-family: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.12s ease, opacity 0.12s ease;
+}
+.gemini-send:hover { transform: translateY(-1px); }
+.gemini-send:disabled { opacity: 0.5; cursor: default; transform: none; }
+
+.gemini-panel.hidden { display: none !important; }
+
+/* Hide chat when chart modal is open so it doesn't overlap */
+body:has(.chart-modal-overlay) .gemini-fab,
+body:has(.chart-modal-overlay) .gemini-panel { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .gemini-fab, .gemini-send, .gemini-close, .gemini-suggestion { transition: none; }
+}
