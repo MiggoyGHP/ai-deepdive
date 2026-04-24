@@ -11,6 +11,24 @@
 (function () {
   const MODEL = 'gemini-2.5-flash';
   const API_ROOT = 'https://generativelanguage.googleapis.com/v1beta/models';
+  const LS_KEY = 'gemini.v1.api_key';
+
+  // Key resolution, in priority order:
+  //   1. window.GEMINI_API_KEY  — set by js/gemini-key.js (local dev, gitignored)
+  //   2. localStorage[LS_KEY]   — visitor's own key (GitHub Pages deployment)
+  // Both let us ship the deck publicly without exposing anyone's secret.
+  function getApiKey() {
+    if (typeof window !== 'undefined' && window.GEMINI_API_KEY) return window.GEMINI_API_KEY;
+    try { return localStorage.getItem(LS_KEY) || ''; } catch (e) { return ''; }
+  }
+  function setApiKey(k) {
+    try { localStorage.setItem(LS_KEY, k); } catch (e) {}
+    window.GEMINI_API_KEY = k;
+  }
+  function clearApiKey() {
+    try { localStorage.removeItem(LS_KEY); } catch (e) {}
+    window.GEMINI_API_KEY = '';
+  }
 
   const REPORT_BLOCK = `BEGIN REPORT
 ${window.REPORT_CONTEXT || '(report context not loaded)'}
@@ -179,26 +197,92 @@ ${REPORT_BLOCK}`;
     }
     function addSystemMessage(text) { addMsg('system', text); }
 
+    function renderGrounding(msgEl, groundingMetadata) {
+      if (!groundingMetadata) return;
+      const chunks = Array.isArray(groundingMetadata.groundingChunks)
+        ? groundingMetadata.groundingChunks
+        : [];
+      const webChunks = chunks
+        .map(c => c && c.web)
+        .filter(w => w && w.uri);
+      if (webChunks.length > 0) {
+        const sources = document.createElement('div');
+        sources.className = 'gemini-sources';
+        const label = document.createElement('span');
+        label.className = 'gemini-sources-label';
+        label.textContent = 'Sources';
+        sources.appendChild(label);
+        webChunks.forEach((w, i) => {
+          const a = document.createElement('a');
+          a.className = 'gemini-source-pill';
+          a.href = w.uri;
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+          a.textContent = `[${i + 1}] ${w.title || w.uri}`;
+          sources.appendChild(a);
+        });
+        msgEl.appendChild(sources);
+      }
+      // Google requires the Search Suggestions chip to be displayed with grounded output.
+      const sep = groundingMetadata.searchEntryPoint;
+      if (sep && sep.renderedContent) {
+        const chip = document.createElement('div');
+        chip.className = 'gemini-search-entry-point';
+        chip.innerHTML = sep.renderedContent;
+        msgEl.appendChild(chip);
+      }
+    }
+
+    function promptForKey() {
+      const k = window.prompt(
+        'Paste your Gemini API key (free at https://aistudio.google.com/apikey).\n\n' +
+        'It is stored only in your browser localStorage — not sent anywhere except Google.'
+      );
+      if (k && k.trim()) { setApiKey(k.trim()); return true; }
+      return false;
+    }
+
     async function sendMessage(userText) {
-      if (!window.GEMINI_API_KEY) {
-        addMsg('error',
-          'No Gemini API key found. Paste your key into .env.local and run `python load_env.py`, then reload this page.'
-        );
-        return;
+      let key = getApiKey();
+      if (!key) {
+        if (!promptForKey()) {
+          addMsg('error',
+            'No Gemini API key set. Click "Ask Gemini" again to paste your key, ' +
+            'or (for local dev) put it in .env.local and run `python load_env.py`.'
+          );
+          return;
+        }
+        key = getApiKey();
       }
 
       addMsg('user', userText);
       messages.push({ role: 'user', text: userText });
 
       const typingEl = addMsg('assistant', '', 'typing');
-      typingEl.innerHTML = '<span class="dots">Thinking</span>';
+      typingEl.innerHTML = '<span class="dots">' + (webSearchEnabled ? 'Searching' : 'Thinking') + '</span>';
       sendEl.disabled = true;
 
       try {
-        const reply = await callGemini(messages);
+        let reply;
+        let groundingFellBack = false;
+        try {
+          reply = await callGemini(messages, { useWebSearch: webSearchEnabled });
+        } catch (err) {
+          // If grounding failed (quota/region/etc.), retry once without the tool so the user still gets an answer.
+          if (webSearchEnabled && err.groundingUsed && (err.status === 400 || err.status === 429 || err.status === 403)) {
+            groundingFellBack = true;
+            reply = await callGemini(messages, { useWebSearch: false });
+          } else {
+            throw err;
+          }
+        }
         typingEl.classList.remove('typing');
-        typingEl.innerHTML = simpleMarkdown(reply);
-        messages.push({ role: 'model', text: reply });
+        typingEl.innerHTML = simpleMarkdown(reply.text);
+        renderGrounding(typingEl, reply.groundingMetadata);
+        if (groundingFellBack) {
+          addMsg('error', 'Web search was unavailable for that request — answered from the report only.');
+        }
+        messages.push({ role: 'model', text: reply.text });
         messagesEl.scrollTop = messagesEl.scrollHeight;
       } catch (err) {
         typingEl.remove();
@@ -213,10 +297,11 @@ ${REPORT_BLOCK}`;
     window.GeminiChat = { open: () => togglePanel(true), close: () => togglePanel(false), send: sendMessage };
   }
 
-  async function callGemini(history) {
-    const endpoint = `${API_ROOT}/${MODEL}:generateContent?key=${encodeURIComponent(window.GEMINI_API_KEY)}`;
+  async function callGemini(history, { useWebSearch } = {}) {
+    const endpoint = `${API_ROOT}/${MODEL}:generateContent?key=${encodeURIComponent(getApiKey())}`;
+    const systemPrompt = useWebSearch ? SYSTEM_PROMPT_WITH_WEB : SYSTEM_PROMPT_REPORT_ONLY;
     const body = {
-      systemInstruction: { parts: [{ text: SYSTEM_PROMPT }] },
+      systemInstruction: { parts: [{ text: systemPrompt }] },
       contents: history.map(m => ({
         role: m.role, // 'user' or 'model'
         parts: [{ text: m.text }],
@@ -232,6 +317,10 @@ ${REPORT_BLOCK}`;
         { category: 'HARM_CATEGORY_DANGEROUS_CONTENT',  threshold: 'BLOCK_ONLY_HIGH' },
       ],
     };
+    if (useWebSearch) {
+      // Native Gemini 2.x grounding: server-side Google Search. Snake_case is required.
+      body.tools = [{ google_search: {} }];
+    }
 
     const resp = await fetch(endpoint, {
       method: 'POST',
@@ -241,12 +330,20 @@ ${REPORT_BLOCK}`;
     if (!resp.ok) {
       let detail = '';
       try { detail = (await resp.json()).error?.message || ''; } catch (e) {}
-      throw new Error(`Gemini API ${resp.status}: ${detail || resp.statusText}`);
+      const err = new Error(`Gemini API ${resp.status}: ${detail || resp.statusText}`);
+      err.status = resp.status;
+      err.detail = detail;
+      err.groundingUsed = !!useWebSearch;
+      throw err;
     }
     const data = await resp.json();
-    const text = data?.candidates?.[0]?.content?.parts?.map(p => p.text).join('') || '';
+    const candidate = data?.candidates?.[0];
+    const text = candidate?.content?.parts?.map(p => p.text).filter(Boolean).join('') || '';
     if (!text) throw new Error('Empty response from Gemini.');
-    return text.trim();
+    return {
+      text: text.trim(),
+      groundingMetadata: candidate?.groundingMetadata || null,
+    };
   }
 
   // Boot after DOM ready
