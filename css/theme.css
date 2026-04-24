@@ -1576,3 +1576,103 @@
    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 .winners { border-left: 3px solid var(--positive); }
 .losers  { border-left: 3px solid var(--error); }
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   CONVERGENCE CURVE (Section 02)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.convergence-svg {
+  margin-top: 6px;
+}
+.convergence-svg .grid-line {
+  stroke: var(--surface-container);
+  stroke-width: 1;
+}
+.convergence-svg .axis-label {
+  font-family: var(--font-body);
+  font-size: 12px;
+  fill: var(--on-surface-variant);
+}
+.convergence-svg .curve-line {
+  stroke-width: 3;
+  fill: none;
+}
+.convergence-svg .curve-closed {
+  filter: drop-shadow(0 0 6px rgba(242, 216, 1, 0.25));
+}
+.convergence-svg .curve-open {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+}
+.convergence-svg .curve-open.drawn {
+  stroke-dashoffset: 0;
+}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   BOTTLENECK FUNNEL (Section 05)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.bottleneck-funnel {
+  max-width: 1080px;
+  margin: 14px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.funnel-stage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.funnel-band {
+  background: var(--surface-container);
+  border: 1px solid var(--surface-container-high);
+  border-radius: var(--radius-md);
+  padding: 12px 20px;
+  text-align: center;
+  transition: width 0.4s ease;
+}
+.funnel-input .funnel-band {
+  border-top: 3px solid var(--primary);
+}
+.funnel-choke .funnel-band {
+  border: 1px solid rgba(230, 57, 70, 0.35);
+  background: linear-gradient(180deg, rgba(230, 57, 70, 0.08), var(--surface-container));
+  padding: 14px 18px 10px;
+}
+.funnel-output .funnel-band {
+  border-bottom: 3px solid var(--positive);
+}
+.funnel-label {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.72em;
+  letter-spacing: 0.14em;
+  color: var(--on-surface-variant);
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.funnel-label-warn {
+  color: var(--error);
+}
+.funnel-items {
+  font-family: var(--font-body);
+  font-size: 0.88em;
+  color: var(--on-surface);
+  line-height: 1.55;
+}
+.funnel-items span {
+  white-space: nowrap;
+}
+.bottleneck-funnel .chokepoint-visual {
+  max-width: 720px;
+  margin: 6px auto 0;
+}
+.bottleneck-funnel .chokepoint-bar::before {
+  width: 180px;
+  color: var(--on-surface);
+  font-weight: 600;
+}
+.bottleneck-funnel .chokepoint-flow-label {
+  color: var(--on-surface);
+  font-weight: 500;
+}
