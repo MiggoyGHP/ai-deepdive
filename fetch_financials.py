@@ -28,10 +28,13 @@ import yfinance as yf
 
 TICKERS = [
     "MSFT", "GOOGL", "AMZN", "META",
-    "NVDA", "TSM", "ASML", "AVGO", "MU", "AMD",
-    "BABA",
-    "DELL", "SMCI",
-    "CEG", "VST", "NEE", "OKLO", "NNE",
+    "NVDA", "TSM", "ASML", "AVGO", "MU", "AMD", "MRVL",
+    "AAPL", "SNDK",
+    "CRWV", "NBIS", "APLD", "IREN", "ORCL",
+    "BABA", "TCEHY", "BIDU",
+    "DELL", "SMCI", "2317.TW",
+    "CEG", "VST", "TLN", "NEE", "OKLO", "NNE",
+    "AMAT", "LRCX", "KLAC",
     "DXYZ", "CHAT",
 ]
 
@@ -56,6 +59,22 @@ NARRATIVE = {
     "NNE":   "Nano Nuclear Energy — SMR play. Highly speculative, pre-revenue.",
     "DXYZ":  "Destiny Tech100 closed-end fund. Holdings: OpenAI, SpaceX, Anthropic, Epic Games. Trades at persistent NAV premium.",
     "CHAT":  "Roundhill Generative AI & Technology ETF. Basket of public AI names; no private-company content.",
+    # ─── v2 additions ──────────────────────────────────────────────────────
+    "MRVL":  "Custom ASIC co-design (AWS Trainium) + AI networking. Market Weight — smaller scale than AVGO; watch for incremental hyperscaler design wins.",
+    "AAPL":  "Tactical Overweight (NEW v2). M3 Ultra Mac Studio with 512GB unified memory + ~800 GB/s = de facto local-AI reference platform. MLX framework adoption rising. Hardware-first AI vector.",
+    "SNDK":  "Overweight (NEW v2). First standalone NAND pure-play post-WD spin (Feb 2025); ~14% NAND share; 60/40 retail/enterprise; AI-server SSD attach rates rising.",
+    "CRWV":  "Overweight (NEW v2). Largest U.S.-listed neocloud; backlog $30B+; NVIDIA preferred-partner. Risk: MSFT >50% of 2024 revenue.",
+    "NBIS":  "Overweight (NEW v2). Reformed Yandex N.V.; EU/Israel HQ; non-Chinese-aligned hyperscale; ~$1.5B Q1 ARR; 1,000+ customer base.",
+    "APLD":  "Market Weight (NEW v2). Pivoted blockchain-hosting → HPC + AI hosting; power-rich North Dakota; CRWV anchor tenant.",
+    "IREN":  "Speculative (NEW v2). Bitcoin-miner pivoting to AI; renewable hydro power; less mature AI-tenant book.",
+    "ORCL":  "Overweight. OCI gen-2 backlog ~$130B+; OpenAI Stargate primary partner ($300B+ commitments). Hyperscaler #4 by AI revenue.",
+    "TCEHY": "Overweight. Cleanest single-name Chinese AI exposure. Hunyuan T1 (closed) + Hunyuan-Open 389B + WeChat distribution. Hybrid-stack done well.",
+    "BIDU":  "Market Weight. ERNIE 5.0 + ERNIE-X1 + Apollo + cloud. Cheapest China-AI on P/E; structural search risk.",
+    "TLN":   "Overweight. Susquehanna nuclear PPA precedent; growing dedicated AI capacity book; recently signed incremental 2GW agreement.",
+    "AMAT":  "Overweight. Benefits from TSMC 2nm ramp; leading deposition + etch share. Diversified across logic, memory, packaging.",
+    "LRCX":  "Overweight. Etch leadership + memory exposure (HBM ramp). Leveraged to 2026 memory cycle.",
+    "KLAC":  "Overweight. Process control monopoly; benefits from advanced-node yield-ramp complexity. Highest gross margins in equipment.",
+    "2317.TW": "Overweight. Dominant AI server contract manufacturer (Hon Hai/Foxconn); rack-scale system buildout. Cheapest valuation in entire AI supply chain.",
 }
 
 

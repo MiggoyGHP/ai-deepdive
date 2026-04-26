@@ -5,15 +5,15 @@ window.FINANCIALS = {
       "name": "Microsoft Corporation",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "marketCap": "$3.09T",
-      "enterpriseValue": "$3.12T",
+      "marketCap": "$3.16T",
+      "enterpriseValue": "$3.19T",
       "revenue": "$305.45B",
       "revenueGrowth": "16.7%",
       "grossMargin": "68.6%",
       "operatingMargin": "47.1%",
       "profitMargin": "39.0%",
-      "forwardPE": "22.0",
-      "trailingPE": "26.0",
+      "forwardPE": "22.4",
+      "trailingPE": "26.6",
       "freeCashFlow": "$53.64B",
       "operatingCashFlow": "$160.51B",
       "totalCash": "$89.46B",
@@ -21,7 +21,7 @@ window.FINANCIALS = {
       "fiftyTwoWkHigh": "555.45",
       "fiftyTwoWkLow": "356.28",
       "beta": "1.11",
-      "dividendYield": "88.0%"
+      "dividendYield": "86.0%"
     },
     "narrative": "27% equity + 20% rev-share in OpenAI through 2032. Cleanest public proxy for OpenAI + Azure AI tailwind.",
     "statements": {
@@ -680,15 +680,15 @@ window.FINANCIALS = {
       "name": "Alphabet Inc.",
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
-      "marketCap": "$4.10T",
-      "enterpriseValue": "$4.04T",
+      "marketCap": "$4.17T",
+      "enterpriseValue": "$4.11T",
       "revenue": "$402.84B",
       "revenueGrowth": "18.0%",
       "grossMargin": "59.7%",
       "operatingMargin": "31.6%",
       "profitMargin": "32.8%",
-      "forwardPE": "25.1",
-      "trailingPE": "31.3",
+      "forwardPE": "25.5",
+      "trailingPE": "31.9",
       "freeCashFlow": "$38.09B",
       "operatingCashFlow": "$164.71B",
       "totalCash": "$126.84B",
@@ -696,7 +696,7 @@ window.FINANCIALS = {
       "fiftyTwoWkHigh": "349.00",
       "fiftyTwoWkLow": "147.84",
       "beta": "1.13",
-      "dividendYield": "25.0%"
+      "dividendYield": "24.0%"
     },
     "narrative": "~10% Anthropic equity. Announced 2 new TPUs Apr 2026. 2026 capex up to $185B. Triple-vector: Gemini + Anthropic + TPU.",
     "statements": {
@@ -1371,20 +1371,20 @@ window.FINANCIALS = {
       "name": "Amazon.com, Inc.",
       "sector": "Consumer Cyclical",
       "industry": "Internet Retail",
-      "marketCap": "$2.74T",
-      "enterpriseValue": "$2.79T",
+      "marketCap": "$2.84T",
+      "enterpriseValue": "$2.89T",
       "revenue": "$716.92B",
       "revenueGrowth": "13.6%",
       "grossMargin": "50.3%",
       "operatingMargin": "10.5%",
       "profitMargin": "10.8%",
-      "forwardPE": "26.9",
-      "trailingPE": "35.6",
+      "forwardPE": "27.9",
+      "trailingPE": "36.8",
       "freeCashFlow": "$23.79B",
       "operatingCashFlow": "$139.51B",
       "totalCash": "$123.03B",
       "totalDebt": "$178.55B",
-      "fiftyTwoWkHigh": "258.79",
+      "fiftyTwoWkHigh": "264.50",
       "fiftyTwoWkLow": "178.85",
       "beta": "1.38",
       "dividendYield": null
@@ -2014,15 +2014,15 @@ window.FINANCIALS = {
       "name": "Meta Platforms, Inc.",
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
-      "marketCap": "$1.67T",
-      "enterpriseValue": "$1.67T",
+      "marketCap": "$1.71T",
+      "enterpriseValue": "$1.71T",
       "revenue": "$200.97B",
       "revenueGrowth": "23.8%",
       "grossMargin": "82.0%",
       "operatingMargin": "41.3%",
       "profitMargin": "30.1%",
-      "forwardPE": "18.4",
-      "trailingPE": "28.1",
+      "forwardPE": "18.7",
+      "trailingPE": "28.7",
       "freeCashFlow": "$23.43B",
       "operatingCashFlow": "$115.80B",
       "totalCash": "$81.59B",
@@ -2030,7 +2030,7 @@ window.FINANCIALS = {
       "fiftyTwoWkHigh": "796.25",
       "fiftyTwoWkLow": "520.26",
       "beta": "1.31",
-      "dividendYield": "32.0%"
+      "dividendYield": "31.0%"
     },
     "narrative": "$65B+ AI capex 2026. Llama open-weight strategy; Muse Spark closed proprietary pivot announced Apr 2026.",
     "statements": {
@@ -2701,15 +2701,15 @@ window.FINANCIALS = {
       "name": "NVIDIA Corporation",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "marketCap": "$4.85T",
-      "enterpriseValue": "$4.80T",
+      "marketCap": "$5.06T",
+      "enterpriseValue": "$5.01T",
       "revenue": "$215.94B",
       "revenueGrowth": "73.2%",
       "grossMargin": "71.1%",
       "operatingMargin": "65.0%",
       "profitMargin": "55.6%",
-      "forwardPE": "17.8",
-      "trailingPE": "40.8",
+      "forwardPE": "18.5",
+      "trailingPE": "42.6",
       "freeCashFlow": "$58.13B",
       "operatingCashFlow": "$102.72B",
       "totalCash": "$62.56B",
@@ -3398,23 +3398,23 @@ window.FINANCIALS = {
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "marketCap": "$1.98T",
-      "enterpriseValue": "$7.60T",
+      "marketCap": "$2.09T",
+      "enterpriseValue": "$8.11T",
       "revenue": "$4.10T",
       "revenueGrowth": "35.1%",
       "grossMargin": "61.9%",
       "operatingMargin": "58.1%",
       "profitMargin": "46.5%",
-      "forwardPE": "19.8",
-      "trailingPE": "32.8",
+      "forwardPE": "20.9",
+      "trailingPE": "34.5",
       "freeCashFlow": "$721.56B",
       "operatingCashFlow": "$2.35T",
       "totalCash": "$3.38T",
       "totalDebt": "$1.02T",
-      "fiftyTwoWkHigh": "390.21",
+      "fiftyTwoWkHigh": "409.49",
       "fiftyTwoWkLow": "160.50",
       "beta": "1.25",
-      "dividendYield": "92.0%"
+      "dividendYield": "87.0%"
     },
     "narrative": "2nm (N2) booked 78–104 weeks. 2026 capex $52–56B. CoWoS packaging sold out through mid-2026. Q1 2026 profit +58% YoY.",
     "statements": {
@@ -4109,15 +4109,15 @@ window.FINANCIALS = {
       "name": "ASML Holding N.V.",
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "marketCap": "$546.45B",
-      "enterpriseValue": "$540.75B",
+      "marketCap": "$561.82B",
+      "enterpriseValue": "$556.13B",
       "revenue": "$33.69B",
       "revenueGrowth": "13.2%",
       "grossMargin": "52.6%",
       "operatingMargin": "36.0%",
       "profitMargin": "29.7%",
-      "forwardPE": "29.8",
-      "trailingPE": "46.5",
+      "forwardPE": "30.7",
+      "trailingPE": "48.1",
       "freeCashFlow": "$8.24B",
       "operatingCashFlow": "$10.53B",
       "totalCash": "$8.38B",
@@ -4125,7 +4125,7 @@ window.FINANCIALS = {
       "fiftyTwoWkHigh": "1547.22",
       "fiftyTwoWkLow": "651.46",
       "beta": "1.38",
-      "dividendYield": "62.0%"
+      "dividendYield": "60.0%"
     },
     "narrative": "EUV + High-NA EUV monopoly required for 3nm/2nm/1.4nm. ~€36B backlog YE25. ~$380M per High-NA tool.",
     "statements": {
@@ -4393,7 +4393,7 @@ window.FINANCIALS = {
                 3649500000.0,
                 2743000000.0,
                 3686300000.0,
-                3417200000.0
+                3157800000.0
               ]
             }
           }
@@ -4816,15 +4816,15 @@ window.FINANCIALS = {
       "name": "Broadcom Inc.",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "marketCap": "$1.99T",
-      "enterpriseValue": "$2.04T",
+      "marketCap": "$2.00T",
+      "enterpriseValue": "$2.05T",
       "revenue": "$68.28B",
       "revenueGrowth": "29.5%",
       "grossMargin": "76.7%",
       "operatingMargin": "44.9%",
       "profitMargin": "36.6%",
-      "forwardPE": "23.2",
-      "trailingPE": "82.0",
+      "forwardPE": "23.3",
+      "trailingPE": "82.6",
       "freeCashFlow": "$25.50B",
       "operatingCashFlow": "$29.68B",
       "totalCash": "$14.17B",
@@ -5523,20 +5523,20 @@ window.FINANCIALS = {
       "name": "Micron Technology, Inc.",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "marketCap": "$543.25B",
-      "enterpriseValue": "$539.46B",
+      "marketCap": "$560.17B",
+      "enterpriseValue": "$556.38B",
       "revenue": "$58.12B",
       "revenueGrowth": "196.3%",
       "grossMargin": "58.4%",
       "operatingMargin": "67.6%",
       "profitMargin": "41.5%",
-      "forwardPE": "4.8",
-      "trailingPE": "22.7",
+      "forwardPE": "4.9",
+      "trailingPE": "23.4",
       "freeCashFlow": "$2.89B",
       "operatingCashFlow": "$30.65B",
       "totalCash": "$14.59B",
       "totalDebt": "$10.80B",
-      "fiftyTwoWkHigh": "493.62",
+      "fiftyTwoWkHigh": "506.99",
       "fiftyTwoWkLow": "73.50",
       "beta": "1.61",
       "dividendYield": "12.0%"
@@ -6240,20 +6240,20 @@ window.FINANCIALS = {
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "marketCap": "$497.81B",
-      "enterpriseValue": "$491.27B",
+      "marketCap": "$567.07B",
+      "enterpriseValue": "$560.53B",
       "revenue": "$34.64B",
       "revenueGrowth": "34.1%",
       "grossMargin": "52.5%",
       "operatingMargin": "17.1%",
       "profitMargin": "12.5%",
-      "forwardPE": "27.8",
-      "trailingPE": "117.4",
+      "forwardPE": "31.6",
+      "trailingPE": "133.3",
       "freeCashFlow": "$4.59B",
       "operatingCashFlow": "$7.71B",
       "totalCash": "$10.55B",
       "totalDebt": "$4.01B",
-      "fiftyTwoWkHigh": "310.22",
+      "fiftyTwoWkHigh": "352.99",
       "fiftyTwoWkLow": "91.87",
       "beta": "1.96",
       "dividendYield": null
@@ -6934,20 +6934,5460 @@ window.FINANCIALS = {
       }
     }
   },
+  "MRVL": {
+    "metrics": {
+      "name": "Marvell Technology, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "marketCap": "$143.68B",
+      "enterpriseValue": "$145.81B",
+      "revenue": "$8.19B",
+      "revenueGrowth": "22.1%",
+      "grossMargin": "51.0%",
+      "operatingMargin": "18.7%",
+      "profitMargin": "32.6%",
+      "forwardPE": "30.3",
+      "trailingPE": "53.5",
+      "freeCashFlow": "$1.44B",
+      "operatingCashFlow": "$1.75B",
+      "totalCash": "$2.64B",
+      "totalDebt": "$4.79B",
+      "fiftyTwoWkHigh": "170.84",
+      "fiftyTwoWkLow": "53.78",
+      "beta": "1.82",
+      "dividendYield": "15.0%"
+    },
+    "narrative": "Custom ASIC co-design (AWS Trainium) + AI networking. Market Weight — smaller scale than AVGO; watch for incremental hyperscaler design wins.",
+    "statements": {
+      "income": {
+        "annual": {
+          "periods": [
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026"
+          ],
+          "dates": [
+            "2022-01-31",
+            "2023-01-31",
+            "2024-01-31",
+            "2025-01-31",
+            "2026-01-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                null,
+                5919600000.0,
+                5507700000.0,
+                5767300000.0,
+                8194600000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                null,
+                2932100000.0,
+                3214100000.0,
+                3385100000.0,
+                4013900000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                null,
+                2987500000.0,
+                2293600000.0,
+                2382200000.0,
+                4180700000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                null,
+                2627900000.0,
+                2730200000.0,
+                2748600000.0,
+                2842300000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                null,
+                359600000.0,
+                -436600000.0,
+                -366400000.0,
+                1338400000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                null,
+                -152900000.0,
+                -191000000.0,
+                -174400000.0,
+                1723700000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                null,
+                85100000.0,
+                -758700000.0,
+                -894700000.0,
+                3046600000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                null,
+                248600000.0,
+                174700000.0,
+                -9700000.0,
+                376500000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                null,
+                -163500000.0,
+                -933400000.0,
+                -885000000.0,
+                2670100000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                null,
+                1648000000.0,
+                850700000.0,
+                651600000.0,
+                4539800000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25",
+            "Q1 '26"
+          ],
+          "dates": [
+            "2024-07-31",
+            "2025-01-31",
+            "2025-04-30",
+            "2025-07-31",
+            "2025-10-31",
+            "2026-01-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                null,
+                1817400000.0,
+                1895300000.0,
+                2006100000.0,
+                2074500000.0,
+                2218700000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                null,
+                900000000.0,
+                942900000.0,
+                995500000.0,
+                1004700000.0,
+                1070800000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                null,
+                917400000.0,
+                952400000.0,
+                1010600000.0,
+                1069800000.0,
+                1147900000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                null,
+                694700000.0,
+                694100000.0,
+                711800000.0,
+                702400000.0,
+                734000000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                null,
+                222700000.0,
+                258300000.0,
+                298800000.0,
+                367400000.0,
+                413900000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                null,
+                -35400000.0,
+                -54700000.0,
+                -56400000.0,
+                1857600000.0,
+                -22800000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                null,
+                199800000.0,
+                215900000.0,
+                233700000.0,
+                2215400000.0,
+                381600000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                null,
+                -400000.0,
+                38000000.0,
+                38900000.0,
+                314100000.0,
+                -14500000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                null,
+                200200000.0,
+                177900000.0,
+                194800000.0,
+                1901300000.0,
+                396100000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                null,
+                570700000.0,
+                600500000.0,
+                617900000.0,
+                2582500000.0,
+                749400000.0
+              ]
+            }
+          }
+        }
+      },
+      "balance": {
+        "annual": {
+          "periods": [
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026"
+          ],
+          "dates": [
+            "2022-01-31",
+            "2023-01-31",
+            "2024-01-31",
+            "2025-01-31",
+            "2026-01-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                22522100000.0,
+                21228500000.0,
+                20204500000.0,
+                22285300000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                911000000.0,
+                950800000.0,
+                948300000.0,
+                2638800000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                null,
+                584400000.0,
+                107300000.0,
+                129500000.0,
+                499800000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                3907700000.0,
+                4058600000.0,
+                3934300000.0,
+                3970800000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                4737500000.0,
+                4401300000.0,
+                4343100000.0,
+                4790300000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                6884900000.0,
+                6397100000.0,
+                6777500000.0,
+                7976900000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                15637200000.0,
+                14831400000.0,
+                13427000000.0,
+                14308400000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                856100000.0,
+                865539796.0,
+                866000000.0,
+                847259927.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25",
+            "Q1 '26"
+          ],
+          "dates": [
+            "2024-10-31",
+            "2025-01-31",
+            "2025-04-30",
+            "2025-07-31",
+            "2025-10-31",
+            "2026-01-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                20204500000.0,
+                20023700000.0,
+                20586300000.0,
+                21579000000.0,
+                22285300000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                948300000.0,
+                885900000.0,
+                1224400000.0,
+                2714500000.0,
+                2638800000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                null,
+                129500000.0,
+                1255200000.0,
+                499300000.0,
+                499500000.0,
+                499800000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                3934300000.0,
+                2977400000.0,
+                3967900000.0,
+                3969400000.0,
+                3970800000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                4343100000.0,
+                4512000000.0,
+                4776300000.0,
+                4777500000.0,
+                4790300000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                6777500000.0,
+                6711000000.0,
+                7164600000.0,
+                7522400000.0,
+                7976900000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                13427000000.0,
+                13312700000.0,
+                13421700000.0,
+                14056600000.0,
+                14308400000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                866000000.0,
+                862200000.0,
+                862100000.0,
+                848600000.0,
+                847259927.0
+              ]
+            }
+          }
+        }
+      },
+      "cashflow": {
+        "annual": {
+          "periods": [
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026"
+          ],
+          "dates": [
+            "2022-01-31",
+            "2023-01-31",
+            "2024-01-31",
+            "2025-01-31",
+            "2026-01-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                1288800000.0,
+                1370500000.0,
+                1681200000.0,
+                1750500000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                null,
+                -217300000.0,
+                -350200000.0,
+                -291600000.0,
+                -358600000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                1071500000.0,
+                1020300000.0,
+                1389600000.0,
+                1391900000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -328400000.0,
+                -350500000.0,
+                -300700000.0,
+                2097800000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -662900000.0,
+                -980200000.0,
+                -1383000000.0,
+                -2157800000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                null,
+                911000000.0,
+                950800000.0,
+                948300000.0,
+                2638800000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25",
+            "Q1 '26"
+          ],
+          "dates": [
+            "2024-07-31",
+            "2024-10-31",
+            "2025-01-31",
+            "2025-04-30",
+            "2025-07-31",
+            "2025-10-31",
+            "2026-01-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                514000000.0,
+                332900000.0,
+                461600000.0,
+                582300000.0,
+                373700000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                -70700000.0,
+                -119900000.0,
+                -48600000.0,
+                -74700000.0,
+                -115400000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                443300000.0,
+                213000000.0,
+                413000000.0,
+                507600000.0,
+                258300000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                -70300000.0,
+                -94100000.0,
+                -77200000.0,
+                2391200000.0,
+                -122100000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                -363500000.0,
+                -301200000.0,
+                -45900000.0,
+                -1483400000.0,
+                -327300000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                948300000.0,
+                885900000.0,
+                1224400000.0,
+                2714500000.0,
+                2638800000.0
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "AAPL": {
+    "metrics": {
+      "name": "Apple Inc.",
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "marketCap": "$3.98T",
+      "enterpriseValue": "$4.00T",
+      "revenue": "$435.62B",
+      "revenueGrowth": "15.7%",
+      "grossMargin": "47.3%",
+      "operatingMargin": "35.4%",
+      "profitMargin": "27.0%",
+      "forwardPE": "28.9",
+      "trailingPE": "34.4",
+      "freeCashFlow": "$106.31B",
+      "operatingCashFlow": "$135.47B",
+      "totalCash": "$66.91B",
+      "totalDebt": "$90.51B",
+      "fiftyTwoWkHigh": "288.62",
+      "fiftyTwoWkLow": "193.25",
+      "beta": "1.11",
+      "dividendYield": "38.0%"
+    },
+    "narrative": "Tactical Overweight (NEW v2). M3 Ultra Mac Studio with 512GB unified memory + ~800 GB/s = de facto local-AI reference platform. MLX framework adoption rising. Hardware-first AI vector.",
+    "statements": {
+      "income": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-09-30",
+            "2022-09-30",
+            "2023-09-30",
+            "2024-09-30",
+            "2025-09-30"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                null,
+                394328000000.0,
+                383285000000.0,
+                391035000000.0,
+                416161000000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                null,
+                223546000000.0,
+                214137000000.0,
+                210352000000.0,
+                220960000000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                null,
+                170782000000.0,
+                169148000000.0,
+                180683000000.0,
+                195201000000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                null,
+                51345000000.0,
+                54847000000.0,
+                57467000000.0,
+                62151000000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                null,
+                119437000000.0,
+                114301000000.0,
+                123216000000.0,
+                133050000000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                198000000.0,
+                -106000000.0,
+                -183000000.0,
+                null,
+                null
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                null,
+                119103000000.0,
+                113736000000.0,
+                123485000000.0,
+                132729000000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                null,
+                19300000000.0,
+                16741000000.0,
+                29749000000.0,
+                20719000000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                null,
+                99803000000.0,
+                96995000000.0,
+                93736000000.0,
+                112010000000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                null,
+                130541000000.0,
+                125820000000.0,
+                134661000000.0,
+                144748000000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                124300000000.0,
+                95359000000.0,
+                94036000000.0,
+                102466000000.0,
+                143756000000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                66025000000.0,
+                50492000000.0,
+                50318000000.0,
+                54125000000.0,
+                74525000000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                58275000000.0,
+                44867000000.0,
+                43718000000.0,
+                48341000000.0,
+                69231000000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                15443000000.0,
+                15278000000.0,
+                15516000000.0,
+                15914000000.0,
+                18379000000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                42832000000.0,
+                29589000000.0,
+                28202000000.0,
+                32427000000.0,
+                50852000000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                -248000000.0,
+                -279000000.0,
+                -171000000.0,
+                377000000.0,
+                150000000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                42584000000.0,
+                29310000000.0,
+                28031000000.0,
+                32804000000.0,
+                51002000000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                6254000000.0,
+                4530000000.0,
+                4597000000.0,
+                5338000000.0,
+                8905000000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                36330000000.0,
+                24780000000.0,
+                23434000000.0,
+                27466000000.0,
+                42097000000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                45912000000.0,
+                32250000000.0,
+                31032000000.0,
+                35554000000.0,
+                54066000000.0
+              ]
+            }
+          }
+        }
+      },
+      "balance": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-09-30",
+            "2022-09-30",
+            "2023-09-30",
+            "2024-09-30",
+            "2025-09-30"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                352755000000.0,
+                352583000000.0,
+                364980000000.0,
+                359241000000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                23646000000.0,
+                29965000000.0,
+                29943000000.0,
+                35934000000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                null,
+                21110000000.0,
+                15807000000.0,
+                20879000000.0,
+                20329000000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                98959000000.0,
+                95281000000.0,
+                85750000000.0,
+                78328000000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                132480000000.0,
+                111088000000.0,
+                106629000000.0,
+                98657000000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                302083000000.0,
+                290437000000.0,
+                308030000000.0,
+                285508000000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                50672000000.0,
+                62146000000.0,
+                56950000000.0,
+                73733000000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                15943425000.0,
+                15550061000.0,
+                15116786000.0,
+                14773260000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                344085000000.0,
+                331233000000.0,
+                331495000000.0,
+                359241000000.0,
+                379297000000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                30299000000.0,
+                28162000000.0,
+                36269000000.0,
+                35934000000.0,
+                45317000000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                null,
+                12843000000.0,
+                19620000000.0,
+                19268000000.0,
+                20329000000.0,
+                13824000000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                83956000000.0,
+                78566000000.0,
+                82430000000.0,
+                78328000000.0,
+                76685000000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                96799000000.0,
+                98186000000.0,
+                101698000000.0,
+                98657000000.0,
+                90509000000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                277327000000.0,
+                264437000000.0,
+                265665000000.0,
+                285508000000.0,
+                291107000000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                66758000000.0,
+                66796000000.0,
+                65830000000.0,
+                73733000000.0,
+                88190000000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                15037874000.0,
+                14939315000.0,
+                14856722000.0,
+                14773260000.0,
+                14697926000.0
+              ]
+            }
+          }
+        }
+      },
+      "cashflow": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-09-30",
+            "2022-09-30",
+            "2023-09-30",
+            "2024-09-30",
+            "2025-09-30"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                122151000000.0,
+                110543000000.0,
+                118254000000.0,
+                111482000000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                null,
+                -10708000000.0,
+                -10959000000.0,
+                -9447000000.0,
+                -12715000000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                111443000000.0,
+                99584000000.0,
+                108807000000.0,
+                98767000000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -22354000000.0,
+                3705000000.0,
+                2935000000.0,
+                15195000000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -110749000000.0,
+                -108488000000.0,
+                -121983000000.0,
+                -120686000000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                null,
+                24977000000.0,
+                30737000000.0,
+                29943000000.0,
+                35934000000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                29935000000.0,
+                23952000000.0,
+                27867000000.0,
+                29728000000.0,
+                53925000000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                null,
+                -2940000000.0,
+                -3071000000.0,
+                -3462000000.0,
+                -3242000000.0,
+                -2373000000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                26995000000.0,
+                20881000000.0,
+                24405000000.0,
+                26486000000.0,
+                51552000000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                9792000000.0,
+                2917000000.0,
+                5073000000.0,
+                -2587000000.0,
+                -4886000000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -39371000000.0,
+                -29006000000.0,
+                -24833000000.0,
+                -27476000000.0,
+                -39656000000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                null,
+                30299000000.0,
+                28162000000.0,
+                36269000000.0,
+                35934000000.0,
+                45317000000.0
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "SNDK": {
+    "metrics": {
+      "name": "Sandisk Corporation",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "marketCap": "$146.11B",
+      "enterpriseValue": "$145.35B",
+      "revenue": "$8.93B",
+      "revenueGrowth": "61.2%",
+      "grossMargin": "34.8%",
+      "operatingMargin": "35.5%",
+      "profitMargin": "-11.7%",
+      "forwardPE": "8.7",
+      "trailingPE": null,
+      "freeCashFlow": "$1.25B",
+      "operatingCashFlow": "$1.63B",
+      "totalCash": "$1.54B",
+      "totalDebt": "$813.0M",
+      "fiftyTwoWkHigh": "1002.09",
+      "fiftyTwoWkLow": "31.01",
+      "beta": null,
+      "dividendYield": null
+    },
+    "narrative": "Overweight (NEW v2). First standalone NAND pure-play post-WD spin (Feb 2025); ~14% NAND share; 60/40 retail/enterprise; AI-server SSD attach rates rising.",
+    "statements": {
+      "income": {
+        "annual": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2023-06-30",
+            "2024-06-30",
+            "2025-06-30"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                6086000000.0,
+                6663000000.0,
+                7355000000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                5656000000.0,
+                5591000000.0,
+                5143000000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                430000000.0,
+                1072000000.0,
+                2212000000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                1725000000.0,
+                1516000000.0,
+                1705000000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                -1295000000.0,
+                -444000000.0,
+                507000000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                -10000000.0,
+                -28000000.0,
+                -41000000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                -2002000000.0,
+                -503000000.0,
+                -1479000000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                141000000.0,
+                169000000.0,
+                162000000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                -2143000000.0,
+                -672000000.0,
+                -1641000000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                -1523000000.0,
+                -239000000.0,
+                -1253000000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                1876000000.0,
+                1695000000.0,
+                1901000000.0,
+                2308000000.0,
+                3025000000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                1270000000.0,
+                1313000000.0,
+                1403000000.0,
+                1621000000.0,
+                1484000000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                606000000.0,
+                382000000.0,
+                498000000.0,
+                687000000.0,
+                1541000000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                421000000.0,
+                424000000.0,
+                447000000.0,
+                495000000.0,
+                466000000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                185000000.0,
+                -42000000.0,
+                51000000.0,
+                192000000.0,
+                1075000000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                -2000000.0,
+                -10000000.0,
+                -30000000.0,
+                -24000000.0,
+                -13000000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                173000000.0,
+                -1901000000.0,
+                -18000000.0,
+                124000000.0,
+                937000000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                69000000.0,
+                32000000.0,
+                5000000.0,
+                12000000.0,
+                134000000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                104000000.0,
+                -1933000000.0,
+                -23000000.0,
+                112000000.0,
+                803000000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                213000000.0,
+                -1848000000.0,
+                59000000.0,
+                200000000.0,
+                1000000000.0
+              ]
+            }
+          }
+        }
+      },
+      "balance": {
+        "annual": {
+          "periods": [
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2024-06-30",
+            "2025-06-30"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                13506000000.0,
+                12985000000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                328000000.0,
+                1481000000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                814000000.0,
+                20000000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                1829000000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                985000000.0,
+                2042000000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                2424000000.0,
+                3769000000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                11082000000.0,
+                9216000000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                146000000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                14234000000.0,
+                12960000000.0,
+                12985000000.0,
+                12749000000.0,
+                12998000000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                804000000.0,
+                1507000000.0,
+                1481000000.0,
+                1442000000.0,
+                1539000000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                553000000.0,
+                20000000.0,
+                20000000.0,
+                20000000.0,
+                20000000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                1927000000.0,
+                1829000000.0,
+                1331000000.0,
+                583000000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                732000000.0,
+                2143000000.0,
+                2042000000.0,
+                1539000000.0,
+                789000000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                2233000000.0,
+                3799000000.0,
+                3769000000.0,
+                3368000000.0,
+                2785000000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                12001000000.0,
+                9161000000.0,
+                9216000000.0,
+                9381000000.0,
+                10213000000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                144000000.0,
+                145000000.0,
+                146000000.0,
+                147000000.0,
+                148000000.0
+              ]
+            }
+          }
+        }
+      },
+      "cashflow": {
+        "annual": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2023-06-30",
+            "2024-06-30",
+            "2025-06-30"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                -713000000.0,
+                -309000000.0,
+                84000000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                -219000000.0,
+                -166000000.0,
+                -204000000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                -932000000.0,
+                -475000000.0,
+                -120000000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                -189000000.0,
+                210000000.0,
+                556000000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                860000000.0,
+                136000000.0,
+                518000000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                292000000.0,
+                328000000.0,
+                1481000000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                95000000.0,
+                26000000.0,
+                94000000.0,
+                488000000.0,
+                1019000000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                null,
+                -48000000.0,
+                -44000000.0,
+                -45000000.0,
+                -50000000.0,
+                -39000000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                47000000.0,
+                -18000000.0,
+                49000000.0,
+                438000000.0,
+                980000000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                188000000.0,
+                404000000.0,
+                -17000000.0,
+                -15000000.0,
+                -165000000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                130000000.0,
+                276000000.0,
+                -102000000.0,
+                -515000000.0,
+                -758000000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                null,
+                804000000.0,
+                1507000000.0,
+                1481000000.0,
+                1442000000.0,
+                1539000000.0
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "CRWV": {
+    "metrics": {
+      "name": "CoreWeave, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "marketCap": "$58.18B",
+      "enterpriseValue": "$84.56B",
+      "revenue": "$5.13B",
+      "revenueGrowth": "110.4%",
+      "grossMargin": "71.7%",
+      "operatingMargin": "-5.7%",
+      "profitMargin": "-22.7%",
+      "forwardPE": "-201.7",
+      "trailingPE": null,
+      "freeCashFlow": "$-4.62B",
+      "operatingCashFlow": "$3.06B",
+      "totalCash": "$3.16B",
+      "totalDebt": "$29.82B",
+      "fiftyTwoWkHigh": "187.00",
+      "fiftyTwoWkLow": "39.50",
+      "beta": null,
+      "dividendYield": null
+    },
+    "narrative": "Overweight (NEW v2). Largest U.S.-listed neocloud; backlog $30B+; NVIDIA preferred-partner. Risk: MSFT >50% of 2024 revenue.",
+    "statements": {
+      "income": {
+        "annual": {
+          "periods": [
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2022-12-31",
+            "2023-12-31",
+            "2024-12-31",
+            "2025-12-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                15830000.0,
+                229000000.0,
+                1915000000.0,
+                5131000000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                12122000.0,
+                69000000.0,
+                493000000.0,
+                1453000000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                3708000.0,
+                160000000.0,
+                1422000000.0,
+                3678000000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                26588000.0,
+                174000000.0,
+                1098000000.0,
+                3724000000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                -22880000.0,
+                -14000000.0,
+                324000000.0,
+                -46000000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                -9444000.0,
+                -28000000.0,
+                -361000000.0,
+                -1229000000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                -35016000.0,
+                -558000000.0,
+                -744000000.0,
+                -1215000000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                -4150000.0,
+                36000000.0,
+                119000000.0,
+                -48000000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                -31055000.0,
+                -594000000.0,
+                -863000000.0,
+                -1167000000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                -13877000.0,
+                -427000000.0,
+                480000000.0,
+                2468000000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                null,
+                747430000.0,
+                981632000.0,
+                1212788000.0,
+                1364676000.0,
+                1571904000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                null,
+                182158000.0,
+                262394000.0,
+                312667000.0,
+                368824000.0,
+                509115000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                null,
+                565272000.0,
+                719238000.0,
+                900121000.0,
+                995852000.0,
+                1062789000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                null,
+                452598000.0,
+                746708000.0,
+                880912000.0,
+                944002000.0,
+                1152378000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                null,
+                112674000.0,
+                -27470000.0,
+                19209000.0,
+                51850000.0,
+                -89589000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                null,
+                -149027000.0,
+                -263835000.0,
+                -266966000.0,
+                -310555000.0,
+                -387644000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                null,
+                -29334000.0,
+                -268605000.0,
+                -242734000.0,
+                -236804000.0,
+                -466857000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                null,
+                22038000.0,
+                46036000.0,
+                47775000.0,
+                -126680000.0,
+                -15131000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                null,
+                -51372000.0,
+                -314641000.0,
+                -290509000.0,
+                -110124000.0,
+                -451726000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                null,
+                485112000.0,
+                438727000.0,
+                583713000.0,
+                704230000.0,
+                741330000.0
+              ]
+            }
+          }
+        }
+      },
+      "balance": {
+        "annual": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2023-12-31",
+            "2024-12-31",
+            "2025-12-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                4976975000.0,
+                17833000000.0,
+                49302000000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                217147000.0,
+                1361000000.0,
+                3127000000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                171865000.0,
+                2468000000.0,
+                6708000000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                1351389000.0,
+                5458000000.0,
+                14665000000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                1999740000.0,
+                10620000000.0,
+                29822000000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                5573566000.0,
+                18247000000.0,
+                45967000000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                -596591000.0,
+                -414000000.0,
+                3335000000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                464099040.0,
+                464099040.0,
+                502412000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                17833000000.0,
+                21860383000.0,
+                26241363000.0,
+                32910498000.0,
+                49302000000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                1361000000.0,
+                1276456000.0,
+                1152883000.0,
+                1894399000.0,
+                3127000000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                null,
+                2468000000.0,
+                3776595000.0,
+                3627664000.0,
+                3712177000.0,
+                6708000000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                5458000000.0,
+                4935071000.0,
+                7423837000.0,
+                10322757000.0,
+                14665000000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                10620000000.0,
+                11896877000.0,
+                14562481000.0,
+                18808277000.0,
+                29822000000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                18247000000.0,
+                18791101000.0,
+                22420557000.0,
+                29032484000.0,
+                45967000000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                -414000000.0,
+                3069282000.0,
+                3820806000.0,
+                3878014000.0,
+                3335000000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                464099040.0,
+                465406791.0,
+                488050795.0,
+                497590000.0,
+                502412000.0
+              ]
+            }
+          }
+        }
+      },
+      "cashflow": {
+        "annual": {
+          "periods": [
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2022-12-31",
+            "2023-12-31",
+            "2024-12-31",
+            "2025-12-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                910000.0,
+                1833000000.0,
+                2749000000.0,
+                3058000000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                -72404000.0,
+                -2943000000.0,
+                -8702000000.0,
+                -10309000000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                -71494000.0,
+                -1110000000.0,
+                -5953000000.0,
+                -7251000000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                -79183000.0,
+                -3148000000.0,
+                -8658000000.0,
+                -10271000000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                81454000.0,
+                1788000000.0,
+                7464000000.0,
+                9308000000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                7384000.0,
+                480000000.0,
+                2035000000.0,
+                4130000000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                186732000.0,
+                61168000.0,
+                -251251000.0,
+                1689134000.0,
+                1558949000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                null,
+                -3497827000.0,
+                -1407359000.0,
+                -2452992000.0,
+                -2388888000.0,
+                -4059761000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                -3311095000.0,
+                -1346191000.0,
+                -2704243000.0,
+                -699754000.0,
+                -2500812000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -3464229000.0,
+                -1433051000.0,
+                -2442162000.0,
+                -2470086000.0,
+                -3925701000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                3391280000.0,
+                1853866000.0,
+                2229180000.0,
+                1696060000.0,
+                3528894000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                null,
+                2035833000.0,
+                2517816000.0,
+                2053583000.0,
+                2968691000.0,
+                4130000000.0
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "NBIS": {
+    "metrics": {
+      "name": "Nebius Group N.V.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "marketCap": "$37.23B",
+      "enterpriseValue": "$38.44B",
+      "revenue": "$529.8M",
+      "revenueGrowth": "500.8%",
+      "grossMargin": "68.6%",
+      "operatingMargin": "-103.0%",
+      "profitMargin": "19.2%",
+      "forwardPE": "-144.8",
+      "trailingPE": "1226.3",
+      "freeCashFlow": "$-3.61B",
+      "operatingCashFlow": "$384.8M",
+      "totalCash": "$3.68B",
+      "totalDebt": "$4.89B",
+      "fiftyTwoWkHigh": "168.71",
+      "fiftyTwoWkLow": "21.45",
+      "beta": "1.06",
+      "dividendYield": null
+    },
+    "narrative": "Overweight (NEW v2). Reformed Yandex N.V.; EU/Israel HQ; non-Chinese-aligned hyperscale; ~$1.5B Q1 ARR; 1,000+ customer base.",
+    "statements": {
+      "income": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024"
+          ],
+          "dates": [
+            "2021-12-31",
+            "2022-12-31",
+            "2023-12-31",
+            "2024-12-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                4776252822.47,
+                13500000.0,
+                20900000.0,
+                117500000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                2332696179.57,
+                28400000.0,
+                31900000.0,
+                73400000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                2443556642.9,
+                -14900000.0,
+                -11000000.0,
+                44100000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                2621601202.18,
+                143100000.0,
+                316500000.0,
+                484800000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                -178044559.28,
+                -158000000.0,
+                -327500000.0,
+                -440700000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                12122639.27,
+                1000000.0,
+                3300000.0,
+                63600000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                -96860424.17,
+                -178900000.0,
+                -339400000.0,
+                -394000000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                99636294.0,
+                1100000.0,
+                2100000.0,
+                -500000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                -196711278.16,
+                745600000.0,
+                241300000.0,
+                -641400000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                512369249.16,
+                -128500000.0,
+                -290700000.0,
+                -354400000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                32100000.0,
+                37900000.0,
+                55300000.0,
+                100700000.0,
+                146100000.0,
+                null
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                9900000.0,
+                27500000.0,
+                29500000.0,
+                25300000.0,
+                42900000.0,
+                null
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                22200000.0,
+                10400000.0,
+                25800000.0,
+                75400000.0,
+                103200000.0,
+                null
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                102800000.0,
+                159700000.0,
+                155300000.0,
+                177400000.0,
+                233400000.0,
+                null
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                -80600000.0,
+                -149300000.0,
+                -129500000.0,
+                -102000000.0,
+                -130200000.0,
+                null
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                28600000.0,
+                21900000.0,
+                8600000.0,
+                -1300000.0,
+                -8500000.0,
+                null
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                -44600000.0,
+                -135800000.0,
+                -112700000.0,
+                512600000.0,
+                -119900000.0,
+                null
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                -1000000.0,
+                -1700000.0,
+                900000.0,
+                800000.0,
+                -300000.0,
+                null
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                -94200000.0,
+                -133200000.0,
+                -113600000.0,
+                584500000.0,
+                -119600000.0,
+                null
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                -19300000.0,
+                -112000000.0,
+                -80300000.0,
+                609300000.0,
+                6600000.0,
+                null
+              ]
+            }
+          }
+        }
+      },
+      "balance": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024"
+          ],
+          "dates": [
+            "2021-12-31",
+            "2022-12-31",
+            "2023-12-31",
+            "2024-12-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                6912800943.85,
+                8278107382.55,
+                8755100000.0,
+                3548600000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                1063077686.0,
+                1115852348.99,
+                116100000.0,
+                2449600000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                39425397.63,
+                285986577.18,
+                6800000.0,
+                6100000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                1151047280.71,
+                401140939.6,
+                558558354.99,
+                null
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                1887578076.37,
+                1392429530.2,
+                26200000.0,
+                49700000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                3252876914.18,
+                3738805369.13,
+                5461200000.0,
+                294900000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                3462139951.58,
+                4245744966.44,
+                3293700000.0,
+                3253700000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                358703352.0,
+                361482281.0,
+                361482281.0,
+                235753600.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                3005200000.0,
+                3548600000.0,
+                3436500000.0,
+                5096600000.0,
+                10102200000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                2288200000.0,
+                2449600000.0,
+                1447000000.0,
+                1679300000.0,
+                4794800000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                6200000.0,
+                6100000.0,
+                6200000.0,
+                8000000.0,
+                16000000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                null,
+                978200000.0,
+                4090800000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                27800000.0,
+                49700000.0,
+                187800000.0,
+                1224300000.0,
+                4569000000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                131300000.0,
+                294900000.0,
+                275200000.0,
+                1321100000.0,
+                5291400000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                2873700000.0,
+                3253700000.0,
+                3161300000.0,
+                3775500000.0,
+                4810800000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                199340118.0,
+                235753600.0,
+                238108831.0,
+                239763611.0,
+                251807222.0
+              ]
+            }
+          }
+        }
+      },
+      "cashflow": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024"
+          ],
+          "dates": [
+            "2021-12-31",
+            "2022-12-31",
+            "2023-12-31",
+            "2024-12-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                124619122.5,
+                697000000.0,
+                829800000.0,
+                245600000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                -598367573.98,
+                -14600000.0,
+                -83400000.0,
+                -807700000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                -473748451.48,
+                682400000.0,
+                746400000.0,
+                -562100000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                294939522.24,
+                -403100000.0,
+                -1212100000.0,
+                311600000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                -1137771381.51,
+                -100300000.0,
+                375600000.0,
+                825500000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                1064740525.9,
+                1200500000.0,
+                1091200000.0,
+                2450300000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q3 '25"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-09-30"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                -55800000.0,
+                -74600000.0,
+                -80400000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                -172100000.0,
+                -417700000.0,
+                -955500000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                -227900000.0,
+                -492300000.0,
+                -1035900000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                12600000.0,
+                -416000000.0,
+                -952000000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                -1300000.0,
+                658500000.0,
+                4200600000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                2278700000.0,
+                2450300000.0,
+                4923600000.0
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "APLD": {
+    "metrics": {
+      "name": "Applied Digital Corporation",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "marketCap": "$10.00B",
+      "enterpriseValue": "$12.08B",
+      "revenue": "$319.3M",
+      "revenueGrowth": "139.3%",
+      "grossMargin": "45.4%",
+      "operatingMargin": "-20.5%",
+      "profitMargin": "-59.5%",
+      "forwardPE": "-34.5",
+      "trailingPE": null,
+      "freeCashFlow": "$-1.50B",
+      "operatingCashFlow": "$-36.0M",
+      "totalCash": "$1.73B",
+      "totalDebt": "$2.83B",
+      "fiftyTwoWkHigh": "42.27",
+      "fiftyTwoWkLow": "4.20",
+      "beta": "7.27",
+      "dividendYield": null
+    },
+    "narrative": "Market Weight (NEW v2). Pivoted blockchain-hosting → HPC + AI hosting; power-rich North Dakota; CRWV anchor tenant.",
+    "statements": {
+      "income": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-05-31",
+            "2022-05-31",
+            "2023-05-31",
+            "2024-05-31",
+            "2025-05-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                null,
+                8549000.0,
+                55392000.0,
+                136618000.0,
+                144193000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                null,
+                9506000.0,
+                44388000.0,
+                106653000.0,
+                101451000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                null,
+                -957000.0,
+                11004000.0,
+                29965000.0,
+                42742000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                null,
+                19941000.0,
+                53915000.0,
+                45020000.0,
+                83065000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                null,
+                -20898000.0,
+                -42911000.0,
+                -15055000.0,
+                -40323000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                null,
+                -112000.0,
+                -2006000.0,
+                -17708000.0,
+                -14739000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                null,
+                -21946000.0,
+                -45011000.0,
+                -74280000.0,
+                -158233000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                null,
+                540000.0,
+                -523000.0,
+                96000.0,
+                102000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                null,
+                -23520000.0,
+                -44646000.0,
+                -149274000.0,
+                -231065000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                null,
+                -20714000.0,
+                -35391000.0,
+                22788000.0,
+                -45549000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25",
+            "Q1 '26"
+          ],
+          "dates": [
+            "2024-08-31",
+            "2024-11-30",
+            "2025-02-28",
+            "2025-05-31",
+            "2025-08-31",
+            "2025-11-30",
+            "2026-02-28"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                52921000.0,
+                -33300000.0,
+                64216000.0,
+                126589000.0,
+                126637000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                49141000.0,
+                -61111000.0,
+                55606000.0,
+                100553000.0,
+                72832000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                3780000.0,
+                27811000.0,
+                8610000.0,
+                26036000.0,
+                53805000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                22723000.0,
+                16213000.0,
+                29152000.0,
+                56993000.0,
+                79723000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                -18943000.0,
+                11598000.0,
+                -20542000.0,
+                -30957000.0,
+                -25918000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                -8897000.0,
+                8948000.0,
+                -3946000.0,
+                -11484000.0,
+                2387000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                -35438000.0,
+                20177000.0,
+                -26239000.0,
+                -26548000.0,
+                -70558000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                117000.0,
+                -16000.0,
+                8000.0,
+                15000.0,
+                -2000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                -35555000.0,
+                -52537000.0,
+                -16926000.0,
+                -17511000.0,
+                -99303000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                -7762000.0,
+                29634000.0,
+                -18141000.0,
+                -6477000.0,
+                -5105000.0
+              ]
+            }
+          }
+        }
+      },
+      "balance": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-05-31",
+            "2022-05-31",
+            "2023-05-31",
+            "2024-05-31",
+            "2025-05-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                119980000.0,
+                263957000.0,
+                762867000.0,
+                1870090000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                38798000.0,
+                28999000.0,
+                3339000.0,
+                41552000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                null,
+                1333000.0,
+                7950000.0,
+                45918000.0,
+                10331000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                5897000.0,
+                68479000.0,
+                79472000.0,
+                677825000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                13544000.0,
+                91810000.0,
+                135730000.0,
+                702877000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                40745000.0,
+                194278000.0,
+                638037000.0,
+                1236365000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                72259000.0,
+                59517000.0,
+                124830000.0,
+                633725000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                97837798.0,
+                95925630.0,
+                139051142.0,
+                224909669.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25",
+            "Q1 '26"
+          ],
+          "dates": [
+            "2024-08-31",
+            "2024-11-30",
+            "2025-02-28",
+            "2025-05-31",
+            "2025-08-31",
+            "2025-11-30",
+            "2026-02-28"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                1707347000.0,
+                1870090000.0,
+                2398995000.0,
+                5229344000.0,
+                6246818000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                68743000.0,
+                41552000.0,
+                73911000.0,
+                1913436000.0,
+                1730440000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                10138000.0,
+                10331000.0,
+                382056000.0,
+                12555000.0,
+                98174000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                678988000.0,
+                677825000.0,
+                305283000.0,
+                2594011000.0,
+                2594501000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                993668000.0,
+                702877000.0,
+                700209000.0,
+                2608677000.0,
+                2827480000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                1209480000.0,
+                1236365000.0,
+                1354735000.0,
+                3262743000.0,
+                4665597000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                497867000.0,
+                633725000.0,
+                1044260000.0,
+                1449629000.0,
+                1581221000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                224391160.0,
+                224909669.0,
+                269292902.0,
+                279083210.0,
+                285384115.0
+              ]
+            }
+          }
+        }
+      },
+      "cashflow": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-05-31",
+            "2022-05-31",
+            "2023-05-31",
+            "2024-05-31",
+            "2025-05-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                -872000.0,
+                58735000.0,
+                13794000.0,
+                -115402000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                null,
+                -54974000.0,
+                -131278000.0,
+                -141809000.0,
+                -681603000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                -55846000.0,
+                -72543000.0,
+                -128015000.0,
+                -797005000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -45871000.0,
+                -132088000.0,
+                -172437000.0,
+                -667654000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                81292000.0,
+                70628000.0,
+                146757000.0,
+                874686000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                null,
+                46299000.0,
+                43574000.0,
+                31688000.0,
+                120920000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25",
+            "Q1 '26"
+          ],
+          "dates": [
+            "2024-08-31",
+            "2024-11-30",
+            "2025-02-28",
+            "2025-05-31",
+            "2025-08-31",
+            "2025-11-30",
+            "2026-02-28"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                5897000.0,
+                6855000.0,
+                -82023000.0,
+                -15845000.0,
+                55008000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                -257493000.0,
+                -198263000.0,
+                -249420000.0,
+                -552070000.0,
+                -775207000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                -251596000.0,
+                -191408000.0,
+                -331443000.0,
+                -567915000.0,
+                -720199000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                -258139000.0,
+                -201976000.0,
+                -249420000.0,
+                -569070000.0,
+                -775207000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                198887000.0,
+                57215000.0,
+                322236000.0,
+                2766570000.0,
+                532106000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                261224000.0,
+                120920000.0,
+                114104000.0,
+                2295764000.0,
+                2107673000.0
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "IREN": {
+    "metrics": {
+      "name": "IREN Limited",
+      "sector": "Financial Services",
+      "industry": "Capital Markets",
+      "marketCap": "$16.80B",
+      "enterpriseValue": "$17.41B",
+      "revenue": "$757.1M",
+      "revenueGrowth": "59.0%",
+      "grossMargin": "68.1%",
+      "operatingMargin": "-45.8%",
+      "profitMargin": "51.5%",
+      "forwardPE": "40.0",
+      "trailingPE": "35.2",
+      "freeCashFlow": "$-1.25B",
+      "operatingCashFlow": "$410.2M",
+      "totalCash": "$3.26B",
+      "totalDebt": "$3.84B",
+      "fiftyTwoWkHigh": "76.87",
+      "fiftyTwoWkLow": "5.72",
+      "beta": "4.31",
+      "dividendYield": null
+    },
+    "narrative": "Speculative (NEW v2). Bitcoin-miner pivoting to AI; renewable hydro power; less mature AI-tenant book.",
+    "statements": {
+      "income": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-06-30",
+            "2022-06-30",
+            "2023-06-30",
+            "2024-06-30",
+            "2025-06-30"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                null,
+                59037000.0,
+                75509000.0,
+                187192000.0,
+                501023000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                null,
+                7448000.0,
+                54388000.0,
+                105074000.0,
+                158992000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                null,
+                51589000.0,
+                21121000.0,
+                82118000.0,
+                342031000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                null,
+                51127000.0,
+                69679000.0,
+                109395000.0,
+                319909000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                null,
+                462000.0,
+                -48558000.0,
+                -27277000.0,
+                22122000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                null,
+                -425362000.0,
+                -15283000.0,
+                5733000.0,
+                -3541000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                null,
+                -417046000.0,
+                -169437000.0,
+                -25467000.0,
+                93501000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                null,
+                2724000.0,
+                2390000.0,
+                3453000.0,
+                6560000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                null,
+                -419770000.0,
+                -171827000.0,
+                -28920000.0,
+                86941000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                null,
+                16136000.0,
+                -122557000.0,
+                25101000.0,
+                285682000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                null,
+                116144000.0,
+                144823000.0,
+                187292000.0,
+                240295000.0,
+                184692000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                null,
+                37196000.0,
+                7464000.0,
+                136822000.0,
+                89037000.0,
+                74316000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                null,
+                78948000.0,
+                137359000.0,
+                50470000.0,
+                151258000.0,
+                110376000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                null,
+                60958000.0,
+                109462000.0,
+                33665000.0,
+                211393000.0,
+                195031000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                null,
+                17990000.0,
+                27897000.0,
+                16805000.0,
+                -60135000.0,
+                -84655000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                null,
+                -135000.0,
+                -5942000.0,
+                4843000.0,
+                -2152000.0,
+                5107000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                null,
+                -18883000.0,
+                29267000.0,
+                92788000.0,
+                575298000.0,
+                -337927000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                null,
+                3005000.0,
+                5040000.0,
+                -2758000.0,
+                190687000.0,
+                -182520000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                null,
+                -21888000.0,
+                24227000.0,
+                95546000.0,
+                384611000.0,
+                -155407000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                null,
+                18916000.0,
+                84583000.0,
+                153129000.0,
+                669804000.0,
+                -228083000.0
+              ]
+            }
+          }
+        }
+      },
+      "balance": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-06-30",
+            "2022-06-30",
+            "2023-06-30",
+            "2024-06-30",
+            "2025-06-30"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                570460000.0,
+                332074000.0,
+                1152819000.0,
+                2940323000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                109970000.0,
+                68894000.0,
+                404601000.0,
+                564526000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                71978000.0,
+                60403000.0,
+                null,
+                null,
+                null
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                10836000.0,
+                46618000.0,
+                null,
+                null,
+                962765000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                108287000.0,
+                1448000.0,
+                1321000.0,
+                964232000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                133098000.0,
+                26713000.0,
+                55348000.0,
+                1122835000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                437362000.0,
+                305361000.0,
+                1097471000.0,
+                1817488000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                53028867.0,
+                64747477.0,
+                186367686.0,
+                258103209.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                1852082000.0,
+                1989755000.0,
+                2940323000.0,
+                4267374000.0,
+                7027577000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                427273000.0,
+                184333000.0,
+                564526000.0,
+                1032263000.0,
+                3260589000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                null,
+                318214000.0,
+                322480000.0,
+                null,
+                null,
+                null
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                null,
+                962765000.0,
+                964209000.0,
+                3685296000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                319908000.0,
+                324075000.0,
+                964232000.0,
+                965632000.0,
+                3842548000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                565811000.0,
+                564188000.0,
+                1122835000.0,
+                1391207000.0,
+                4516384000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                1286271000.0,
+                1425567000.0,
+                1817488000.0,
+                2876167000.0,
+                2511193000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                213504987.0,
+                224458888.0,
+                258103209.0,
+                282876303.0,
+                331759177.0
+              ]
+            }
+          }
+        }
+      },
+      "cashflow": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-06-30",
+            "2022-06-30",
+            "2023-06-30",
+            "2024-06-30",
+            "2025-06-30"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                -37480000.0,
+                5729000.0,
+                52219000.0,
+                245886000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                null,
+                -294247000.0,
+                -116064000.0,
+                -479909000.0,
+                -1372627000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                -331727000.0,
+                -110335000.0,
+                -427690000.0,
+                -1126741000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -259078000.0,
+                -71467000.0,
+                -498466000.0,
+                -1380487000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                372038000.0,
+                28558000.0,
+                782626000.0,
+                1294735000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                null,
+                109970000.0,
+                68894000.0,
+                404601000.0,
+                564526000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                53556000.0,
+                null,
+                null,
+                142353000.0,
+                71651000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                null,
+                -187562000.0,
+                -443804000.0,
+                -357872000.0,
+                -280611000.0,
+                -836855000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                -134006000.0,
+                -654651000.0,
+                49220000.0,
+                -138258000.0,
+                -765204000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -180293000.0,
+                -138581000.0,
+                -674476000.0,
+                -280877000.0,
+                -850951000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                457016000.0,
+                106777000.0,
+                646273000.0,
+                606137000.0,
+                3007598000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                null,
+                427273000.0,
+                184333000.0,
+                564526000.0,
+                1032263000.0,
+                3260589000.0
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "ORCL": {
+    "metrics": {
+      "name": "Oracle Corporation",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "marketCap": "$498.36B",
+      "enterpriseValue": "$626.90B",
+      "revenue": "$64.08B",
+      "revenueGrowth": "21.7%",
+      "grossMargin": "67.1%",
+      "operatingMargin": "32.7%",
+      "profitMargin": "25.3%",
+      "forwardPE": "21.7",
+      "trailingPE": "31.2",
+      "freeCashFlow": "$-22.30B",
+      "operatingCashFlow": "$23.51B",
+      "totalCash": "$39.13B",
+      "totalDebt": "$162.16B",
+      "fiftyTwoWkHigh": "345.72",
+      "fiftyTwoWkLow": "134.57",
+      "beta": "1.60",
+      "dividendYield": "115.0%"
+    },
+    "narrative": "Overweight. OCI gen-2 backlog ~$130B+; OpenAI Stargate primary partner ($300B+ commitments). Hyperscaler #4 by AI revenue.",
+    "statements": {
+      "income": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-05-31",
+            "2022-05-31",
+            "2023-05-31",
+            "2024-05-31",
+            "2025-05-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                null,
+                42440000000.0,
+                49954000000.0,
+                52961000000.0,
+                57399000000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                null,
+                8877000000.0,
+                13564000000.0,
+                15143000000.0,
+                16927000000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                null,
+                33563000000.0,
+                36390000000.0,
+                37818000000.0,
+                40472000000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                null,
+                17733000000.0,
+                22617000000.0,
+                21747000000.0,
+                22420000000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                null,
+                15830000000.0,
+                13773000000.0,
+                16071000000.0,
+                18052000000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                null,
+                -2661000000.0,
+                -3220000000.0,
+                -3063000000.0,
+                -3000000000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                null,
+                7649000000.0,
+                9126000000.0,
+                11741000000.0,
+                14160000000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                null,
+                932000000.0,
+                623000000.0,
+                1274000000.0,
+                1717000000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                null,
+                6717000000.0,
+                8503000000.0,
+                10467000000.0,
+                12443000000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                null,
+                13526000000.0,
+                18739000000.0,
+                21394000000.0,
+                23912000000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25",
+            "Q1 '26"
+          ],
+          "dates": [
+            "2024-11-30",
+            "2025-02-28",
+            "2025-05-31",
+            "2025-08-31",
+            "2025-11-30",
+            "2026-02-28"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                null,
+                14130000000.0,
+                15903000000.0,
+                14926000000.0,
+                16058000000.0,
+                17190000000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                null,
+                4195000000.0,
+                4741000000.0,
+                4884000000.0,
+                5374000000.0,
+                6092000000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                null,
+                9935000000.0,
+                11162000000.0,
+                10042000000.0,
+                10684000000.0,
+                11098000000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                null,
+                5486000000.0,
+                5971000000.0,
+                5350000000.0,
+                5526000000.0,
+                5461000000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                null,
+                4449000000.0,
+                5191000000.0,
+                4692000000.0,
+                5158000000.0,
+                5637000000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                null,
+                -757000000.0,
+                -818000000.0,
+                -820000000.0,
+                -865000000.0,
+                -984000000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                null,
+                3448000000.0,
+                4152000000.0,
+                3427000000.0,
+                6342000000.0,
+                4416000000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                null,
+                512000000.0,
+                725000000.0,
+                500000000.0,
+                207000000.0,
+                695000000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                null,
+                2936000000.0,
+                3427000000.0,
+                2927000000.0,
+                6135000000.0,
+                3721000000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                null,
+                5891000000.0,
+                6826000000.0,
+                6121000000.0,
+                9509000000.0,
+                8162000000.0
+              ]
+            }
+          }
+        }
+      },
+      "balance": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-05-31",
+            "2022-05-31",
+            "2023-05-31",
+            "2024-05-31",
+            "2025-05-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                109297000000.0,
+                134384000000.0,
+                140976000000.0,
+                168361000000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                21383000000.0,
+                9765000000.0,
+                10454000000.0,
+                10786000000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                null,
+                3749000000.0,
+                4061000000.0,
+                10605000000.0,
+                7271000000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                72110000000.0,
+                86420000000.0,
+                76264000000.0,
+                85297000000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                75859000000.0,
+                90481000000.0,
+                93124000000.0,
+                104104000000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                115065000000.0,
+                132828000000.0,
+                131737000000.0,
+                147392000000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                -6220000000.0,
+                1073000000.0,
+                8704000000.0,
+                20451000000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                2665000000.0,
+                2713000000.0,
+                2755000000.0,
+                2807000000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25",
+            "Q1 '26"
+          ],
+          "dates": [
+            "2024-08-31",
+            "2024-11-30",
+            "2025-02-28",
+            "2025-05-31",
+            "2025-08-31",
+            "2025-11-30",
+            "2026-02-28"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                161378000000.0,
+                168361000000.0,
+                180449000000.0,
+                204984000000.0,
+                245240000000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                17406000000.0,
+                10786000000.0,
+                10445000000.0,
+                19241000000.0,
+                38455000000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                8167000000.0,
+                7271000000.0,
+                9079000000.0,
+                8091000000.0,
+                9887000000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                88109000000.0,
+                85297000000.0,
+                82236000000.0,
+                99984000000.0,
+                124718000000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                96276000000.0,
+                104104000000.0,
+                105409000000.0,
+                124386000000.0,
+                153117000000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                144117000000.0,
+                147392000000.0,
+                155783000000.0,
+                174527000000.0,
+                206189000000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                16730000000.0,
+                20451000000.0,
+                24154000000.0,
+                29951000000.0,
+                38495000000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                2803000000.0,
+                2807000000.0,
+                2841000000.0,
+                2872573090.0,
+                2875000000.0
+              ]
+            }
+          }
+        }
+      },
+      "cashflow": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-05-31",
+            "2022-05-31",
+            "2023-05-31",
+            "2024-05-31",
+            "2025-05-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                9539000000.0,
+                17165000000.0,
+                18673000000.0,
+                20821000000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                null,
+                -4511000000.0,
+                -8695000000.0,
+                -6866000000.0,
+                -21215000000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                5028000000.0,
+                8470000000.0,
+                11807000000.0,
+                -394000000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                11220000000.0,
+                -36484000000.0,
+                -7360000000.0,
+                -21711000000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -29126000000.0,
+                7910000000.0,
+                -10554000000.0,
+                1098000000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                null,
+                21383000000.0,
+                9765000000.0,
+                10454000000.0,
+                10786000000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25",
+            "Q1 '26"
+          ],
+          "dates": [
+            "2024-08-31",
+            "2024-11-30",
+            "2025-02-28",
+            "2025-05-31",
+            "2025-08-31",
+            "2025-11-30",
+            "2026-02-28"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                5933000000.0,
+                6157000000.0,
+                8140000000.0,
+                2066000000.0,
+                7151000000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                -5862000000.0,
+                -9080000000.0,
+                -8502000000.0,
+                -12033000000.0,
+                -18635000000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                71000000.0,
+                -2923000000.0,
+                -362000000.0,
+                -9967000000.0,
+                -11484000000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                -5976000000.0,
+                -9182000000.0,
+                -8718000000.0,
+                -7714000000.0,
+                -19544000000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                6559000000.0,
+                -3814000000.0,
+                210000000.0,
+                14487000000.0,
+                31498000000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                17406000000.0,
+                10786000000.0,
+                10445000000.0,
+                19241000000.0,
+                38455000000.0
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
   "BABA": {
     "metrics": {
       "name": "Alibaba Group Holding Limited",
       "sector": "Consumer Cyclical",
       "industry": "Internet Retail",
-      "marketCap": "$324.98B",
-      "enterpriseValue": "$2.46T",
+      "marketCap": "$335.15B",
+      "enterpriseValue": "$2.54T",
       "revenue": "$1.02T",
       "revenueGrowth": "1.7%",
       "grossMargin": "40.8%",
       "operatingMargin": "7.1%",
       "profitMargin": "8.9%",
-      "forwardPE": "17.7",
-      "trailingPE": "23.2",
+      "forwardPE": "18.3",
+      "trailingPE": "23.9",
       "freeCashFlow": "$-26.12B",
       "operatingCashFlow": "$94.32B",
       "totalCash": "$338.11B",
@@ -6955,7 +12395,7 @@ window.FINANCIALS = {
       "fiftyTwoWkHigh": "192.67",
       "fiftyTwoWkLow": "103.71",
       "beta": "0.49",
-      "dividendYield": "80.0%"
+      "dividendYield": "77.0%"
     },
     "narrative": "Qwen 3.5 397B tops open-weight benchmarks. Qwen drives Alibaba Cloud adoption. Political/regulatory risk discount.",
     "statements": {
@@ -7584,20 +13024,1225 @@ window.FINANCIALS = {
       }
     }
   },
+  "TCEHY": {
+    "metrics": {
+      "name": "Tencent Holdings Limited",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "marketCap": "$565.95B",
+      "enterpriseValue": "$636.03B",
+      "revenue": "$751.77B",
+      "revenueGrowth": "12.7%",
+      "grossMargin": "56.2%",
+      "operatingMargin": "33.1%",
+      "profitMargin": "29.9%",
+      "forwardPE": "12.4",
+      "trailingPE": "17.7",
+      "freeCashFlow": "$139.39B",
+      "operatingCashFlow": "$303.05B",
+      "totalCash": "$422.55B",
+      "totalDebt": "$406.40B",
+      "fiftyTwoWkHigh": "87.68",
+      "fiftyTwoWkLow": "60.54",
+      "beta": "0.80",
+      "dividendYield": "108.0%"
+    },
+    "narrative": "Overweight. Cleanest single-name Chinese AI exposure. Hunyuan T1 (closed) + Hunyuan-Open 389B + WeChat distribution. Hybrid-stack done well.",
+    "statements": {
+      "income": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-12-31",
+            "2022-12-31",
+            "2023-12-31",
+            "2024-12-31",
+            "2025-12-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                null,
+                554552000000.0,
+                609015000000.0,
+                660257000000.0,
+                751766000000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                null,
+                315806000000.0,
+                315906000000.0,
+                311011000000.0,
+                329173000000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                null,
+                238746000000.0,
+                293109000000.0,
+                349246000000.0,
+                422593000000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                null,
+                124806000000.0,
+                127451000000.0,
+                140460000000.0,
+                173826000000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                null,
+                113940000000.0,
+                165658000000.0,
+                208786000000.0,
+                248767000000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                null,
+                -1393000000.0,
+                1923000000.0,
+                3557000000.0,
+                3453000000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                null,
+                210225000000.0,
+                161324000000.0,
+                241485000000.0,
+                277249000000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                null,
+                21516000000.0,
+                43276000000.0,
+                45018000000.0,
+                47448000000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                null,
+                188243000000.0,
+                115216000000.0,
+                194073000000.0,
+                224842000000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                null,
+                281426000000.0,
+                232217000000.0,
+                310145000000.0,
+                356733000000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                184504000000.0,
+                null,
+                null
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                79491000000.0,
+                null,
+                null
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                105013000000.0,
+                null,
+                null
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                40071000000.0,
+                null,
+                null
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                64942000000.0,
+                null,
+                null
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                580000000.0,
+                null,
+                null
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                67395000000.0,
+                null,
+                null
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                11351000000.0,
+                null,
+                null
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                55628000000.0,
+                null,
+                null
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                70936000000.0,
+                null,
+                null
+              ]
+            }
+          }
+        }
+      },
+      "balance": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-12-31",
+            "2022-12-31",
+            "2023-12-31",
+            "2024-12-31",
+            "2025-12-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                1578131000000.0,
+                1577246000000.0,
+                1780995000000.0,
+                2038986000000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                156739000000.0,
+                172320000000.0,
+                132519000000.0,
+                141041000000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                null,
+                22026000000.0,
+                55698000000.0,
+                61508000000.0,
+                53160000000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                312337000000.0,
+                292920000000.0,
+                277107000000.0,
+                334573000000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                359141000000.0,
+                371240000000.0,
+                358112000000.0,
+                406399000000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                795271000000.0,
+                703565000000.0,
+                727099000000.0,
+                797921000000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                721391000000.0,
+                808591000000.0,
+                973548000000.0,
+                1154152000000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                9568738935.0,
+                9391209351.0,
+                9142175160.0,
+                9028747590.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q2 '25"
+          ],
+          "dates": [
+            "2025-06-30"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                2013310000000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                182057000000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                71511000000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                322304000000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                412486000000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                810461000000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                1114639000000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                9080347213.0
+              ]
+            }
+          }
+        }
+      },
+      "cashflow": {
+        "annual": {
+          "periods": [
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2022-12-31",
+            "2023-12-31",
+            "2024-12-31",
+            "2025-12-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                146091000000.0,
+                221962000000.0,
+                258521000000.0,
+                303052000000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                -50850000000.0,
+                -47407000000.0,
+                -96048000000.0,
+                -112881000000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                95241000000.0,
+                174555000000.0,
+                162473000000.0,
+                190171000000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                -104871000000.0,
+                -125161000000.0,
+                -122187000000.0,
+                -205732000000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                -59953000000.0,
+                -82573000000.0,
+                -176494000000.0,
+                -87155000000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                156739000000.0,
+                172320000000.0,
+                132519000000.0,
+                141041000000.0
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "BIDU": {
+    "metrics": {
+      "name": "Baidu, Inc.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "marketCap": "$43.79B",
+      "enterpriseValue": "$355.56B",
+      "revenue": "$129.08B",
+      "revenueGrowth": "-4.1%",
+      "grossMargin": "43.9%",
+      "operatingMargin": "4.5%",
+      "profitMargin": "4.3%",
+      "forwardPE": "13.9",
+      "trailingPE": "74.8",
+      "freeCashFlow": "$16.79B",
+      "operatingCashFlow": "$-3.01B",
+      "totalCash": "$115.27B",
+      "totalDebt": "$97.08B",
+      "fiftyTwoWkHigh": "165.30",
+      "fiftyTwoWkLow": "81.17",
+      "beta": "0.43",
+      "dividendYield": null
+    },
+    "narrative": "Market Weight. ERNIE 5.0 + ERNIE-X1 + Apollo + cloud. Cheapest China-AI on P/E; structural search risk.",
+    "statements": {
+      "income": {
+        "annual": {
+          "periods": [
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2022-12-31",
+            "2023-12-31",
+            "2024-12-31",
+            "2025-12-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                123675000000.0,
+                134598000000.0,
+                133125000000.0,
+                129079000000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                63935000000.0,
+                65031000000.0,
+                66102000000.0,
+                72436000000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                59740000000.0,
+                69567000000.0,
+                67023000000.0,
+                56643000000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                43829000000.0,
+                47711000000.0,
+                45753000000.0,
+                46276000000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                15911000000.0,
+                21856000000.0,
+                21270000000.0,
+                10367000000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                3332000000.0,
+                4761000000.0,
+                5138000000.0,
+                5818000000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                10112000000.0,
+                25198000000.0,
+                28622000000.0,
+                6716000000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                2578000000.0,
+                3649000000.0,
+                4447000000.0,
+                1259000000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                7559000000.0,
+                20315000000.0,
+                23760000000.0,
+                5589000000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                33109000000.0,
+                49903000000.0,
+                51967000000.0,
+                30851000000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                null,
+                34124000000.0,
+                32452000000.0,
+                32713000000.0,
+                31174000000.0,
+                32740000000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                null,
+                18014000000.0,
+                17487000000.0,
+                18357000000.0,
+                18315000000.0,
+                18277000000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                null,
+                16110000000.0,
+                14965000000.0,
+                14356000000.0,
+                12859000000.0,
+                14463000000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                null,
+                12193000000.0,
+                10457000000.0,
+                11079000000.0,
+                11760000000.0,
+                12980000000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                null,
+                3917000000.0,
+                4508000000.0,
+                3277000000.0,
+                1099000000.0,
+                1483000000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                null,
+                1358000000.0,
+                1863000000.0,
+                1256000000.0,
+                1299000000.0,
+                1400000000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                null,
+                6577000000.0,
+                8995000000.0,
+                8140000000.0,
+                -13145000000.0,
+                2726000000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                null,
+                1619000000.0,
+                1177000000.0,
+                881000000.0,
+                -1828000000.0,
+                1029000000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                null,
+                5192000000.0,
+                7717000000.0,
+                7322000000.0,
+                -11232000000.0,
+                1782000000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                null,
+                7220000000.0,
+                9796000000.0,
+                8841000000.0,
+                -12514000000.0,
+                3377000000.0
+              ]
+            }
+          }
+        }
+      },
+      "balance": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-12-31",
+            "2022-12-31",
+            "2023-12-31",
+            "2024-12-31",
+            "2025-12-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                390973000000.0,
+                406759000000.0,
+                427780000000.0,
+                449157000000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                53156000000.0,
+                25231000000.0,
+                24832000000.0,
+                24606000000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                null,
+                20552000000.0,
+                19090000000.0,
+                19105000000.0,
+                28410000000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                63183000000.0,
+                57357000000.0,
+                51943000000.0,
+                61102000000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                91354000000.0,
+                84595000000.0,
+                79324000000.0,
+                97077000000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                153168000000.0,
+                144151000000.0,
+                144168000000.0,
+                159431000000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                223478000000.0,
+                243626000000.0,
+                263620000000.0,
+                266330000000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                2796585392.0,
+                2805191400.0,
+                2763574692.0,
+                2722014080.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                427780000000.0,
+                453982000000.0,
+                450569000000.0,
+                444072000000.0,
+                449157000000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                24832000000.0,
+                49202000000.0,
+                29940000000.0,
+                38620000000.0,
+                24606000000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                null,
+                19105000000.0,
+                18403000000.0,
+                28207000000.0,
+                27645000000.0,
+                28410000000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                51943000000.0,
+                75049000000.0,
+                55551000000.0,
+                62113000000.0,
+                61102000000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                79324000000.0,
+                102053000000.0,
+                91843000000.0,
+                97237000000.0,
+                97077000000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                144168000000.0,
+                163908000000.0,
+                152657000000.0,
+                156473000000.0,
+                159431000000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                263620000000.0,
+                269747000000.0,
+                275057000000.0,
+                264528000000.0,
+                266330000000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                2763574692.0,
+                2763574692.0,
+                2750167168.0,
+                null,
+                2722014080.0,
+                2722014080.0
+              ]
+            }
+          }
+        }
+      },
+      "cashflow": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-12-31",
+            "2022-12-31",
+            "2023-12-31",
+            "2024-12-31",
+            "2025-12-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                26170000000.0,
+                36615000000.0,
+                21234000000.0,
+                -3013000000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                null,
+                -8393000000.0,
+                -11295000000.0,
+                -8259000000.0,
+                -13417000000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                17777000000.0,
+                25320000000.0,
+                12975000000.0,
+                -16430000000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -3944000000.0,
+                -50397000000.0,
+                -8555000000.0,
+                -25136000000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -6390000000.0,
+                -14162000000.0,
+                -13759000000.0,
+                17142000000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                null,
+                65236000000.0,
+                37574000000.0,
+                36589000000.0,
+                24831000000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                2356000000.0,
+                -6001000000.0,
+                -877000000.0,
+                1256000000.0,
+                2609000000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                -5903000000.0,
+                -6001000000.0,
+                -877000000.0,
+                1256000000.0,
+                -10808000000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                -5637000000.0,
+                -1205000000.0,
+                -8541000000.0,
+                2996000000.0,
+                -18386000000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                -1670000000.0,
+                20499000000.0,
+                -9153000000.0,
+                4683000000.0,
+                1113000000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                36589000000.0,
+                49876000000.0,
+                31067000000.0,
+                39800000000.0,
+                24831000000.0
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
   "DELL": {
     "metrics": {
       "name": "Dell Technologies Inc.",
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "marketCap": "$137.93B",
-      "enterpriseValue": "$157.72B",
+      "marketCap": "$140.50B",
+      "enterpriseValue": "$160.27B",
       "revenue": "$113.54B",
       "revenueGrowth": "39.5%",
       "grossMargin": "20.1%",
       "operatingMargin": "9.6%",
       "profitMargin": "5.2%",
-      "forwardPE": "14.5",
-      "trailingPE": "24.4",
+      "forwardPE": "14.7",
+      "trailingPE": "24.9",
       "freeCashFlow": "$6.61B",
       "operatingCashFlow": "$11.19B",
       "totalCash": "$11.53B",
@@ -7605,7 +14250,7 @@ window.FINANCIALS = {
       "fiftyTwoWkHigh": "219.26",
       "fiftyTwoWkLow": "86.76",
       "beta": "0.95",
-      "dividendYield": "119.0%"
+      "dividendYield": "117.0%"
     },
     "narrative": "Server OEM exposure to AI rack buildout. Integration of GPUs + liquid cooling + networking.",
     "statements": {
@@ -8288,15 +14933,15 @@ window.FINANCIALS = {
       "name": "Super Micro Computer, Inc.",
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "marketCap": "$16.06B",
-      "enterpriseValue": "$17.18B",
+      "marketCap": "$17.46B",
+      "enterpriseValue": "$18.58B",
       "revenue": "$28.06B",
       "revenueGrowth": "123.4%",
       "grossMargin": "8.0%",
       "operatingMargin": "3.7%",
       "profitMargin": "3.1%",
-      "forwardPE": "9.0",
-      "trailingPE": "19.5",
+      "forwardPE": "9.7",
+      "trailingPE": "21.2",
       "freeCashFlow": "$103.5M",
       "operatingCashFlow": "$549.0M",
       "totalCash": "$4.11B",
@@ -8970,28 +15615,697 @@ window.FINANCIALS = {
       }
     }
   },
+  "2317.TW": {
+    "metrics": {
+      "name": "Hon Hai Precision Industry Co., Ltd.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "marketCap": "$3.09T",
+      "enterpriseValue": "$2.99T",
+      "revenue": "$8.10T",
+      "revenueGrowth": "22.3%",
+      "grossMargin": "6.1%",
+      "operatingMargin": "3.3%",
+      "profitMargin": "2.3%",
+      "forwardPE": "11.0",
+      "trailingPE": "16.5",
+      "freeCashFlow": "$-4.75B",
+      "operatingCashFlow": "$226.85B",
+      "totalCash": "$1.59T",
+      "totalDebt": "$1.29T",
+      "fiftyTwoWkHigh": "265.00",
+      "fiftyTwoWkLow": "140.00",
+      "beta": "0.65",
+      "dividendYield": "262.0%"
+    },
+    "narrative": "Overweight. Dominant AI server contract manufacturer (Hon Hai/Foxconn); rack-scale system buildout. Cheapest valuation in entire AI supply chain.",
+    "statements": {
+      "income": {
+        "annual": {
+          "periods": [
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2022-12-31",
+            "2023-12-31",
+            "2024-12-31",
+            "2025-12-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                6626996750000.0,
+                6162221359000.0,
+                6859615493000.0,
+                8103104763000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                6226911592000.0,
+                5774273890000.0,
+                6430669575000.0,
+                7604943727000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                400085158000.0,
+                387947469000.0,
+                428945918000.0,
+                498161036000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                226297316000.0,
+                221418974000.0,
+                228338691000.0,
+                238938076000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                173787842000.0,
+                166528495000.0,
+                200607227000.0,
+                259222960000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                8566751000.0,
+                16156953000.0,
+                8781388000.0,
+                -7086753000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                187511486000.0,
+                192224213000.0,
+                211875157000.0,
+                293444866000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                36439937000.0,
+                37434831000.0,
+                40195922000.0,
+                78410380000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                141482714000.0,
+                142098208000.0,
+                152705066000.0,
+                189353852000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                298707989000.0,
+                342173235000.0,
+                336552192000.0,
+                429294299000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                null,
+                2130503832000.0,
+                1644315563000.0,
+                1793468046000.0,
+                2058949127000.0,
+                2606372027000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                null,
+                1999460264000.0,
+                1543767136000.0,
+                1679939050000.0,
+                1928192485000.0,
+                2453045056000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                null,
+                131043568000.0,
+                100548427000.0,
+                113528996000.0,
+                130756642000.0,
+                153326971000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                null,
+                66562710000.0,
+                54048465000.0,
+                56932779000.0,
+                60220446000.0,
+                67736386000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                null,
+                64480858000.0,
+                46499962000.0,
+                56596217000.0,
+                70536196000.0,
+                85590585000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                null,
+                1465144000.0,
+                598024000.0,
+                -1073687000.0,
+                -2655849000.0,
+                -3955241000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                null,
+                63313411000.0,
+                59120357000.0,
+                65149410000.0,
+                86893252000.0,
+                82281847000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                null,
+                10796534000.0,
+                13286751000.0,
+                15612699000.0,
+                20862628000.0,
+                28648302000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                null,
+                46325874000.0,
+                42108054000.0,
+                44360558000.0,
+                57672785000.0,
+                45212455000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                null,
+                97945712000.0,
+                90174399000.0,
+                97358997000.0,
+                121618821000.0,
+                120142082000.0
+              ]
+            }
+          }
+        }
+      },
+      "balance": {
+        "annual": {
+          "periods": [
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2022-12-31",
+            "2023-12-31",
+            "2024-12-31",
+            "2025-12-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                4133974280000.0,
+                3939788977000.0,
+                4394499511000.0,
+                5104672223000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                1062326324000.0,
+                1197662695000.0,
+                937108093000.0,
+                1016439967000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                647194306000.0,
+                648993325000.0,
+                642782757000.0,
+                940440828000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                301017307000.0,
+                271625040000.0,
+                287792611000.0,
+                306085648000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                974006292000.0,
+                943072102000.0,
+                961558418000.0,
+                1286493270000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                2483443241000.0,
+                2253545331000.0,
+                2542911463000.0,
+                3133908868000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                1450544916000.0,
+                1493109102000.0,
+                1645201565000.0,
+                1772771627000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                13861507922.0,
+                13861507522.0,
+                13888735922.0,
+                13962738922.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                4394499511000.0,
+                4586773793000.0,
+                4138942274000.0,
+                4894454915000.0,
+                5104672223000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                937108093000.0,
+                929283294000.0,
+                870519926000.0,
+                865251541000.0,
+                1016439967000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                null,
+                642782757000.0,
+                761733308000.0,
+                666128962000.0,
+                922752922000.0,
+                940440828000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                287792611000.0,
+                299029540000.0,
+                290293758000.0,
+                272708505000.0,
+                306085648000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                961558418000.0,
+                1095772784000.0,
+                989633136000.0,
+                1227783519000.0,
+                1286493270000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                2542911463000.0,
+                2747385466000.0,
+                2507334694000.0,
+                3072530184000.0,
+                3133908868000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                1645201565000.0,
+                1641859904000.0,
+                1460387759000.0,
+                1636166359000.0,
+                1772771627000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                13888735922.0,
+                13890218922.0,
+                13890218922.0,
+                13962738922.0,
+                13962738922.0
+              ]
+            }
+          }
+        }
+      },
+      "cashflow": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-12-31",
+            "2022-12-31",
+            "2023-12-31",
+            "2024-12-31",
+            "2025-12-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                109708366000.0,
+                445552717000.0,
+                166028839000.0,
+                226852474000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                null,
+                -101659750000.0,
+                -118950570000.0,
+                -144041389000.0,
+                -175512962000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                8048616000.0,
+                326602147000.0,
+                21987450000.0,
+                51339512000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -45439706000.0,
+                -137874110000.0,
+                -300045818000.0,
+                -304689272000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -87871602000.0,
+                -160638323000.0,
+                -164071910000.0,
+                169946814000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                null,
+                1062326324000.0,
+                1197662695000.0,
+                937108093000.0,
+                1016439967000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                184662484000.0,
+                -51063465000.0,
+                72939050000.0,
+                -71411309000.0,
+                276388198000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                -43851085000.0,
+                -44152251000.0,
+                -33763885000.0,
+                -36244607000.0,
+                -61352219000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                140811399000.0,
+                -95215716000.0,
+                39175165000.0,
+                -107655916000.0,
+                215035979000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                -62720737000.0,
+                -63552956000.0,
+                24197157000.0,
+                -88989424000.0,
+                -176344049000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                16474102000.0,
+                93552135000.0,
+                -54074910000.0,
+                115290996000.0,
+                15178593000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                937108093000.0,
+                929283294000.0,
+                870519926000.0,
+                865251541000.0,
+                1016439967000.0
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
   "CEG": {
     "metrics": {
       "name": "Constellation Energy Corporation",
       "sector": "Utilities",
       "industry": "Utilities - Independent Power Producers",
-      "marketCap": "$106.07B",
-      "enterpriseValue": "$112.17B",
+      "marketCap": "$113.59B",
+      "enterpriseValue": "$119.69B",
       "revenue": "$25.53B",
       "revenueGrowth": "12.9%",
       "grossMargin": "18.4%",
       "operatingMargin": "9.6%",
       "profitMargin": "9.1%",
-      "forwardPE": "21.4",
-      "trailingPE": "39.5",
+      "forwardPE": "22.9",
+      "trailingPE": "42.4",
       "freeCashFlow": "$1.26B",
       "operatingCashFlow": "$4.24B",
       "totalCash": "$3.64B",
       "totalDebt": "$9.50B",
       "fiftyTwoWkHigh": "412.70",
-      "fiftyTwoWkLow": "216.50",
+      "fiftyTwoWkLow": "216.75",
       "beta": "1.19",
-      "dividendYield": "58.0%"
+      "dividendYield": "54.0%"
     },
     "narrative": "Power generation contracts for AI data centers. U.S. DC demand: 176 TWh (2023) → 325–580 TWh (2028).",
     "statements": {
@@ -9674,15 +16988,15 @@ window.FINANCIALS = {
       "name": "Vistra Corp.",
       "sector": "Utilities",
       "industry": "Utilities - Independent Power Producers",
-      "marketCap": "$53.10B",
-      "enterpriseValue": "$74.96B",
+      "marketCap": "$55.64B",
+      "enterpriseValue": "$77.49B",
       "revenue": "$17.74B",
       "revenueGrowth": "13.6%",
       "grossMargin": "33.2%",
       "operatingMargin": "13.2%",
       "profitMargin": "5.3%",
-      "forwardPE": "14.1",
-      "trailingPE": "71.9",
+      "forwardPE": "14.7",
+      "trailingPE": "75.0",
       "freeCashFlow": "$-459.2M",
       "operatingCashFlow": "$4.07B",
       "totalCash": "$795.0M",
@@ -9690,7 +17004,7 @@ window.FINANCIALS = {
       "fiftyTwoWkHigh": "219.82",
       "fiftyTwoWkLow": "122.30",
       "beta": "1.50",
-      "dividendYield": "58.0%"
+      "dividendYield": "55.0%"
     },
     "narrative": "Gas peakers and nuclear for AI data center demand. Beneficiary of PJM's projected 6GW shortfall by 2027.",
     "statements": {
@@ -10368,28 +17682,707 @@ window.FINANCIALS = {
       }
     }
   },
+  "TLN": {
+    "metrics": {
+      "name": "Talen Energy Corporation",
+      "sector": "Utilities",
+      "industry": "Utilities - Independent Power Producers",
+      "marketCap": "$16.65B",
+      "enterpriseValue": "$22.79B",
+      "revenue": "$2.63B",
+      "revenueGrowth": "58.0%",
+      "grossMargin": "38.1%",
+      "operatingMargin": "-36.1%",
+      "profitMargin": "-8.3%",
+      "forwardPE": "11.4",
+      "trailingPE": null,
+      "freeCashFlow": "$1.09B",
+      "operatingCashFlow": "$704.0M",
+      "totalCash": "$689.0M",
+      "totalDebt": "$6.83B",
+      "fiftyTwoWkHigh": "451.28",
+      "fiftyTwoWkLow": "206.01",
+      "beta": "1.78",
+      "dividendYield": null
+    },
+    "narrative": "Overweight. Susquehanna nuclear PPA precedent; growing dedicated AI capacity book; recently signed incremental 2GW agreement.",
+    "statements": {
+      "income": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-12-31",
+            "2022-12-31",
+            "2024-12-31",
+            "2025-12-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                1775000000.0,
+                2412000000.0,
+                2073000000.0,
+                2626000000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                1534000000.0,
+                1642000000.0,
+                1409000000.0,
+                1625000000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                241000000.0,
+                770000000.0,
+                664000000.0,
+                1001000000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                687000000.0,
+                666000000.0,
+                499000000.0,
+                985000000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                -446000000.0,
+                104000000.0,
+                165000000.0,
+                16000000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                -326000000.0,
+                -359000000.0,
+                -238000000.0,
+                -302000000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                -1286000000.0,
+                -1328000000.0,
+                1111000000.0,
+                -166000000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                -297000000.0,
+                -35000000.0,
+                98000000.0,
+                53000000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                -989000000.0,
+                -1289000000.0,
+                998000000.0,
+                -219000000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                -309000000.0,
+                -326000000.0,
+                1757000000.0,
+                512000000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                null,
+                488000000.0,
+                631000000.0,
+                454000000.0,
+                770000000.0,
+                771000000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                null,
+                336000000.0,
+                440000000.0,
+                360000000.0,
+                417000000.0,
+                408000000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                null,
+                152000000.0,
+                191000000.0,
+                94000000.0,
+                353000000.0,
+                363000000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                null,
+                139000000.0,
+                115000000.0,
+                120000000.0,
+                126000000.0,
+                624000000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                null,
+                13000000.0,
+                76000000.0,
+                -26000000.0,
+                227000000.0,
+                -261000000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                null,
+                -51000000.0,
+                -74000000.0,
+                -62000000.0,
+                -67000000.0,
+                -99000000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                null,
+                -26000000.0,
+                -187000000.0,
+                97000000.0,
+                304000000.0,
+                -380000000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                null,
+                -94000000.0,
+                -52000000.0,
+                25000000.0,
+                97000000.0,
+                -17000000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                null,
+                82000000.0,
+                -135000000.0,
+                72000000.0,
+                207000000.0,
+                -363000000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                null,
+                124000000.0,
+                -15000000.0,
+                246000000.0,
+                465000000.0,
+                -184000000.0
+              ]
+            }
+          }
+        }
+      },
+      "balance": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-12-31",
+            "2022-12-31",
+            "2023-12-31",
+            "2024-12-31",
+            "2025-12-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                2000000.0,
+                7121000000.0,
+                6106000000.0,
+                10905000000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                1000000.0,
+                400000000.0,
+                328000000.0,
+                689000000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                null,
+                1858000000.0,
+                9000000.0,
+                17000000.0,
+                29000000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                2494000000.0,
+                2811000000.0,
+                2987000000.0,
+                6782000000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                4352000000.0,
+                2820000000.0,
+                3004000000.0,
+                6811000000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                3000000.0,
+                4587000000.0,
+                4719000000.0,
+                9812000000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                -1000000.0,
+                2457000000.0,
+                1387000000.0,
+                1093000000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                53254954.0,
+                45961910.0,
+                45687828.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                6106000000.0,
+                5865000000.0,
+                5827000000.0,
+                6097000000.0,
+                10905000000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                328000000.0,
+                295000000.0,
+                122000000.0,
+                497000000.0,
+                689000000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                null,
+                17000000.0,
+                17000000.0,
+                87000000.0,
+                17000000.0,
+                29000000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                2987000000.0,
+                2975000000.0,
+                2972000000.0,
+                2969000000.0,
+                6782000000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                3004000000.0,
+                2992000000.0,
+                3059000000.0,
+                2986000000.0,
+                6811000000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                4719000000.0,
+                4685000000.0,
+                4581000000.0,
+                4628000000.0,
+                9812000000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                1387000000.0,
+                1180000000.0,
+                1246000000.0,
+                1469000000.0,
+                1093000000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                45961910.0,
+                45509780.0,
+                45659227.0,
+                45687828.0,
+                45687828.0
+              ]
+            }
+          }
+        }
+      },
+      "cashflow": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-12-31",
+            "2022-12-31",
+            "2024-12-31",
+            "2025-12-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                -291000000.0,
+                187000000.0,
+                256000000.0,
+                704000000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                -250000000.0,
+                -312000000.0,
+                -189000000.0,
+                -206000000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                -541000000.0,
+                -125000000.0,
+                67000000.0,
+                498000000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                -328000000.0,
+                -368000000.0,
+                1171000000.0,
+                -4003000000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                1011000000.0,
+                426000000.0,
+                -1963000000.0,
+                3686000000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                753000000.0,
+                988000000.0,
+                365000000.0,
+                752000000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                10000000.0,
+                119000000.0,
+                -184000000.0,
+                489000000.0,
+                280000000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                null,
+                -42000000.0,
+                -64000000.0,
+                -37000000.0,
+                -65000000.0,
+                -40000000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                -32000000.0,
+                55000000.0,
+                -221000000.0,
+                424000000.0,
+                240000000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -54000000.0,
+                -68000000.0,
+                -46000000.0,
+                -42000000.0,
+                -3847000000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -723000000.0,
+                -96000000.0,
+                45000000.0,
+                -85000000.0,
+                3822000000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                null,
+                365000000.0,
+                320000000.0,
+                135000000.0,
+                497000000.0,
+                752000000.0
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
   "NEE": {
     "metrics": {
       "name": "NextEra Energy, Inc.",
       "sector": "Utilities",
       "industry": "Utilities - Regulated Electric",
-      "marketCap": "$200.71B",
-      "enterpriseValue": "$293.80B",
-      "revenue": "$27.41B",
-      "revenueGrowth": "20.7%",
-      "grossMargin": "62.3%",
-      "operatingMargin": "24.4%",
-      "profitMargin": "24.9%",
-      "forwardPE": "22.0",
-      "trailingPE": "24.4",
-      "freeCashFlow": "$-15.21B",
-      "operatingCashFlow": "$12.49B",
-      "totalCash": "$2.81B",
-      "totalDebt": "$97.22B",
-      "fiftyTwoWkHigh": "96.70",
+      "marketCap": "$198.69B",
+      "enterpriseValue": "$313.14B",
+      "revenue": "$27.87B",
+      "revenueGrowth": "7.3%",
+      "grossMargin": "61.4%",
+      "operatingMargin": "30.2%",
+      "profitMargin": "29.4%",
+      "forwardPE": "21.7",
+      "trailingPE": "24.2",
+      "freeCashFlow": "$-18.45B",
+      "operatingCashFlow": "$12.33B",
+      "totalCash": "$2.00B",
+      "totalDebt": "$104.40B",
+      "fiftyTwoWkHigh": "97.63",
       "fiftyTwoWkLow": "63.88",
       "beta": "0.73",
-      "dividendYield": "277.0%"
+      "dividendYield": "262.0%"
     },
     "narrative": "Largest U.S. renewable generator. PPA counterparty for hyperscaler clean-energy commitments.",
     "statements": {
@@ -10524,128 +18517,128 @@ window.FINANCIALS = {
         },
         "quarterly": {
           "periods": [
-            "Q4 '24",
             "Q1 '25",
             "Q2 '25",
             "Q3 '25",
-            "Q4 '25"
+            "Q4 '25",
+            "Q1 '26"
           ],
           "dates": [
-            "2024-12-31",
             "2025-03-31",
             "2025-06-30",
             "2025-09-30",
-            "2025-12-31"
+            "2025-12-31",
+            "2026-03-31"
           ],
           "rows": {
             "revenue": {
               "label": "Total Revenue",
               "highlight": true,
               "values": [
-                5385000000.0,
                 6247000000.0,
                 6700000000.0,
                 7966000000.0,
-                6500000000.0
+                6500000000.0,
+                6701000000.0
               ]
             },
             "cogs": {
               "label": "Cost Of Revenue",
               "highlight": false,
               "values": [
-                2408000000.0,
                 2338000000.0,
                 2404000000.0,
                 2833000000.0,
-                2769000000.0
+                2769000000.0,
+                2751000000.0
               ]
             },
             "grossProfit": {
               "label": "Gross Profit",
               "highlight": true,
               "values": [
-                2977000000.0,
                 3909000000.0,
                 4296000000.0,
                 5133000000.0,
-                3731000000.0
+                3731000000.0,
+                3950000000.0
               ]
             },
             "opex": {
               "label": "Operating Expense",
               "highlight": false,
               "values": [
-                2070000000.0,
                 1689000000.0,
                 2403000000.0,
                 2749000000.0,
-                2208000000.0
+                2208000000.0,
+                1999000000.0
               ]
             },
             "operatingIncome": {
               "label": "Operating Income",
               "highlight": true,
               "values": [
-                907000000.0,
                 2220000000.0,
                 1893000000.0,
                 2384000000.0,
-                1523000000.0
+                1523000000.0,
+                1951000000.0
               ]
             },
             "otherIncome": {
               "label": "Net Non Operating Interest Income Expense",
               "highlight": false,
               "values": [
-                725000000.0,
                 -1774000000.0,
                 -1060000000.0,
                 -1153000000.0,
-                -585000000.0
+                -585000000.0,
+                -1287000000.0
               ]
             },
             "pretaxIncome": {
               "label": "Pretax Income",
               "highlight": true,
               "values": [
-                1044000000.0,
                 -57000000.0,
                 1383000000.0,
                 1885000000.0,
-                1318000000.0
+                1318000000.0,
+                1199000000.0
               ]
             },
             "tax": {
               "label": "Tax Provision",
               "highlight": false,
               "values": [
-                171000000.0,
                 -521000000.0,
                 -256000000.0,
                 -250000000.0,
-                225000000.0
+                225000000.0,
+                -489000000.0
               ]
             },
             "netIncome": {
               "label": "Net Income",
               "highlight": true,
               "values": [
-                1203000000.0,
                 833000000.0,
                 2028000000.0,
                 2438000000.0,
-                1535000000.0
+                1535000000.0,
+                2182000000.0
               ]
             },
             "ebitda": {
               "label": "EBITDA",
               "highlight": false,
               "values": [
-                1901000000.0,
                 2893000000.0,
                 4300000000.0,
                 5231000000.0,
-                3618000000.0
+                3618000000.0,
+                3948000000.0
               ]
             }
           }
@@ -10764,102 +18757,112 @@ window.FINANCIALS = {
             "Q1 '25",
             "Q2 '25",
             "Q3 '25",
-            "Q4 '25"
+            "Q4 '25",
+            "Q1 '26"
           ],
           "dates": [
             "2024-12-31",
             "2025-03-31",
             "2025-06-30",
             "2025-09-30",
-            "2025-12-31"
+            "2025-12-31",
+            "2026-03-31"
           ],
           "rows": {
             "totalAssets": {
               "label": "Total Assets",
               "highlight": true,
               "values": [
-                190144000000.0,
+                null,
                 194264000000.0,
                 198830000000.0,
                 204354000000.0,
-                212721000000.0
+                212721000000.0,
+                221424000000.0
               ]
             },
             "cash": {
               "label": "Cash And Cash Equivalents",
               "highlight": false,
               "values": [
-                1487000000.0,
+                null,
                 2419000000.0,
                 1728000000.0,
                 2391000000.0,
-                2812000000.0
+                2812000000.0,
+                1998000000.0
               ]
             },
             "shortTermDebt": {
               "label": "Current Debt",
               "highlight": false,
               "values": [
-                9948000000.0,
+                null,
                 9864000000.0,
                 10499000000.0,
                 8953000000.0,
-                6063000000.0
+                6063000000.0,
+                10455000000.0
               ]
             },
             "longTermDebt": {
               "label": "Long Term Debt",
               "highlight": false,
               "values": [
-                72385000000.0,
+                null,
                 79814000000.0,
                 82690000000.0,
                 84169000000.0,
-                89556000000.0
+                89556000000.0,
+                93948000000.0
               ]
             },
             "totalDebt": {
               "label": "Total Debt",
               "highlight": true,
               "values": [
-                82333000000.0,
+                null,
                 89678000000.0,
                 93189000000.0,
                 93122000000.0,
-                95619000000.0
+                95619000000.0,
+                104403000000.0
               ]
             },
             "totalLiab": {
               "label": "Total Liabilities Net Minority Interest",
               "highlight": true,
               "values": [
-                129283000000.0,
+                null,
                 133898000000.0,
                 137898000000.0,
                 139758000000.0,
-                146242000000.0
+                146242000000.0,
+                154792000000.0
               ]
             },
             "stockholdersEquity": {
               "label": "Stockholders Equity",
               "highlight": true,
               "values": [
-                50101000000.0,
+                null,
                 49812000000.0,
                 50797000000.0,
                 54181000000.0,
-                54608000000.0
+                54608000000.0,
+                55222000000.0
               ]
             },
             "sharesOutstanding": {
               "label": "Ordinary Shares Number",
               "highlight": false,
               "values": [
-                2057000000.0,
+                null,
                 2058631107.0,
                 2059292588.0,
                 2082609684.0,
-                2083000000.0
+                2083000000.0,
+                2085341456.0
               ]
             }
           }
@@ -10957,7 +18960,8 @@ window.FINANCIALS = {
             "Q1 '25",
             "Q2 '25",
             "Q3 '25",
-            "Q4 '25"
+            "Q4 '25",
+            "Q1 '26"
           ],
           "dates": [
             "2024-09-30",
@@ -10965,7 +18969,8 @@ window.FINANCIALS = {
             "2025-03-31",
             "2025-06-30",
             "2025-09-30",
-            "2025-12-31"
+            "2025-12-31",
+            "2026-03-31"
           ],
           "rows": {
             "operatingCF": {
@@ -10973,11 +18978,12 @@ window.FINANCIALS = {
               "highlight": true,
               "values": [
                 null,
-                1981000000.0,
+                null,
                 2769000000.0,
                 3189000000.0,
                 4028000000.0,
-                2499000000.0
+                2499000000.0,
+                2614000000.0
               ]
             },
             "capex": {
@@ -10985,11 +18991,12 @@ window.FINANCIALS = {
               "highlight": false,
               "values": [
                 null,
-                -1842000000.0,
+                null,
                 -2501000000.0,
                 -2069000000.0,
                 -2482000000.0,
-                -2222000000.0
+                -2222000000.0,
+                -3194000000.0
               ]
             },
             "freeCashFlow": {
@@ -10997,11 +19004,12 @@ window.FINANCIALS = {
               "highlight": true,
               "values": [
                 null,
-                139000000.0,
+                null,
                 268000000.0,
                 1120000000.0,
                 1546000000.0,
-                277000000.0
+                277000000.0,
+                -580000000.0
               ]
             },
             "investingCF": {
@@ -11009,11 +19017,12 @@ window.FINANCIALS = {
               "highlight": false,
               "values": [
                 null,
-                -3880000000.0,
+                null,
                 -7724000000.0,
                 -5821000000.0,
                 -5108000000.0,
-                -5212000000.0
+                -5212000000.0,
+                -10821000000.0
               ]
             },
             "financingCF": {
@@ -11021,11 +19030,12 @@ window.FINANCIALS = {
               "highlight": false,
               "values": [
                 null,
-                741000000.0,
+                null,
                 6103000000.0,
                 2057000000.0,
                 1816000000.0,
-                3003000000.0
+                3003000000.0,
+                7679000000.0
               ]
             },
             "endCash": {
@@ -11033,11 +19043,12 @@ window.FINANCIALS = {
               "highlight": false,
               "values": [
                 null,
-                1402000000.0,
+                null,
                 2550000000.0,
                 1982000000.0,
                 2714000000.0,
-                3006000000.0
+                3006000000.0,
+                2475000000.0
               ]
             }
           }
@@ -11050,14 +19061,14 @@ window.FINANCIALS = {
       "name": "Oklo Inc.",
       "sector": "Utilities",
       "industry": "Utilities - Independent Power Producers",
-      "marketCap": "$13.30B",
-      "enterpriseValue": "$12.04B",
+      "marketCap": "$12.35B",
+      "enterpriseValue": "$11.10B",
       "revenue": null,
       "revenueGrowth": null,
       "grossMargin": "0.0%",
       "operatingMargin": "0.0%",
       "profitMargin": "0.0%",
-      "forwardPE": "-90.6",
+      "forwardPE": "-81.5",
       "trailingPE": null,
       "freeCashFlow": "$-79.8M",
       "operatingCashFlow": "$-82.2M",
@@ -11703,14 +19714,14 @@ window.FINANCIALS = {
       "name": "NANO Nuclear Energy Inc.",
       "sector": "Industrials",
       "industry": "Specialty Industrial Machinery",
-      "marketCap": "$1.32B",
-      "enterpriseValue": "$742.3M",
+      "marketCap": "$1.28B",
+      "enterpriseValue": "$698.8M",
       "revenue": null,
       "revenueGrowth": null,
       "grossMargin": "0.0%",
       "operatingMargin": "0.0%",
       "profitMargin": "0.0%",
-      "forwardPE": "-22.7",
+      "forwardPE": "-21.9",
       "trailingPE": null,
       "freeCashFlow": "$-28.8M",
       "operatingCashFlow": "$-20.4M",
@@ -12276,12 +20287,2103 @@ window.FINANCIALS = {
       }
     }
   },
+  "AMAT": {
+    "metrics": {
+      "name": "Applied Materials, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "marketCap": "$330.97B",
+      "enterpriseValue": "$329.65B",
+      "revenue": "$28.21B",
+      "revenueGrowth": "-2.1%",
+      "grossMargin": "48.7%",
+      "operatingMargin": "29.9%",
+      "profitMargin": "27.8%",
+      "forwardPE": "29.6",
+      "trailingPE": "42.7",
+      "freeCashFlow": "$4.34B",
+      "operatingCashFlow": "$8.72B",
+      "totalCash": "$8.51B",
+      "totalDebt": "$7.19B",
+      "fiftyTwoWkHigh": "420.50",
+      "fiftyTwoWkLow": "144.71",
+      "beta": "1.64",
+      "dividendYield": "51.0%"
+    },
+    "narrative": "Overweight. Benefits from TSMC 2nm ramp; leading deposition + etch share. Diversified across logic, memory, packaging.",
+    "statements": {
+      "income": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-10-31",
+            "2022-10-31",
+            "2023-10-31",
+            "2024-10-31",
+            "2025-10-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                null,
+                25785000000.0,
+                26517000000.0,
+                27176000000.0,
+                28368000000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                null,
+                13792000000.0,
+                14133000000.0,
+                14279000000.0,
+                14560000000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                null,
+                11993000000.0,
+                12384000000.0,
+                12897000000.0,
+                13808000000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                null,
+                4209000000.0,
+                4730000000.0,
+                5030000000.0,
+                5338000000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                null,
+                7784000000.0,
+                7654000000.0,
+                7867000000.0,
+                8470000000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                null,
+                -189000000.0,
+                62000000.0,
+                285000000.0,
+                982000000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                null,
+                7599000000.0,
+                7716000000.0,
+                8152000000.0,
+                9271000000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                null,
+                1074000000.0,
+                860000000.0,
+                975000000.0,
+                2273000000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                null,
+                6525000000.0,
+                6856000000.0,
+                7177000000.0,
+                6998000000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                null,
+                8271000000.0,
+                8469000000.0,
+                8791000000.0,
+                9975000000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25",
+            "Q1 '26"
+          ],
+          "dates": [
+            "2025-01-31",
+            "2025-04-30",
+            "2025-07-31",
+            "2025-10-31",
+            "2026-01-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                7166000000.0,
+                7100000000.0,
+                7302000000.0,
+                6800000000.0,
+                7012000000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                3670000000.0,
+                3615000000.0,
+                3740000000.0,
+                3535000000.0,
+                3577000000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                3496000000.0,
+                3485000000.0,
+                3562000000.0,
+                3265000000.0,
+                3435000000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                1321000000.0,
+                1316000000.0,
+                1329000000.0,
+                1372000000.0,
+                1339000000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                2175000000.0,
+                2169000000.0,
+                2233000000.0,
+                1893000000.0,
+                2096000000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                -56000000.0,
+                153000000.0,
+                330000000.0,
+                555000000.0,
+                497000000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                2119000000.0,
+                2322000000.0,
+                2563000000.0,
+                2267000000.0,
+                2328000000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                934000000.0,
+                185000000.0,
+                784000000.0,
+                370000000.0,
+                302000000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                1185000000.0,
+                2137000000.0,
+                1779000000.0,
+                1897000000.0,
+                2026000000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                2288000000.0,
+                2493000000.0,
+                2742000000.0,
+                2452000000.0,
+                2524000000.0
+              ]
+            }
+          }
+        }
+      },
+      "balance": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-10-31",
+            "2022-10-31",
+            "2023-10-31",
+            "2024-10-31",
+            "2025-10-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                26726000000.0,
+                30729000000.0,
+                34409000000.0,
+                36299000000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                1995000000.0,
+                6132000000.0,
+                8022000000.0,
+                7241000000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                100000000.0,
+                800000000.0,
+                100000000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                5457000000.0,
+                5461000000.0,
+                5460000000.0,
+                6455000000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                5829000000.0,
+                5999000000.0,
+                6606000000.0,
+                7050000000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                14532000000.0,
+                14380000000.0,
+                15408000000.0,
+                15884000000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                12194000000.0,
+                16349000000.0,
+                19001000000.0,
+                20415000000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                844000000.0,
+                833000000.0,
+                818000000.0,
+                793000000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25",
+            "Q1 '26"
+          ],
+          "dates": [
+            "2024-07-31",
+            "2024-10-31",
+            "2025-01-31",
+            "2025-04-30",
+            "2025-07-31",
+            "2025-10-31",
+            "2026-01-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                33338000000.0,
+                33632000000.0,
+                34211000000.0,
+                36299000000.0,
+                37644000000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                6264000000.0,
+                6169000000.0,
+                5384000000.0,
+                7241000000.0,
+                7218000000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                799000000.0,
+                799000000.0,
+                800000000.0,
+                100000000.0,
+                100000000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                5461000000.0,
+                5462000000.0,
+                5463000000.0,
+                6455000000.0,
+                6453000000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                6588000000.0,
+                6670000000.0,
+                6763000000.0,
+                7050000000.0,
+                7190000000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                14713000000.0,
+                14671000000.0,
+                14707000000.0,
+                15884000000.0,
+                15927000000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                18625000000.0,
+                18961000000.0,
+                19504000000.0,
+                20415000000.0,
+                21717000000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                812440849.0,
+                802498217.0,
+                796642427.0,
+                793000000.0,
+                793609867.0
+              ]
+            }
+          }
+        }
+      },
+      "cashflow": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-10-31",
+            "2022-10-31",
+            "2023-10-31",
+            "2024-10-31",
+            "2025-10-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                5399000000.0,
+                8700000000.0,
+                8677000000.0,
+                7958000000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                null,
+                -787000000.0,
+                -1106000000.0,
+                -1190000000.0,
+                -2260000000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                4612000000.0,
+                7594000000.0,
+                7487000000.0,
+                5698000000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -1357000000.0,
+                -1535000000.0,
+                -2327000000.0,
+                -2782000000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -7043000000.0,
+                -3032000000.0,
+                -4470000000.0,
+                -5977000000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                null,
+                2100000000.0,
+                6233000000.0,
+                8113000000.0,
+                7312000000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25",
+            "Q1 '26"
+          ],
+          "dates": [
+            "2024-07-31",
+            "2024-10-31",
+            "2025-01-31",
+            "2025-04-30",
+            "2025-07-31",
+            "2025-10-31",
+            "2026-01-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                925000000.0,
+                1571000000.0,
+                2634000000.0,
+                2828000000.0,
+                1686000000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                -381000000.0,
+                -510000000.0,
+                -584000000.0,
+                -785000000.0,
+                -646000000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                544000000.0,
+                1061000000.0,
+                2050000000.0,
+                2043000000.0,
+                1040000000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                -897000000.0,
+                221000000.0,
+                -1967000000.0,
+                -139000000.0,
+                -780000000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                -1786000000.0,
+                -1903000000.0,
+                -1457000000.0,
+                -831000000.0,
+                -931000000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                6355000000.0,
+                6244000000.0,
+                5454000000.0,
+                7312000000.0,
+                7287000000.0
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "LRCX": {
+    "metrics": {
+      "name": "Lam Research Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "marketCap": "$334.88B",
+      "enterpriseValue": "$333.86B",
+      "revenue": "$21.68B",
+      "revenueGrowth": "23.8%",
+      "grossMargin": "50.0%",
+      "operatingMargin": "35.0%",
+      "profitMargin": "30.9%",
+      "forwardPE": "34.5",
+      "trailingPE": "50.5",
+      "freeCashFlow": "$4.35B",
+      "operatingCashFlow": "$6.95B",
+      "totalCash": "$4.75B",
+      "totalDebt": "$3.73B",
+      "fiftyTwoWkHigh": "275.84",
+      "fiftyTwoWkLow": "68.53",
+      "beta": "1.79",
+      "dividendYield": "39.0%"
+    },
+    "narrative": "Overweight. Etch leadership + memory exposure (HBM ramp). Leveraged to 2026 memory cycle.",
+    "statements": {
+      "income": {
+        "annual": {
+          "periods": [
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2022-06-30",
+            "2023-06-30",
+            "2024-06-30",
+            "2025-06-30"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                17227039000.0,
+                17428516000.0,
+                14905386000.0,
+                18435591000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                9355232000.0,
+                9651591000.0,
+                7852595000.0,
+                9456532000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                7871807000.0,
+                7776925000.0,
+                7052791000.0,
+                8979059000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                2489985000.0,
+                2559915000.0,
+                2770691000.0,
+                3078091000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                5381822000.0,
+                5217010000.0,
+                4282100000.0,
+                5900968000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                -169550000.0,
+                -47478000.0,
+                66702000.0,
+                53128000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                5193114000.0,
+                5109210000.0,
+                4360222000.0,
+                5958129000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                587828000.0,
+                598279000.0,
+                532450000.0,
+                599912000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                4605286000.0,
+                4510931000.0,
+                3827772000.0,
+                5358217000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                5711612000.0,
+                5638104000.0,
+                4905157000.0,
+                6522609000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25",
+            "Q1 '26"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31",
+            "2026-03-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                4720175000.0,
+                5171393000.0,
+                5324173000.0,
+                5344791000.0,
+                5841488000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                2406489000.0,
+                2581684000.0,
+                2639294000.0,
+                2693629000.0,
+                2930961000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                2313686000.0,
+                2589709000.0,
+                2684879000.0,
+                2651162000.0,
+                2910527000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                751927000.0,
+                848581000.0,
+                855791000.0,
+                840959000.0,
+                863511000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                1561759000.0,
+                1741128000.0,
+                1829088000.0,
+                1810203000.0,
+                2047016000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                5454000.0,
+                11859000.0,
+                21458000.0,
+                12279000.0,
+                3306000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                1536724000.0,
+                1778981000.0,
+                1859162000.0,
+                1836613000.0,
+                2011556000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                206057000.0,
+                58893000.0,
+                290502000.0,
+                242619000.0,
+                186096000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                1330667000.0,
+                1720088000.0,
+                1568660000.0,
+                1593994000.0,
+                1825460000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                1679251000.0,
+                1920194000.0,
+                2003278000.0,
+                1981414000.0,
+                2167211000.0
+              ]
+            }
+          }
+        }
+      },
+      "balance": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-06-30",
+            "2022-06-30",
+            "2023-06-30",
+            "2024-06-30",
+            "2025-06-30"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                17195632000.0,
+                18781643000.0,
+                18744728000.0,
+                21345260000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                3522001000.0,
+                5337056000.0,
+                5847856000.0,
+                6390659000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                421000.0,
+                501316000.0,
+                749670000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                4962459000.0,
+                4964944000.0,
+                4466045000.0,
+                3719694000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                5005830000.0,
+                5011541000.0,
+                4983334000.0,
+                4484505000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                10917266000.0,
+                10571471000.0,
+                10205274000.0,
+                11483641000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                6278366000.0,
+                8210172000.0,
+                8539454000.0,
+                9861619000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                1369750000.0,
+                1332970000.0,
+                1303770000.0,
+                1268740000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25",
+            "Q1 '26"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31",
+            "2026-03-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                19968310000.0,
+                21345260000.0,
+                21900211000.0,
+                21391171000.0,
+                20791910000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                5450718000.0,
+                6390659000.0,
+                6693046000.0,
+                6180440000.0,
+                4750936000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                null,
+                754306000.0,
+                749670000.0,
+                754363000.0,
+                754006000.0,
+                4095000.0
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                3730034000.0,
+                3719694000.0,
+                3729580000.0,
+                3729742000.0,
+                3730384000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                4484340000.0,
+                4484505000.0,
+                4483943000.0,
+                4483748000.0,
+                3734479000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                10457205000.0,
+                11483641000.0,
+                11707459000.0,
+                11245745000.0,
+                10207131000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                9511105000.0,
+                9861619000.0,
+                10192752000.0,
+                10145426000.0,
+                10584779000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                1282957000.0,
+                1268740000.0,
+                1259176000.0,
+                1251180000.0,
+                1250539000.0
+              ]
+            }
+          }
+        }
+      },
+      "cashflow": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-06-30",
+            "2022-06-30",
+            "2023-06-30",
+            "2024-06-30",
+            "2025-06-30"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                3099674000.0,
+                5178938000.0,
+                4652269000.0,
+                6173264000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                null,
+                -546034000.0,
+                -501568000.0,
+                -396670000.0,
+                -759186000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                2553640000.0,
+                4677370000.0,
+                4255599000.0,
+                5414078000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                612275000.0,
+                -534562000.0,
+                -370614000.0,
+                -708092000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -4578937000.0,
+                -2830667000.0,
+                -3995850000.0,
+                -4936643000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                null,
+                3773535000.0,
+                5587372000.0,
+                5850803000.0,
+                6407656000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25",
+            "Q1 '26"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31",
+            "2026-03-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                1308663000.0,
+                2554188000.0,
+                1778964000.0,
+                1480045000.0,
+                1141420000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                -288058000.0,
+                -172191000.0,
+                -185121000.0,
+                -260879000.0,
+                -331604000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                null,
+                1020605000.0,
+                2381997000.0,
+                1593843000.0,
+                1219166000.0,
+                809816000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                -292915000.0,
+                -129251000.0,
+                -186048000.0,
+                -257783000.0,
+                -334580000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                -1232555000.0,
+                -1509537000.0,
+                -1281638000.0,
+                -1725202000.0,
+                -2230638000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                null,
+                null,
+                5462972000.0,
+                6407656000.0,
+                6711875000.0,
+                6195598000.0,
+                4766821000.0
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "KLAC": {
+    "metrics": {
+      "name": "KLA Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "marketCap": "$254.24B",
+      "enterpriseValue": "$254.54B",
+      "revenue": "$12.74B",
+      "revenueGrowth": "7.2%",
+      "grossMargin": "61.6%",
+      "operatingMargin": "41.3%",
+      "profitMargin": "35.8%",
+      "forwardPE": "40.1",
+      "trailingPE": "56.2",
+      "freeCashFlow": "$3.22B",
+      "operatingCashFlow": "$4.77B",
+      "totalCash": "$5.21B",
+      "totalDebt": "$6.11B",
+      "fiftyTwoWkHigh": "1939.36",
+      "fiftyTwoWkLow": "674.20",
+      "beta": "1.44",
+      "dividendYield": "39.0%"
+    },
+    "narrative": "Overweight. Process control monopoly; benefits from advanced-node yield-ramp complexity. Highest gross margins in equipment.",
+    "statements": {
+      "income": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-06-30",
+            "2022-06-30",
+            "2023-06-30",
+            "2024-06-30",
+            "2025-06-30"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                null,
+                9211883000.0,
+                10496056000.0,
+                9812247000.0,
+                12156162000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                null,
+                3592441000.0,
+                4218307000.0,
+                3928073000.0,
+                4751867000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                null,
+                5619442000.0,
+                6277749000.0,
+                5884174000.0,
+                7404295000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                null,
+                1965261000.0,
+                2283053000.0,
+                2248490000.0,
+                2390068000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                null,
+                3654181000.0,
+                3994696000.0,
+                3635684000.0,
+                5014227000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                null,
+                -151644000.0,
+                -222845000.0,
+                -150565000.0,
+                -121890000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                null,
+                3489237000.0,
+                3789190000.0,
+                3190032000.0,
+                4644448000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                null,
+                167177000.0,
+                401839000.0,
+                428136000.0,
+                582805000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                null,
+                3321807000.0,
+                3387277000.0,
+                2761896000.0,
+                4061643000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                null,
+                4012920000.0,
+                4501243000.0,
+                3903015000.0,
+                5340702000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "revenue": {
+              "label": "Total Revenue",
+              "highlight": true,
+              "values": [
+                3076851000.0,
+                3063029000.0,
+                3174741000.0,
+                3209696000.0,
+                3297146000.0
+              ]
+            },
+            "cogs": {
+              "label": "Cost Of Revenue",
+              "highlight": false,
+              "values": [
+                1221461000.0,
+                1175689000.0,
+                1207286000.0,
+                1243070000.0,
+                1271210000.0
+              ]
+            },
+            "grossProfit": {
+              "label": "Gross Profit",
+              "highlight": true,
+              "values": [
+                1855390000.0,
+                1887340000.0,
+                1967455000.0,
+                1966626000.0,
+                2025936000.0
+              ]
+            },
+            "opex": {
+              "label": "Operating Expense",
+              "highlight": false,
+              "values": [
+                613238000.0,
+                586948000.0,
+                615695000.0,
+                629449000.0,
+                663790000.0
+              ]
+            },
+            "operatingIncome": {
+              "label": "Operating Income",
+              "highlight": true,
+              "values": [
+                1242152000.0,
+                1300392000.0,
+                1351760000.0,
+                1337177000.0,
+                1362146000.0
+              ]
+            },
+            "otherIncome": {
+              "label": "Net Non Operating Interest Income Expense",
+              "highlight": false,
+              "values": [
+                -74981000.0,
+                -71889000.0,
+                107151000.0,
+                -71075000.0,
+                -69668000.0
+              ]
+            },
+            "pretaxIncome": {
+              "label": "Pretax Income",
+              "highlight": true,
+              "values": [
+                972529000.0,
+                1264433000.0,
+                1328799000.0,
+                1309476000.0,
+                1330303000.0
+              ]
+            },
+            "tax": {
+              "label": "Tax Provision",
+              "highlight": false,
+              "values": [
+                148002000.0,
+                176017000.0,
+                125950000.0,
+                188436000.0,
+                184621000.0
+              ]
+            },
+            "netIncome": {
+              "label": "Net Income",
+              "highlight": true,
+              "values": [
+                824527000.0,
+                1088416000.0,
+                1202849000.0,
+                1121040000.0,
+                1145682000.0
+              ]
+            },
+            "ebitda": {
+              "label": "EBITDA",
+              "highlight": false,
+              "values": [
+                1151432000.0,
+                1434413000.0,
+                1498176000.0,
+                1477567000.0,
+                1499239000.0
+              ]
+            }
+          }
+        }
+      },
+      "balance": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-06-30",
+            "2022-06-30",
+            "2023-06-30",
+            "2024-06-30",
+            "2025-06-30"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                12597088000.0,
+                14072357000.0,
+                15433566000.0,
+                16067926000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                1584908000.0,
+                1927865000.0,
+                1977129000.0,
+                2078908000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                20000000.0,
+                null,
+                null,
+                749936000.0,
+                null
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                6660718000.0,
+                5890736000.0,
+                5880199000.0,
+                5884257000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                6774305000.0,
+                6063132000.0,
+                6819643000.0,
+                6088282000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                11197998000.0,
+                11152604000.0,
+                12065238000.0,
+                11375473000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                1401351000.0,
+                2919753000.0,
+                3368328000.0,
+                4692453000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                141804000.0,
+                136750000.0,
+                134425000.0,
+                132023000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q3 '24",
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-09-30",
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "totalAssets": {
+              "label": "Total Assets",
+              "highlight": true,
+              "values": [
+                null,
+                15001696000.0,
+                15188307000.0,
+                16067926000.0,
+                16317974000.0,
+                16720228000.0
+              ]
+            },
+            "cash": {
+              "label": "Cash And Cash Equivalents",
+              "highlight": false,
+              "values": [
+                null,
+                1838278000.0,
+                1858022000.0,
+                2078908000.0,
+                1946211000.0,
+                2452124000.0
+              ]
+            },
+            "shortTermDebt": {
+              "label": "Current Debt",
+              "highlight": false,
+              "values": [
+                749984000.0,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            "longTermDebt": {
+              "label": "Long Term Debt",
+              "highlight": false,
+              "values": [
+                null,
+                5882387000.0,
+                5883322000.0,
+                5884257000.0,
+                5885193000.0,
+                5886128000.0
+              ]
+            },
+            "totalDebt": {
+              "label": "Total Debt",
+              "highlight": true,
+              "values": [
+                null,
+                6072613000.0,
+                6089173000.0,
+                6088282000.0,
+                6088119000.0,
+                6109478000.0
+              ]
+            },
+            "totalLiab": {
+              "label": "Total Liabilities Net Minority Interest",
+              "highlight": true,
+              "values": [
+                null,
+                11417147000.0,
+                11183568000.0,
+                11375473000.0,
+                11332903000.0,
+                11254497000.0
+              ]
+            },
+            "stockholdersEquity": {
+              "label": "Stockholders Equity",
+              "highlight": true,
+              "values": [
+                null,
+                3584549000.0,
+                4004739000.0,
+                4692453000.0,
+                4985071000.0,
+                5465731000.0
+              ]
+            },
+            "sharesOutstanding": {
+              "label": "Ordinary Shares Number",
+              "highlight": false,
+              "values": [
+                null,
+                132944000.0,
+                132241000.0,
+                132023000.0,
+                131516000.0,
+                131143000.0
+              ]
+            }
+          }
+        }
+      },
+      "cashflow": {
+        "annual": {
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "dates": [
+            "2021-06-30",
+            "2022-06-30",
+            "2023-06-30",
+            "2024-06-30",
+            "2025-06-30"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                3312702000.0,
+                3669805000.0,
+                3308575000.0,
+                4081903000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                null,
+                -307320000.0,
+                -341591000.0,
+                -277384000.0,
+                -340209000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                null,
+                3005382000.0,
+                3328214000.0,
+                3031191000.0,
+                3741694000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -876458000.0,
+                -482571000.0,
+                -1476985000.0,
+                -202481000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                null,
+                -2257005000.0,
+                -2830289000.0,
+                -1776017000.0,
+                -3785687000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                null,
+                1584908000.0,
+                1927865000.0,
+                1977129000.0,
+                2078908000.0
+              ]
+            }
+          }
+        },
+        "quarterly": {
+          "periods": [
+            "Q4 '24",
+            "Q1 '25",
+            "Q2 '25",
+            "Q3 '25",
+            "Q4 '25"
+          ],
+          "dates": [
+            "2024-12-31",
+            "2025-03-31",
+            "2025-06-30",
+            "2025-09-30",
+            "2025-12-31"
+          ],
+          "rows": {
+            "operatingCF": {
+              "label": "Operating Cash Flow",
+              "highlight": true,
+              "values": [
+                849515000.0,
+                1072159000.0,
+                1164991000.0,
+                1161591000.0,
+                1367607000.0
+              ]
+            },
+            "capex": {
+              "label": "Capital Expenditure",
+              "highlight": false,
+              "values": [
+                -92323000.0,
+                -84985000.0,
+                -102508000.0,
+                -95894000.0,
+                -105576000.0
+              ]
+            },
+            "freeCashFlow": {
+              "label": "Free Cash Flow",
+              "highlight": true,
+              "values": [
+                757192000.0,
+                987174000.0,
+                1062483000.0,
+                1065697000.0,
+                1262031000.0
+              ]
+            },
+            "investingCF": {
+              "label": "Investing Cash Flow",
+              "highlight": false,
+              "values": [
+                613706000.0,
+                -319803000.0,
+                -325345000.0,
+                -409988000.0,
+                -112682000.0
+              ]
+            },
+            "financingCF": {
+              "label": "Financing Cash Flow",
+              "highlight": false,
+              "values": [
+                -1582967000.0,
+                -735199000.0,
+                -629813000.0,
+                -881799000.0,
+                -747579000.0
+              ]
+            },
+            "endCash": {
+              "label": "End Cash Position",
+              "highlight": false,
+              "values": [
+                1838278000.0,
+                1858022000.0,
+                2078908000.0,
+                1946211000.0,
+                2452124000.0
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
   "DXYZ": {
     "metrics": {
       "name": "Destiny Tech100 Inc.",
       "sector": "Financial Services",
       "industry": "Asset Management",
-      "marketCap": "$648.3M",
+      "marketCap": "$647.0M",
       "enterpriseValue": null,
       "revenue": null,
       "revenueGrowth": null,
@@ -12569,12 +22671,12 @@ window.FINANCIALS = {
       "operatingMargin": null,
       "profitMargin": null,
       "forwardPE": null,
-      "trailingPE": "32.8",
+      "trailingPE": "33.6",
       "freeCashFlow": null,
       "operatingCashFlow": null,
       "totalCash": null,
       "totalDebt": null,
-      "fiftyTwoWkHigh": "78.62",
+      "fiftyTwoWkHigh": "79.41",
       "fiftyTwoWkLow": "34.65",
       "beta": null,
       "dividendYield": "276.0%"

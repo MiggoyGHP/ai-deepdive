@@ -5,8 +5,8 @@
 const SECTIONS = [
   { num: '01', title: 'The Great Divide' },
   { num: '02', title: 'Strategic Frameworks' },
-  { num: '03', title: "Who's Who" },
-  { num: '04', title: 'How to Own It' },
+  { num: '03', title: 'Compute Regimes' },
+  { num: '04', title: "Who's Who" },
   { num: '05', title: 'The Physical Stack' },
   { num: '06', title: "What's Changing Now" },
   { num: '07', title: 'Synthesis & Risks' },

@@ -13,12 +13,22 @@ TICKERS = [
     "MSFT", "GOOGL", "AMZN", "META",
     # AI compute + semis
     "NVDA", "TSM", "ASML", "AVGO", "MU", "AMD",
-    # Chinese / open-weight
-    "BABA",
-    # Server OEMs
-    "DELL", "SMCI",
-    # Power / energy
-    "CEG", "VST", "NEE", "OKLO", "NNE",
+    # Custom ASIC + AI networking (NEW v2)
+    "MRVL",
+    # Local-AI hardware (NEW v2)
+    "AAPL",
+    # Memory pure-play (NEW v2)
+    "SNDK",
+    # Neoclouds (NEW tier in v2)
+    "CRWV", "NBIS", "APLD", "IREN", "ORCL",
+    # Chinese / open-weight (expanded v2)
+    "BABA", "TCEHY", "BIDU",
+    # Server OEMs + EMS
+    "DELL", "SMCI", "2317.TW",
+    # Power / energy (TLN added v2)
+    "CEG", "VST", "TLN", "NEE", "OKLO", "NNE",
+    # Equipment cyclicality (NEW v2)
+    "AMAT", "LRCX", "KLAC",
     # Venture / thematic access
     "DXYZ", "CHAT",
 ]

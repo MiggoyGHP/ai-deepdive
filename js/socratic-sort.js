@@ -236,18 +236,19 @@ function initPortfolio(slide, data) {
   });
 
   function scorePortfolio(tickers) {
-    // 4 dimensions 0–1
-    const purity = tickers.reduce((s, t) => s + (scores[t]?.purity || 0), 0) / tickers.length;
-    const liq    = tickers.reduce((s, t) => s + (scores[t]?.liq    || 0), 0) / tickers.length;
-    const regOK  = tickers.reduce((s, t) => s + (scores[t]?.regRisk|| 0), 0) / tickers.length;
+    // 5 dimensions 0–1 (v2 adds catalysts)
+    const purity    = tickers.reduce((s, t) => s + (scores[t]?.purity    || 0), 0) / tickers.length;
+    const liq       = tickers.reduce((s, t) => s + (scores[t]?.liq       || 0), 0) / tickers.length;
+    const regOK     = tickers.reduce((s, t) => s + (scores[t]?.regRisk   || 0), 0) / tickers.length;
+    const catalysts = tickers.reduce((s, t) => s + (scores[t]?.catalysts || 0), 0) / tickers.length;
     const uniqueSectors = new Set(tickers.map(t => sectors[t] || 'other'));
     const diversification = Math.min(uniqueSectors.size / tickers.length, 1);
-    return { purity, liq, regOK, diversification };
+    return { purity, liq, regOK, diversification, catalysts };
   }
 
   function drawRadar(svg, scoreObj, benchObj) {
-    const dims = ['Purity', 'Diversification', 'Liquidity', 'Reg Safety'];
-    const keys = ['purity', 'diversification', 'liq', 'regOK'];
+    const dims = ['Purity', 'Diversification', 'Liquidity', 'Reg Safety', 'Catalyst 90d'];
+    const keys = ['purity', 'diversification', 'liq', 'regOK', 'catalysts'];
     const N = dims.length;
     const R = 90;
     const toXY = (val, i) => {
@@ -298,6 +299,7 @@ function initPortfolio(slide, data) {
       <div class="score-row"><span>Diversification</span><b>${(userScore.diversification*100).toFixed(0)}%</b></div>
       <div class="score-row"><span>Liquidity</span><b>${(userScore.liq*100).toFixed(0)}%</b></div>
       <div class="score-row"><span>Reg. Safety</span><b>${(userScore.regOK*100).toFixed(0)}%</b></div>
+      <div class="score-row"><span>Catalyst Density (90d)</span><b>${(userScore.catalysts*100).toFixed(0)}%</b></div>
     `;
 
     // Calibration summary from prior SocraticState answers

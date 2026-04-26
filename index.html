@@ -41,12 +41,15 @@
         <ol class="agenda-list" id="agenda">
           <li class="agenda-link" data-section="0"><span class="agenda-num">01</span> <span>The Great Divide — open vs closed at the model layer</span></li>
           <li class="agenda-link" data-section="1"><span class="agenda-num">02</span> <span>Strategic Frameworks — capability rent vs commoditize your complements</span></li>
-          <li class="agenda-link" data-section="2"><span class="agenda-num">03</span> <span>Who's Who — the labs, the numbers, the valuations</span></li>
-          <li class="agenda-link" data-section="3"><span class="agenda-num">04</span> <span>How to Own It — proxy, CEF, and direct secondary exposure</span></li>
-          <li class="agenda-link" data-section="4"><span class="agenda-num">05</span> <span>The Physical Stack — CoWoS, HBM, and the picks-and-shovels trade</span></li>
-          <li class="agenda-link" data-section="5"><span class="agenda-num">06</span> <span>What's Changing Now — Q1 2026 catalysts and second-order effects</span></li>
-          <li class="agenda-link" data-section="6"><span class="agenda-num">07</span> <span>Synthesis, Risks, and Your Portfolio</span></li>
+          <li class="agenda-link" data-section="2"><span class="agenda-num">03</span> <span>Compute Regimes — training vs inference, GPU vs TPU vs custom ASIC <em>(NEW v2)</em></span></li>
+          <li class="agenda-link" data-section="3"><span class="agenda-num">04</span> <span>Who's Who — labs, models, valuations · Western & Chinese cohorts</span></li>
+          <li class="agenda-link" data-section="4"><span class="agenda-num">05</span> <span>The Physical Stack — supply chain, memory deep-dive, neoclouds, Apple, agentic runtime</span></li>
+          <li class="agenda-link" data-section="5"><span class="agenda-num">06</span> <span>What's Changing Now — past 90d catalysts + forward Q2–Q3 2026 calendar</span></li>
+          <li class="agenda-link" data-section="6"><span class="agenda-num">07</span> <span>Synthesis · Leaders · Laggards · Pair Trades · Portfolio</span></li>
         </ol>
+        <p style="font-size: 0.85em; color: var(--on-surface-variant); margin-top: 18px; text-align: center;">
+          Audience: <b>traders</b>. Focus: catalyst trading · pair trades · sector rotation · second-order read-throughs.
+        </p>
       </section>
 
       <!-- ══════════════════════════════════════════════════════════════
@@ -251,49 +254,147 @@
       </section>
 
       <!-- ══════════════════════════════════════════════════════════════
-           §03 Who's Who
+           §03 Compute Regimes (NEW v2)
            ══════════════════════════════════════════════════════════════ -->
       <section class="section-header" data-transition="zoom-in fade-out">
         <span class="section-label">Section 03</span>
+        <h1>Compute Regimes</h1>
+        <hr class="section-divider">
+        <p style="font-size:1.1em; color: var(--on-surface-variant);">Two compute markets, not one. Training vs. inference. Different chips win each.</p>
+      </section>
+
+      <!-- SLIDE C1b — Training vs Inference: data first -->
+      <section>
+        <h2>Training vs Inference — the inversion that already happened</h2>
+        <p class="prompt">v1 treated AI compute as one market. v2 explicitly splits it. <b>In 2025, inference compute spend industry-wide overtook training</b> — and is now growing at ~2× the pace. Different workloads reward different silicon.</p>
+        <div class="two-col" style="grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 14px;">
+          <div class="card card-accent">
+            <h4 style="margin-top:0; color: var(--primary)">Training — the spectacle</h4>
+            <ul style="font-size: 0.86em; line-height: 1.5; margin: 0; padding-left: 16px;">
+              <li>One-time, batch, throughput-bound</li>
+              <li>50,000–200,000 GPU-equivalents synchronous, 60–180 days</li>
+              <li>$1–5B per frontier run at 2026 prices</li>
+              <li><b>HBM-bandwidth bound</b> (4–8 TB/s on B200/B300)</li>
+              <li>All-to-all communication → NVLink/NVSwitch fabric is decisive</li>
+              <li>Hardware default: <span class="ticker" data-ticker="NVDA">NVDA</span> H200/B200/B300/GB300 NVL72</li>
+            </ul>
+          </div>
+          <div class="card card-accent">
+            <h4 style="margin-top:0; color: var(--primary)">Inference — the recurring revenue</h4>
+            <ul style="font-size: 0.86em; line-height: 1.5; margin: 0; padding-left: 16px;">
+              <li>Online, latency-bound, batched, recurring</li>
+              <li>KV-cache memory pressure (long-context = 100s GB/req)</li>
+              <li>Cost scales linearly with usage</li>
+              <li><b>Reasoning-mode multiplies per-query compute 25–250×</b></li>
+              <li>Heterogeneous chip mix wins (B200 prefill + L40s/MI300X decode)</li>
+              <li>Custom ASIC fits well: TPU v6e, AWS Inferentia, Meta MTIA</li>
+            </ul>
+          </div>
+        </div>
+        <div class="insight-box" style="margin-top: 14px;">
+          <strong>Trader read:</strong> the inference shift re-rates the supply chain toward <b>memory-bandwidth-rich</b> and <b>capacity-rich</b> chips — favoring HBM4 (SK Hynix, MU) and custom ASICs (<span class="ticker" data-ticker="AVGO">AVGO</span>, <span class="ticker" data-ticker="MRVL">MRVL</span>) over peak-FLOPs training silicon. v2 explicitly calls AVGO "the most undervalued name in the entire AI silicon complex."
+        </div>
+      </section>
+
+      <!-- SLIDE C1d — Pattern B: estimate inference multiplier -->
+      <section class="socratic-slide" data-pattern="estimate" data-id="est-inference-multiplier"></section>
+
+      <!-- SLIDE C1c — GPU vs TPU vs Custom ASIC table -->
+      <section>
+        <h2>GPU vs TPU vs Custom ASIC — architectural comparison</h2>
+        <table style="width:100%; font-size: 0.78em; margin-top: 10px;">
+          <thead><tr><th>Dimension</th><th><span class="ticker" data-ticker="NVDA">NVDA</span> GPU</th><th>Google TPU</th><th>Custom ASIC (<span class="ticker" data-ticker="AVGO">AVGO</span>/<span class="ticker" data-ticker="MRVL">MRVL</span>)</th></tr></thead>
+          <tbody>
+            <tr><td><b>Architecture</b></td><td>SIMT, general-purpose parallel</td><td>Systolic array, matmul-specialized</td><td>Systolic / dataflow, workload-specialized</td></tr>
+            <tr><td><b>Software stack</b></td><td>CUDA — broad ecosystem (95%+ of frontier code)</td><td>JAX/XLA, TF, Pathways</td><td>Each vendor proprietary; PyTorch ports vary</td></tr>
+            <tr><td><b>Workload flexibility</b></td><td>High — runs anything</td><td>Medium — best on transformer/matmul</td><td>Low — designed for specific workloads</td></tr>
+            <tr><td><b>Memory bandwidth</b></td><td>Up to 8 TB/s (B300)</td><td>~2.8 TB/s (Trillium v6)</td><td>Vendor-dependent; generally lower</td></tr>
+            <tr><td><b>Scale-up domain</b></td><td>NVL72 = 72 GPUs as one logical unit</td><td>TPU v5p pod = 4,096 chips</td><td>Vendor-dependent; generally smaller</td></tr>
+            <tr><td><b>Externally available</b></td><td>Yes (sells discrete hardware)</td><td>No (Google Cloud only)</td><td>No (hyperscaler-internal)</td></tr>
+            <tr><td><b>Best for</b></td><td>Training + flexible inference</td><td>Google-Cloud customers; scale-up training</td><td>First-party inference at hyperscaler scale</td></tr>
+          </tbody>
+        </table>
+        <p class="prompt" style="margin-top: 12px; font-size: 0.92em;">
+          NVDA wins training. TPU wins Google-vertical (and now Anthropic-vertical). AWS Trainium wins cost-conscious 2nd-tier inference. Meta MTIA wins Meta-internal inference. <b>Each carved out a domain matching its strategic priorities — not winner-take-all.</b>
+        </p>
+        <div class="insight-box" style="margin-top: 12px; font-size: 0.9em;">
+          <strong>Trader takeaway:</strong> NVDA's growth story has shifted from "capture all of AI compute" to "remain dominant at training while ceding select inference share to AVGO/MRVL custom silicon." Not bearish for NVDA — but supports a re-rating thesis for AVGO that v1 understated.
+        </div>
+      </section>
+
+      <!-- SLIDE C1e — Pattern D: Train vs inference single-name long -->
+      <section class="socratic-slide" data-pattern="tradeoff" data-id="to-train-vs-inference"></section>
+
+      <!-- ══════════════════════════════════════════════════════════════
+           §04 Who's Who
+           ══════════════════════════════════════════════════════════════ -->
+      <section class="section-header" data-transition="zoom-in fade-out">
+        <span class="section-label">Section 04</span>
         <h1>Who's Who</h1>
         <hr class="section-divider">
         <p style="font-size:1.1em; color: var(--on-surface-variant);">The labs, the numbers, and the investor proxies.</p>
       </section>
 
-      <!-- SLIDE 12 — Closed-weight leaderboard table -->
+      <!-- SLIDE 12 — Closed-weight leaderboard table (v2 expanded) -->
       <section>
-        <h2>Closed-weight frontier labs</h2>
-        <table style="width:100%; font-size: 0.85em;">
+        <h2>Closed-weight / first-party frontier labs</h2>
+        <table style="width:100%; font-size: 0.78em;">
           <thead><tr><th>Lab</th><th>Flagship Model</th><th>Valuation / Cap</th><th>Public Proxy</th></tr></thead>
           <tbody>
             <tr><td><b>OpenAI</b></td><td>GPT-5.4, Codex</td><td>$852B post-money (Feb 2026)</td><td><span class="ticker" data-ticker="MSFT">MSFT</span> — 27% equity + 20% rev-share</td></tr>
-            <tr><td><b>Anthropic</b></td><td>Claude Opus 4.6 / Mythos 5</td><td>$380B (Feb); ~$1T on secondaries</td><td><span class="ticker" data-ticker="GOOGL">GOOGL</span> ~10% equity; <span class="ticker" data-ticker="AMZN">AMZN</span> $25B</td></tr>
-            <tr><td><b>Google DeepMind</b></td><td>Gemini 3.1 Pro</td><td>Implied $600B+ inside Alphabet</td><td><span class="ticker" data-ticker="GOOGL">GOOGL</span></td></tr>
+            <tr><td><b>Anthropic</b></td><td>Claude Opus 4.6 / Mythos 5</td><td>$380B (Feb); ~$1T on secondaries; $800B+ VC bids declined</td><td><span class="ticker" data-ticker="GOOGL">GOOGL</span> ~10% equity; <span class="ticker" data-ticker="AMZN">AMZN</span> $25B</td></tr>
+            <tr><td><b>Google DeepMind</b></td><td>Gemini 3.1 Pro / Deep Think</td><td>Implied $600B+ inside Alphabet</td><td><span class="ticker" data-ticker="GOOGL">GOOGL</span></td></tr>
             <tr><td><b>xAI</b></td><td>Grok 4.20 Beta 2</td><td>Part of $1.5–1.75T SpaceX IPO target</td><td>Private (SpaceX merger Feb 2026)</td></tr>
-            <tr><td><b>Microsoft AI</b></td><td>Phi-4, internal Copilot stack</td><td>Public — inside <span class="ticker" data-ticker="MSFT">MSFT</span></td><td><span class="ticker" data-ticker="MSFT">MSFT</span></td></tr>
+            <tr><td><b>Microsoft AI</b></td><td>Phi-4 + MAI-1 launching</td><td>Public — inside <span class="ticker" data-ticker="MSFT">MSFT</span></td><td><span class="ticker" data-ticker="MSFT">MSFT</span></td></tr>
+            <tr><td><b>Apple Intelligence</b> <span style="color: var(--primary); font-size: 0.85em;">(NEW)</span></td><td>On-device + Private Cloud Compute (closed end-to-end)</td><td>Public — inside <span class="ticker" data-ticker="AAPL">AAPL</span></td><td><span class="ticker" data-ticker="AAPL">AAPL</span> — partners w/ OpenAI (US), Baidu (CN)</td></tr>
+            <tr><td><b>Tencent</b> <span style="color: var(--primary); font-size: 0.85em;">(NEW)</span></td><td>Hunyuan T1, Hunyuan-Image, Hunyuan-3D-Pro</td><td>Public — inside Tencent</td><td><span class="ticker" data-ticker="TCEHY">TCEHY</span> · WeChat distribution</td></tr>
+            <tr><td><b>Baidu</b> <span style="color: var(--primary); font-size: 0.85em;">(NEW)</span></td><td>ERNIE 5.0 (closed flagship)</td><td>Public — inside Baidu</td><td><span class="ticker" data-ticker="BIDU">BIDU</span> · cheapest China-AI on P/E</td></tr>
+            <tr><td><b>Thinking Machines</b> <span style="color: var(--primary); font-size: 0.85em;">(NEW)</span></td><td>Tinker (fine-tuning platform)</td><td>$12B seed (Feb 2025)</td><td>Private — <span class="ticker" data-ticker="NVDA">NVDA</span> + GCP backed</td></tr>
           </tbody>
         </table>
-        <p class="prompt" style="margin-top:14px;">
-          Click any ticker to open its chart + financials. Notice: <b>every closed-weight lab is either publicly tradeable or exposed via a public parent</b> — there's almost always a proxy.
+        <p class="prompt" style="margin-top:10px; font-size: 0.95em;">
+          Note the <b>hybrid-stack pattern</b> in v2: Apple, Tencent, and Baidu all maintain a closed flagship for first-party products <em>while</em> releasing open-weight derivatives (see next slide) — they commoditize competitors' moats without giving up their own.
         </p>
       </section>
 
-      <!-- SLIDE 13 — Open-weight leaderboard table -->
+      <!-- SLIDE 13a — Open-weight: Western & independent -->
       <section>
-        <h2>Open-weight developers</h2>
-        <table style="width:100%; font-size: 0.85em;">
-          <thead><tr><th>Developer</th><th>Flagship</th><th>License</th><th>Listing</th></tr></thead>
+        <h2>Open-weight developers — Western & independent</h2>
+        <table style="width:100%; font-size: 0.78em;">
+          <thead><tr><th>Developer</th><th>Flagship</th><th>License</th><th>Listing / Exposure</th></tr></thead>
           <tbody>
-            <tr><td><b>Meta AI</b></td><td>Llama 4 Scout / Maverick</td><td>Meta Community License</td><td><span class="ticker" data-ticker="META">META</span></td></tr>
-            <tr><td><b>Alibaba (Qwen)</b></td><td>Qwen 3.5 397B, Qwen3-Coder</td><td>Apache 2.0</td><td><span class="ticker" data-ticker="BABA">BABA</span></td></tr>
-            <tr><td><b>Google (Gemma)</b></td><td>Gemma 4 26B</td><td>Apache 2.0</td><td><span class="ticker" data-ticker="GOOGL">GOOGL</span></td></tr>
-            <tr><td><b>Microsoft (Phi)</b></td><td>Phi-4, Phi-4-Reasoning</td><td>MIT</td><td><span class="ticker" data-ticker="MSFT">MSFT</span></td></tr>
+            <tr><td><b>Meta AI</b></td><td>Llama 4 Scout / Maverick · Llama 4.5 (Apr 2026)</td><td>Meta Community License (700M MAU cap)</td><td><span class="ticker" data-ticker="META">META</span></td></tr>
+            <tr><td><b>Mistral AI</b></td><td>Mistral Small 4, Devstral 2, Magistral, Pixtral</td><td>Apache 2.0 (most SKUs)</td><td>Private (France) — pre-IPO funds</td></tr>
+            <tr><td><b>Google (Gemma)</b></td><td>Gemma 4 26B, Gemma 4 Vision</td><td>Apache 2.0</td><td><span class="ticker" data-ticker="GOOGL">GOOGL</span></td></tr>
+            <tr><td><b>Microsoft (Phi)</b></td><td>Phi-4, Phi-4-Reasoning, Phi-4-Multimodal</td><td>MIT</td><td><span class="ticker" data-ticker="MSFT">MSFT</span></td></tr>
             <tr><td><b>NVIDIA (Nemotron)</b></td><td>Nemotron Ultra 253B, Cascade 2</td><td>NVIDIA Open Model License</td><td><span class="ticker" data-ticker="NVDA">NVDA</span></td></tr>
-            <tr><td><b>Mistral AI</b></td><td>Mistral Small 4, Devstral 2</td><td>Apache 2.0</td><td>Private (France)</td></tr>
-            <tr><td><b>DeepSeek</b></td><td>V3.2, R1, V4 (pending)</td><td>MIT</td><td>Private (CN) — no retail access</td></tr>
-            <tr><td><b>Zhipu AI</b></td><td>GLM-5 / GLM-5.1</td><td>Custom (commercial-friendly)</td><td>Private; rumored A-share listing</td></tr>
+            <tr><td><b>AI2 (OLMo)</b> <span style="color: var(--primary); font-size: 0.85em;">(NEW)</span></td><td>OLMo 3 — fully open: data + code + weights</td><td>Apache 2.0</td><td>Non-profit — not investable directly</td></tr>
           </tbody>
         </table>
+      </section>
+
+      <!-- SLIDE 13b — Open-weight: Chinese cohort (NEW v2 split) -->
+      <section>
+        <h2>Open-weight developers — Chinese cohort <span style="color: var(--primary); font-size: 0.7em;">(v2 expanded)</span></h2>
+        <p class="prompt" style="font-size: 0.95em;">
+          As of April 2026, <b>4 of the top 5 positions</b> on most major open-weight leaderboards are held by Chinese labs. The cohort below is no longer just "DeepSeek + Qwen."
+        </p>
+        <table style="width:100%; font-size: 0.74em;">
+          <thead><tr><th>Developer</th><th>Flagship Model</th><th>License</th><th>Notes / Listing</th></tr></thead>
+          <tbody>
+            <tr><td><b>Alibaba (Qwen)</b></td><td>Qwen 3.5 397B, Qwen3-Coder 480B-A35B, Qwen3-Max</td><td>Apache 2.0</td><td><span class="ticker" data-ticker="BABA">BABA</span> — drives Alibaba Cloud; #1 on several open leaderboards</td></tr>
+            <tr><td><b>DeepSeek</b></td><td>DeepSeek V3.2, R1, <b>V4 (Q2 2026 pending)</b></td><td>MIT</td><td>High-Flyer Capital · V4 expected on Huawei Ascend 950PR @ <b>$0.14–$0.30/M tokens</b></td></tr>
+            <tr><td><b>Zhipu AI (Z.ai)</b></td><td>GLM-5.1 (744B params)</td><td>Custom (commercial-friendly)</td><td>Tops BenchLM open leaderboard · 8-hr autonomous agent capability</td></tr>
+            <tr><td><b>Moonshot</b> <span style="color: var(--primary); font-size: 0.85em;">(NEW)</span></td><td>Kimi K2.6 (1T params, 384 experts)</td><td>Modified MIT</td><td>Alibaba-backed · 13-hr autonomous code refactoring · Cursor Composer 2 backend</td></tr>
+            <tr><td><b>MiniMax</b> <span style="color: var(--primary); font-size: 0.85em;">(NEW)</span></td><td>MiniMax M2.5 (text), Hailuo-02 (video)</td><td>Apache 2.0 (M-series)</td><td><b>Cost leader @ $0.15/M</b> · multi-million token context · Hailuo #2 in T2V</td></tr>
+            <tr><td><b>Tencent Hunyuan</b> <span style="color: var(--primary); font-size: 0.85em;">(NEW)</span></td><td>Hunyuan-Open 389B (52B active), Hunyuan-Video, Hunyuan-3D-2</td><td>Modified Apache 2.0</td><td><span class="ticker" data-ticker="TCEHY">TCEHY</span> · WeChat distribution moat</td></tr>
+            <tr><td><b>Baidu (ERNIE-X)</b> <span style="color: var(--primary); font-size: 0.85em;">(NEW)</span></td><td>ERNIE-X1, ERNIE-Speed-Pro-128K</td><td>Custom permissive</td><td><span class="ticker" data-ticker="BIDU">BIDU</span> · strategic shift from closed-only in 2025; Apollo automotive</td></tr>
+            <tr><td><b>StepFun</b> <span style="color: var(--primary); font-size: 0.85em;">(NEW)</span></td><td>Step-3 (multimodal, 321B)</td><td>Apache 2.0</td><td>Tencent/Geely-backed · strong vision-language</td></tr>
+          </tbody>
+        </table>
+        <div class="insight-box" style="margin-top: 12px; font-size: 0.9em;">
+          <strong>The trader takeaway:</strong> the parallel Chinese stack is now self-funded (Tencent Cloud, Alibaba Cloud, Baidu Cloud) and is on track to ship <b>frontier-quality inference at ~10× below Western API rates</b> on Chinese silicon — every cost-deflation headline reprices NVDA + closed-weight labs.
+        </div>
       </section>
 
       <!-- SLIDE 14 — Pattern B: OpenAI valuation estimate -->
@@ -305,105 +406,11 @@
       </section>
 
       <!-- ══════════════════════════════════════════════════════════════
-           §04 How to Own It
+           §04 (allocator "How to Own It") was demoted in v2.
+           Slides 17a/b/c/d + the $50k tradeoff (Pattern D `to-50k-exposure`)
+           moved to a single Appendix slide at the end of the deck.
+           Trader-focused content jumps directly to §05 The Physical Stack.
            ══════════════════════════════════════════════════════════════ -->
-      <section class="section-header" data-transition="zoom-in fade-out">
-        <span class="section-label">Section 04</span>
-        <h1>How to Own It</h1>
-        <hr class="section-divider">
-        <p style="font-size:1.1em; color: var(--on-surface-variant);">Three tiers of exposure for private-company AI.</p>
-      </section>
-
-      <!-- SLIDE 17a — Three tiers: overview -->
-      <section>
-        <h2>Three tiers of pre-IPO AI exposure</h2>
-        <p class="prompt" style="text-align:center; font-size: 1.1em; max-width: 900px; margin: 0 auto 30px;">
-          With OpenAI, Anthropic, xAI, and Mistral all private, the practical question is <em>how</em> to access them.
-          Three tiers, each with very different liquidity, purity, and ticket-size characteristics.
-        </p>
-        <div style="display: flex; justify-content: center; gap: 18px; font-size: 1.4em; margin-top: 40px; font-family: var(--font-heading);">
-          <div style="text-align:center;"><div style="color: var(--primary); font-weight: 700;">Tier 1</div><div style="font-size: 0.7em; color: var(--on-surface-variant)">Proxies</div></div>
-          <div style="color: var(--on-surface-variant); align-self: center;">→</div>
-          <div style="text-align:center;"><div style="color: var(--primary); font-weight: 700;">Tier 2</div><div style="font-size: 0.7em; color: var(--on-surface-variant)">Venture CEFs</div></div>
-          <div style="color: var(--on-surface-variant); align-self: center;">→</div>
-          <div style="text-align:center;"><div style="color: var(--primary); font-weight: 700;">Tier 3</div><div style="font-size: 0.7em; color: var(--on-surface-variant)">Direct Secondaries</div></div>
-        </div>
-        <p style="text-align:center; color: var(--on-surface-variant); margin-top: 40px;">
-          Moving right: <b>higher purity</b>, <b>lower liquidity</b>, <b>bigger tickets</b>.
-        </p>
-      </section>
-
-      <!-- SLIDE 17b — Tier 1 deep-dive -->
-      <section>
-        <h2>Tier 1 · Strategic-investor proxies</h2>
-        <div style="max-width: 1060px; margin: 0 auto;">
-          <p style="font-size: 1.1em; line-height: 1.55;">
-            Public equities of the hyperscalers who already hold massive private AI stakes.
-            <b>Most liquid, lowest friction, lowest AI purity.</b>
-          </p>
-          <div class="two-col" style="margin-top: 18px;">
-            <div class="card card-accent">
-              <h4 style="margin-top:0"><span class="ticker" data-ticker="MSFT">MSFT</span> — cleanest OpenAI proxy</h4>
-              <p style="font-size:0.92em;">27% equity + 20% revenue share in OpenAI through 2032. Plus Azure AI tailwind.</p>
-            </div>
-            <div class="card card-accent">
-              <h4 style="margin-top:0"><span class="ticker" data-ticker="GOOGL">GOOGL</span> — triple-vector</h4>
-              <p style="font-size:0.92em;">~10% of Anthropic. In-house Gemini + DeepMind. TPU as a platform. ~$185B 2026 capex.</p>
-            </div>
-          </div>
-          <p style="font-size: 0.95em; margin-top: 14px;">
-            <span class="ticker" data-ticker="AMZN">AMZN</span> — $25B+ committed to Anthropic plus 2GW of AWS <span class="term" data-term="Trainium">Trainium</span>.
-            Cleanest second-order beneficiary via AWS.
-          </p>
-        </div>
-      </section>
-
-      <!-- SLIDE 17c — Tier 2 deep-dive -->
-      <section>
-        <h2>Tier 2 · Publicly-traded venture vehicles</h2>
-        <div style="max-width: 1060px; margin: 0 auto;">
-          <p style="font-size: 1.08em; line-height: 1.55;">
-            <span class="term" data-term="Closed-End Fund">Closed-end funds</span> and
-            <span class="term" data-term="Interval Fund">interval funds</span> that hold real private-AI positions.
-            <b>Mid-liquidity, mid-purity.</b>
-          </p>
-          <table style="width: 100%; margin-top: 16px; font-size: 0.92em;">
-            <thead><tr><th>Vehicle</th><th>Key holdings</th><th>Mechanics</th></tr></thead>
-            <tbody>
-              <tr><td><span class="ticker" data-ticker="DXYZ">DXYZ</span> (Destiny Tech100)</td><td>OpenAI, SpaceX, Anthropic, Epic Games</td><td>CEF — trades at persistent <span class="term" data-term="NAV Premium">NAV premium</span></td></tr>
-              <tr><td>ARKVX (ARK Venture Fund)</td><td>SpaceX ~17%, OpenAI ~11%, Anthropic ~4%</td><td>Interval fund — quarterly redemption only; 2.9% expense ratio</td></tr>
-              <tr><td>USVC (AngelList)</td><td>xAI (largest), OpenAI, Anthropic + 4 others</td><td>Launched Apr 22, 2026. <b>$500 minimum, non-accredited eligible.</b> 1% mgmt, no carry</td></tr>
-            </tbody>
-          </table>
-          <p style="font-size: 0.95em; margin-top: 14px;">
-            Also new: <b>Robinhood Ventures Fund I</b> — bought $75M of OpenAI in April 2026, publicly tradable to retail.
-          </p>
-        </div>
-      </section>
-
-      <!-- SLIDE 17d — Tier 3 deep-dive -->
-      <section>
-        <h2>Tier 3 · Direct pre-IPO secondaries</h2>
-        <div style="max-width: 1060px; margin: 0 auto;">
-          <p style="font-size: 1.1em; line-height: 1.55;">
-            Secondary marketplaces <b>Hiive</b> and <b>Forge</b> facilitate direct purchase of shares from employees,
-            early investors, and VC firms. <b>Highest purity, lowest liquidity, biggest tickets.</b>
-          </p>
-          <div class="card card-accent" style="margin-top: 18px;">
-            <p style="margin: 0; font-size: 0.98em;">
-              Anthropic is among the most active names on Hiive — <b>46 active orders</b> as of the report's writing.
-              OpenAI, xAI, and Cerebras shares are also directly available.
-            </p>
-          </div>
-          <div class="insight-box" style="margin-top: 18px;">
-            <strong>Practical takeaway:</strong> accredited-investor only. $25–250k typical tickets.
-            Spreads matter — reserve for accounts with <b>multi-year lockup tolerance</b>. For sub-$100k the CEFs (Tier 2) are usually more efficient.
-          </div>
-        </div>
-      </section>
-
-      <!-- SLIDE 18 — Pattern D: $50k exposure dilemma -->
-      <section class="socratic-slide" data-pattern="tradeoff" data-id="to-50k-exposure"></section>
 
       <!-- ══════════════════════════════════════════════════════════════
            §05 The Physical Stack
@@ -415,21 +422,28 @@
         <p style="font-size:1.1em; color: var(--on-surface-variant);">Picks and shovels — every AI lab buys from the same supply chain.</p>
       </section>
 
-      <!-- SLIDE 20 — Supply chain value chain -->
+      <!-- SLIDE 20 — Supply chain value chain (v2 expanded) -->
       <section>
-        <h2>The AI supply chain — full stack</h2>
+        <h2>The AI supply chain — full stack <span style="color: var(--primary); font-size: 0.6em;">(v2 expanded)</span></h2>
         <p class="prompt">Both open-weight and closed-weight labs consume the same physical supply chain. The competitive question between model camps is almost entirely upstream of the silicon. <b>All of them land on TSMC-fabricated, SK Hynix-memoried, CoWoS-packaged NVIDIA (or hyperscaler equivalent) GPUs.</b></p>
-        <table style="width:100%; font-size: 0.82em; margin-top: 12px;">
-          <thead><tr><th>Layer</th><th>Key Players</th><th>Role</th></tr></thead>
+        <table style="width:100%; font-size: 0.74em; margin-top: 10px;">
+          <thead><tr><th>Layer</th><th>Key Players</th><th>Role / Supply</th></tr></thead>
           <tbody>
-            <tr><td>Lithography</td><td><span class="ticker" data-ticker="ASML">ASML</span></td><td>Sole EUV + <span class="term" data-term="High-NA EUV">High-NA EUV</span> supplier; required for 3nm/2nm/1.4nm</td></tr>
-            <tr><td>Wafer Fab</td><td><span class="ticker" data-ticker="TSM">TSM</span></td><td>Produces AI chips for NVDA, AMD, AVGO, GOOGL, AAPL</td></tr>
-            <tr><td>Packaging</td><td>TSMC <span class="term" data-term="CoWoS">CoWoS</span></td><td>Integrates logic dies with HBM on silicon interposers — the actual bottleneck</td></tr>
-            <tr><td><span class="term" data-term="HBM">HBM</span> Memory</td><td>SK Hynix · Samsung · <span class="ticker" data-ticker="MU">MU</span></td><td>Stacked DRAM on GPU packages; core bandwidth constraint</td></tr>
-            <tr><td>GPU / Accel</td><td><span class="ticker" data-ticker="NVDA">NVDA</span> · <span class="ticker" data-ticker="AMD">AMD</span></td><td>Blackwell, Vera Rubin dominate training silicon</td></tr>
-            <tr><td><span class="term" data-term="ASIC">Custom ASIC</span></td><td><span class="ticker" data-ticker="AVGO">AVGO</span></td><td>Designs Google <span class="term" data-term="TPU">TPU</span>, AWS <span class="term" data-term="Trainium">Trainium</span>, Meta MTIA</td></tr>
-            <tr><td>Server OEMs</td><td><span class="ticker" data-ticker="DELL">DELL</span> · <span class="ticker" data-ticker="SMCI">SMCI</span></td><td>Rack-scale GPU + liquid-cooling + networking integration</td></tr>
-            <tr><td>Power / Grid</td><td><span class="ticker" data-ticker="CEG">CEG</span> · <span class="ticker" data-ticker="VST">VST</span> · <span class="ticker" data-ticker="NEE">NEE</span> · <span class="ticker" data-ticker="OKLO">OKLO</span> · <span class="ticker" data-ticker="NNE">NNE</span></td><td>US DC demand: 176 TWh (2023) → 325–580 TWh (2028)</td></tr>
+            <tr><td>Lithography</td><td><span class="ticker" data-ticker="ASML">ASML</span></td><td>Sole EUV + <span class="term" data-term="High-NA EUV">High-NA EUV</span> · €36B backlog · ~6–8 High-NA tools/yr @ ~$380M</td></tr>
+            <tr><td>Wafer Fab</td><td><span class="ticker" data-ticker="TSM">TSM</span></td><td>2nm booked 78–104 weeks · filling into 2028 · $52–56B 2026 capex</td></tr>
+            <tr><td>Equipment <span style="color: var(--primary); font-size: 0.85em;">(NEW)</span></td><td><span class="ticker" data-ticker="AMAT">AMAT</span> · <span class="ticker" data-ticker="LRCX">LRCX</span> · <span class="ticker" data-ticker="KLAC">KLAC</span></td><td>Deposition / etch / metrology — duopoly structures, leveraged to N2 ramp</td></tr>
+            <tr><td>Packaging</td><td>TSMC <span class="term" data-term="CoWoS">CoWoS</span> · ASE · Amkor</td><td>Sold out through mid-2026 despite 2× expansion to ~98k wafers/mo</td></tr>
+            <tr><td><span class="term" data-term="HBM">HBM</span> Memory</td><td>SK Hynix <b>~62%</b> · Samsung ~17–20% · <span class="ticker" data-ticker="MU">MU</span> ~21%</td><td>Entire 2026 HBM capacity allocated · HBM4 ramp 2026</td></tr>
+            <tr><td>NAND / SSD <span style="color: var(--primary); font-size: 0.85em;">(NEW)</span></td><td><span class="ticker" data-ticker="SNDK">SNDK</span> · Samsung · SK Hynix (Solidigm) · <span class="ticker" data-ticker="MU">MU</span> · Kioxia</td><td>KV-cache offload + checkpoint storage · Sandisk standalone post-WD spin (Feb 2025)</td></tr>
+            <tr><td>GPU / Accel</td><td><span class="ticker" data-ticker="NVDA">NVDA</span> · <span class="ticker" data-ticker="AMD">AMD</span> · Intel Gaudi</td><td>Blackwell B200/B300, Vera Rubin dominate training silicon</td></tr>
+            <tr><td><span class="term" data-term="ASIC">Custom ASIC</span></td><td><span class="ticker" data-ticker="AVGO">AVGO</span> · <span class="ticker" data-ticker="MRVL">MRVL</span> · Alchip</td><td>AVGO co-designs Google TPU, Meta MTIA, +1 undisclosed; AI rev <b>+106% YoY</b></td></tr>
+            <tr><td>Hyperscaler ASIC</td><td>Google TPU · AWS Trainium/Inferentia · Meta MTIA · MSFT Maia · Huawei Ascend</td><td>Reducing NVDA dependence; Anthropic multi-GW TPU 2027+</td></tr>
+            <tr><td>Networking <span style="color: var(--primary); font-size: 0.85em;">(NEW)</span></td><td><span class="ticker" data-ticker="NVDA">NVDA</span> Mellanox · <span class="ticker" data-ticker="AVGO">AVGO</span> Jericho/Tomahawk · Arista · Cisco</td><td>NVLink, InfiniBand, Ethernet AI-fabric switching for GPU clusters</td></tr>
+            <tr><td>Server OEMs / EMS <span style="color: var(--primary); font-size: 0.85em;">(NEW)</span></td><td><span class="ticker" data-ticker="2317.TW">2317.TW</span> (Hon Hai) · <span class="ticker" data-ticker="DELL">DELL</span> · <span class="ticker" data-ticker="SMCI">SMCI</span> · HPE · Lenovo</td><td>Rack-scale integration; Hon Hai = cheapest valuation in entire AI supply chain</td></tr>
+            <tr><td>Hyperscale Cloud</td><td><span class="ticker" data-ticker="MSFT">MSFT</span> · <span class="ticker" data-ticker="AMZN">AMZN</span> · <span class="ticker" data-ticker="GOOGL">GOOGL</span> · <span class="ticker" data-ticker="ORCL">ORCL</span></td><td>GOOGL 2026 capex up to $185B · OpenAI $1.4T total infra committed</td></tr>
+            <tr><td>Neoclouds <span style="color: var(--primary); font-size: 0.85em;">(NEW)</span></td><td><span class="ticker" data-ticker="CRWV">CRWV</span> · <span class="ticker" data-ticker="NBIS">NBIS</span> · <span class="ticker" data-ticker="APLD">APLD</span> · <span class="ticker" data-ticker="IREN">IREN</span></td><td>~$50B annualized rev across listed names · pure-play GPU rental</td></tr>
+            <tr><td>Local-AI hardware <span style="color: var(--primary); font-size: 0.85em;">(NEW)</span></td><td><span class="ticker" data-ticker="AAPL">AAPL</span> M3 Ultra · Apple Neural Engine · Qualcomm</td><td>512GB unified memory @ ~800 GB/s · MLX framework adoption climbing</td></tr>
+            <tr><td>Power / Grid</td><td><span class="ticker" data-ticker="CEG">CEG</span> · <span class="ticker" data-ticker="VST">VST</span> · <span class="ticker" data-ticker="TLN">TLN</span> · <span class="ticker" data-ticker="NEE">NEE</span> · <span class="ticker" data-ticker="OKLO">OKLO</span> · <span class="ticker" data-ticker="NNE">NNE</span></td><td>US DC demand: 176 TWh (2023) → 325–580 TWh (2028) · PJM 6GW shortfall 2027</td></tr>
           </tbody>
         </table>
       </section>
@@ -524,6 +538,137 @@
         </div>
       </section>
 
+      <!-- SLIDE C3 — Memory deep dive: HBM oligopoly + Sandisk (NEW v2) -->
+      <section>
+        <h2>Memory deep dive — HBM oligopoly + the new NAND pure-play <span style="color: var(--primary); font-size: 0.6em;">(NEW v2)</span></h2>
+        <div class="two-col" style="grid-template-columns: 1fr 1fr; gap: 12px;">
+          <div class="card card-accent">
+            <h4 style="margin-top:0; color: var(--primary)">HBM — the bandwidth war</h4>
+            <table style="width:100%; font-size: 0.78em; margin-top: 6px;">
+              <thead><tr><th>Vendor</th><th>Share</th><th>Lead customer</th></tr></thead>
+              <tbody>
+                <tr><td><b>SK Hynix</b> (000660.KS)</td><td><b>~62%</b></td><td>NVDA (~90% of NVDA HBM)</td></tr>
+                <tr><td>Samsung (005930.KS)</td><td>~17–20%</td><td>Mixed; HBM4 catch-up trade</td></tr>
+                <tr><td><span class="ticker" data-ticker="MU">MU</span></td><td>~21%</td><td>U.S.-only pure-play; HBM4 ramp 2H26</td></tr>
+              </tbody>
+            </table>
+            <p style="font-size: 0.82em; margin-top: 8px;">
+              HBM4 lead: SK Hynix, primary supplier for Blackwell Ultra + Vera Rubin, with TSMC 12nm base-die partnership. <b>Entire 2026 capacity allocated.</b>
+            </p>
+          </div>
+          <div class="card card-accent">
+            <h4 style="margin-top:0; color: var(--primary)">NAND — the under-discussed tier</h4>
+            <table style="width:100%; font-size: 0.78em; margin-top: 6px;">
+              <thead><tr><th>Vendor</th><th>Share</th><th>Listing</th></tr></thead>
+              <tbody>
+                <tr><td>Samsung</td><td>~30%</td><td>005930.KS</td></tr>
+                <tr><td>SK Hynix (incl. Solidigm)</td><td>~21%</td><td>000660.KS</td></tr>
+                <tr><td>Kioxia</td><td>~17%</td><td>Tokyo: 285A</td></tr>
+                <tr><td><b><span class="ticker" data-ticker="SNDK">SNDK</span></b> (post-WD spin)</td><td><b>~14%</b></td><td><b>Only U.S.-listed pure-play</b></td></tr>
+                <tr><td><span class="ticker" data-ticker="MU">MU</span></td><td>~12%</td><td>NASDAQ:MU</td></tr>
+              </tbody>
+            </table>
+            <p style="font-size: 0.82em; margin-top: 8px;">
+              KV-cache offload from HBM → NAND is a standard inference optimization for long-context. SNDK = first standalone NAND pure-play post Feb 2025 spin.
+            </p>
+          </div>
+        </div>
+        <div class="insight-box" style="margin-top: 14px;">
+          <strong>Trader read:</strong> HBM is now <b>~30% of total DRAM revenue from only 8% of bit output</b> — most price-elastic memory segment in industry history. v2 initiates SNDK Overweight: enterprise SSD attach rates rising; sell-side coverage still rebuilding post-spin = the asymmetry. <b>Pair-trade idea:</b> long SNDK / pair beta to memory complex via short MU.
+        </div>
+      </section>
+
+      <!-- SLIDE C3-est — Pattern B: SNDK NAND share -->
+      <section class="socratic-slide" data-pattern="estimate" data-id="est-sndk-nand-share"></section>
+
+      <!-- SLIDE C4 — Neoclouds: the new GPU-as-a-Service tier (NEW v2) -->
+      <section>
+        <h2>Neoclouds — the GPU-as-a-Service tier <span style="color: var(--primary); font-size: 0.6em;">(NEW v2)</span></h2>
+        <p class="prompt">Hyperscaler-scale providers that <em>only</em> rent GPUs for AI training/inference. Thinner margins, higher capex, tighter NVDA alignment. Category did not exist as an investable theme in 2024 — now ~$50B annualized rev across listed names.</p>
+        <table style="width:100%; font-size: 0.78em; margin-top: 10px;">
+          <thead><tr><th>Neocloud</th><th>Position / Thesis</th><th>Customer concentration</th><th>Rating</th></tr></thead>
+          <tbody>
+            <tr><td><b><span class="ticker" data-ticker="CRWV">CRWV</span></b> CoreWeave</td><td>Largest U.S.-listed; NVDA preferred-partner; backlog $30B+; aggressive H100/H200/B200 deploy</td><td><b style="color: var(--error)">MSFT &gt;50% of 2024 rev</b></td><td><b style="color: var(--positive)">Overweight</b></td></tr>
+            <tr><td><b><span class="ticker" data-ticker="NBIS">NBIS</span></b> Nebius</td><td>Reformed Yandex N.V.; EU/Israel HQ; non-Chinese-aligned hyperscale; ~$1.5B Q1 ARR</td><td>Diversified, 1,000+ customers</td><td><b style="color: var(--positive)">Overweight (NEW)</b></td></tr>
+            <tr><td><b><span class="ticker" data-ticker="APLD">APLD</span></b> Applied Digital</td><td>HPC + AI hosting; power-rich North Dakota campuses; CRWV anchor tenant</td><td>HPC mix; CRWV anchor</td><td>Market Weight</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="ORCL">ORCL</span></b> Oracle</td><td>Hyperscaler #4; OpenAI Stargate primary; <b>$300B+ committed contract value</b></td><td><b style="color: var(--error)">OpenAI &gt;50% incremental AI</b></td><td><b style="color: var(--positive)">Overweight</b></td></tr>
+            <tr><td><b><span class="ticker" data-ticker="IREN">IREN</span></b> Iris Energy</td><td>Bitcoin-miner pivoting to AI hosting; BC Canada hydro</td><td>Early AI tenants; mix transitioning</td><td>Speculative</td></tr>
+          </tbody>
+        </table>
+        <div class="insight-box" style="margin-top: 14px; font-size: 0.9em;">
+          <strong>Why traders care:</strong> neoclouds are <b>pure-play AI capex exposure</b> with cleaner financials than hyperscalers (no legacy cloud dilution). But customer concentration is the dominant risk — CRWV halves if MSFT capex guides down. Pair structure: long CRWV / hedge with hyperscaler short, or long NBIS as the diversification trade.
+        </div>
+      </section>
+
+      <!-- SLIDE C4-causal — Pattern E: CRWV/MSFT concentration read-through -->
+      <section class="socratic-slide" data-pattern="causal" data-id="ca-crwv-msft-concentration"></section>
+
+      <!-- SLIDE C2 — Apple: the local-AI hardware fork (NEW v2) -->
+      <section>
+        <h2>Apple — the local-AI hardware fork <span style="color: var(--primary); font-size: 0.6em;">(NEW v2 — Tactical Overweight)</span></h2>
+        <p class="prompt">v1 missed Apple entirely. v2 calls it the <b>quiet hardware winner of the local-AI thesis</b> — not a model winner, but the de facto reference platform for at-home/small-business AI inference.</p>
+        <div class="two-col" style="grid-template-columns: 1.2fr 1fr; gap: 12px; margin-top: 12px;">
+          <div>
+            <h4 style="color: var(--primary); margin-top: 0;">Why Apple silicon won locally</h4>
+            <p style="font-size: 0.88em; line-height: 1.5;">
+              On a discrete-GPU PC, GPU is bandwidth-isolated from system RAM, capped at 16–80GB VRAM. <b>Loading a 70B-param open-weight model on a single consumer GPU is essentially impossible.</b> By contrast:
+            </p>
+            <ul style="font-size: 0.86em; line-height: 1.5;">
+              <li><b>M3 Ultra Mac Studio:</b> up to 512GB unified memory @ ~800 GB/s for $9,500</li>
+              <li>Quantized <b>Llama 4 Maverick / DeepSeek V3.2 / Qwen 3.5 Max</b> serve from a single desktop</li>
+              <li>Multi-GPU server build for equivalent scale: <b>5–10× the cost</b></li>
+              <li>MLX framework: <b>25k+ GitHub stars</b>, default backend for Ollama on macOS + LM Studio</li>
+              <li>Mac Studio ≥256GB RAM: <b>2–4 month back-order</b> on Apple's online store as of April 2026</li>
+            </ul>
+          </div>
+          <div>
+            <h4 style="color: var(--primary); margin-top: 0;">v2 catalyst path for AAPL</h4>
+            <ul style="font-size: 0.86em; line-height: 1.55;">
+              <li><b>Jun 2026 — WWDC:</b> Apple Intelligence v3, on-device reasoning, MLX v2</li>
+              <li><b>Rumored:</b> M-series Pro datacenter chip for Private Cloud Compute, possibly third-party available</li>
+              <li><b>Services uplift:</b> Apple Intelligence Plus subscriptions if launched</li>
+              <li>Apple Intelligence partners: <span class="ticker" data-ticker="MSFT">MSFT</span>/OpenAI (US), <span class="ticker" data-ticker="BIDU">BIDU</span> (China)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="insight-box" style="margin-top: 12px; font-size: 0.9em;">
+          <strong>Trader takeaway:</strong> AAPL's AI thesis is <b>unconventional — it's a hardware thesis on a non-model leader</b>. v1 didn't capture this vector at all. <b>Read-through trade:</b> long TSM as Apple is its largest customer; MLX framework expansion = wafer demand.
+        </div>
+      </section>
+
+      <!-- SLIDE C2-hy — Pattern A: hypothesize Mac Studio share -->
+      <section class="socratic-slide" data-pattern="hypothesize" data-id="hy-mac-studio-share"></section>
+
+      <!-- SLIDE C5 — Agentic Runtime Layer (NEW v2) -->
+      <section>
+        <h2>The Agentic Runtime Layer <span style="color: var(--primary); font-size: 0.6em;">(NEW v2 — value-capture above the model)</span></h2>
+        <p class="prompt">A new value-capture stratum that didn't exist as an investable category in 2024. Sits <em>between</em> the model and the end user — orchestrates model calls, tool invocations, persistent memory. Closer to an OS abstraction than a chat UI.</p>
+        <div class="two-col" style="grid-template-columns: 1fr 1fr; gap: 12px;">
+          <div class="card card-accent">
+            <h4 style="margin-top:0; color: var(--primary)">Open standards / runtimes</h4>
+            <ul style="font-size: 0.84em; line-height: 1.55; margin: 0; padding-left: 16px;">
+              <li><b>MCP</b> (Model Context Protocol) — Anthropic → Linux Foundation; <b>97M installs</b> Mar 2026</li>
+              <li><b>AGENTS.md</b> — OpenAI → Linux Foundation; markdown agent capability/policy declaration</li>
+              <li><b>OpenClaw</b> — open-source, foundation-stewarded; <b>250k+ GitHub stars</b>; runs Claude/GPT/Kimi/GLM/MiniMax interchangeably; spans US-China divide (Tencent + Z.ai adoption)</li>
+              <li><b>goose</b> — Block (formerly Square); donated to Linux Foundation Agentic AI Foundation</li>
+              <li><b>Cline / Roo</b> — independent open-source coding agents in VS Code</li>
+            </ul>
+          </div>
+          <div class="card card-accent">
+            <h4 style="margin-top:0; color: var(--primary)">Proprietary runtimes</h4>
+            <ul style="font-size: 0.84em; line-height: 1.55; margin: 0; padding-left: 16px;">
+              <li><b>Cursor</b> (Anysphere) — AI-native IDE w/ Composer 2; reportedly <b>$200M+ ARR</b>; private</li>
+              <li><b>Claude Code / Cowork</b> — Anthropic's first-party; <b>primary driver of Anthropic's enterprise mix</b></li>
+              <li><b>Codex / GPT Apps</b> — OpenAI's first-party via AGENTS.md</li>
+              <li><b>Bolt / Lovable</b> — StackBlitz / Lovable AB; AI-native website + app builders for non-devs; venture-stage</li>
+            </ul>
+          </div>
+        </div>
+        <div class="insight-box" style="margin-top: 14px; font-size: 0.9em;">
+          <strong>Trader read:</strong> the runtime captures <b>behavioral data + persistent context</b> — the new locus of customer relationship. The model below is closer to an interchangeable supplier. v2's strategic call: closed labs own first-party productivity (Claude Code, ChatGPT Pro Agents); independent runtimes (Cursor, OpenClaw) dominate developer/prosumer by being <b>model-agnostic and faster-iterating</b>.
+        </div>
+      </section>
+
       <!-- SLIDE 23 — Pattern F: Chart probe on NVDA catalysts (blind-pick) -->
       <section class="socratic-slide" data-pattern="chart-probe" data-id="cp-nvda-catalysts">
         <h2>NVDA catalyst trail — which one cracked the bull case?</h2>
@@ -538,6 +683,24 @@
                {"n":5,"time":"2026-04-22","label":"Google announces 2 new TPUs (v7 + successor)","reaction":"+0.8% — ASIC competition noted; NVDA CUDA/NVLink moat still decisive.","correct":false}
              ]'
              data-explanation="DeepSeek R1 was the moment the AI-capex thesis was genuinely, not rhetorically, challenged. An open-weight Chinese lab claiming near-frontier reasoning at roughly 1/50 the serving cost forced investors to model — for the first time — a world where hyperscaler GPU capex could plateau or turn negative. NVDA shed ~$600B of market cap in one session. The price recovered within months; the narrative scar did not. Every cost-deflation headline since (Google TPU v7, Anthropic's multi-GW Trainium deal, Cerebras inference runs) is now priced against this re-rated baseline — which is precisely why the 'obvious' bullish catalysts 4 and 5 barely moved the stock.">
+        </div>
+        <div class="chart-probe-feedback" aria-live="polite"></div>
+      </section>
+
+      <!-- SLIDE C6 — Pattern F: AVGO chart probe (NEW v2 — sister to NVDA) -->
+      <section class="socratic-slide" data-pattern="chart-probe" data-id="cp-avgo-catalysts">
+        <h2>AVGO catalyst trail — when did the inference-ASIC re-rate happen?</h2>
+        <p class="prompt">v2 explicitly calls AVGO <b>"the most undervalued name in the entire AI silicon complex."</b> Five catalysts marked on AVGO's chart. Four were confirmations. <b>One</b> was the structural re-rate that forced consensus to reclassify AVGO from "broadband + software" into the AI silicon complex. Pick it from the price action.</p>
+        <div class="chart-probe"
+             data-ticker="AVGO"
+             data-markers='[
+               {"n":1,"time":"2024-12-12","label":"FY24 Q4 — first multi-year AI semi target","reaction":"+24% in single session — biggest one-day gap in AVGO history. The day AVGO became an AI stock.","correct":true},
+               {"n":2,"time":"2025-09-04","label":"Q3 FY25 — second hyperscaler ASIC customer disclosed","reaction":"+9% — incremental; expected at this point in the cycle.","correct":false},
+               {"n":3,"time":"2026-03-06","label":"Q1 FY26 — AI semi +106% YoY; reiterates >$100B AI chip rev by 2027","reaction":"+5% — beat already largely priced after sell-side ramp.","correct":false},
+               {"n":4,"time":"2026-04-22","label":"GOOGL announces 2 new TPUs (AVGO co-designs)","reaction":"+3% — TPU validation but read-through already in stock.","correct":false},
+               {"n":5,"time":"2026-04-15","label":"Anthropic multi-GW TPU commitment with GCP through 2027+","reaction":"+4% — third major lab on TPU; AVGO custom-ASIC franchise validated.","correct":false}
+             ]'
+             data-explanation="AVGO's December 2024 FY4Q print was the moment the market re-rated it from 'broadband + software' into the AI silicon complex. Hock Tan's first explicit multi-year AI revenue target reframed the company as a structural beneficiary of hyperscaler custom-ASIC adoption (Google TPU, Meta MTIA, then a third undisclosed customer). Every catalyst since has been a confirmation, not a re-rate — which is precisely why the 'obvious' bullish events (TPU v7 announcement, Anthropic commitment, +106% YoY beat) barely moved the stock relative to the December 2024 reset. Trader takeaway: the re-rating already happened. The next leg requires either a 4th hyperscaler customer disclosure or a clean GOOGL TPU v7 external-availability milestone (Jun 2026 catalyst window).">
         </div>
         <div class="chart-probe-feedback" aria-live="polite"></div>
       </section>
@@ -557,32 +720,43 @@
         <p style="font-size:1.1em; color: var(--on-surface-variant);">Q1 2026 was the most catalyst-dense period in AI coverage history.</p>
       </section>
 
-      <!-- SLIDE 25 — Q1 2026 catalyst timeline -->
+      <!-- SLIDE 25 — Catalyst timeline: past 90d + forward Q2-Q3 2026 -->
       <section>
-        <h2>Q1 2026 catalysts — the past 90 days</h2>
+        <h2>Catalyst calendar — past 90 days <span style="color: var(--on-surface-variant); font-size: 0.6em;">|</span> forward Q2–Q3 2026</h2>
         <div class="two-col">
           <div>
-            <h4 style="color: var(--primary); margin-top:0">Closed-weight side</h4>
-            <ul style="line-height: 1.75; font-size:0.92em;">
-              <li><b>Feb 12</b> — Anthropic $30B Series G at $380B</li>
-              <li><b>Feb 2026</b> — SpaceX + xAI merger; combined IPO target $1.5–1.75T</li>
-              <li><b>Mar 5</b> — GPT-5.4 release; 83% on <span class="term" data-term="GDPval">GDPval</span></li>
+            <h4 style="color: var(--primary); margin-top:0">Past 90 days · what already moved</h4>
+            <ul style="line-height: 1.55; font-size:0.85em;">
+              <li><b>Feb 12</b> — Anthropic $30B Series G at $380B (secondaries → $1T)</li>
+              <li><b>Feb</b> — SpaceX + xAI merger; combined IPO target $1.5–1.75T</li>
+              <li><b>Mar 5</b> — GPT-5.4 release; 83% on <span class="term" data-term="GDPval">GDPval</span>; adaptive thinking budget</li>
               <li><b>Mar 31</b> — OpenAI closes $122B round at $852B post-money</li>
-              <li><b>Apr 2026</b> — Anthropic <span class="term" data-term="Project Glasswing">Mythos 5 restricted release</span>; <span class="term" data-term="TPU">TPU</span> multi-GW commitment with <span class="ticker" data-ticker="GOOGL">GOOGL</span></li>
-              <li><b>Apr 22</b> — Google announces 2 new TPU chips</li>
+              <li><b>Mar</b> — Alphabet raises 2026 capex guide to <b>$185B</b> (was $135B)</li>
+              <li><b>Apr</b> — MiniMax M2.5 + Hailuo-02; <b>$0.15/M cost leader</b></li>
+              <li><b>Apr</b> — Anthropic Mythos 5 restricted (<span class="term" data-term="Project Glasswing">Project Glasswing</span>); multi-GW TPU commitment with <span class="ticker" data-ticker="GOOGL">GOOGL</span></li>
+              <li><b>Apr 22</b> — Google announces 2 new TPU chips (v7 + successor)</li>
+              <li><b>Apr 22</b> — AngelList USVC launches ($500 min, retail-eligible)</li>
+              <li><b>Q1</b> — <span class="ticker" data-ticker="AVGO">AVGO</span> AI semi rev <b>+106% YoY</b>; reiterates >$100B by 2027</li>
             </ul>
           </div>
           <div>
-            <h4 style="color: var(--primary); margin-top:0">Open-weight + supply chain</h4>
-            <ul style="line-height: 1.75; font-size:0.92em;">
-              <li><b>Feb 2026</b> — Alibaba Qwen 3.5 family (397B, Apache 2.0)</li>
-              <li><b>Mar 3</b> — Mistral Small 4 (128-expert <span class="term" data-term="MoE">MoE</span>)</li>
-              <li><b>Mar 4</b> — Ratepayer Protection Pledge signed</li>
-              <li><b>Apr 7</b> — Zhipu GLM-5.1 tops BenchLM</li>
-              <li><b>Q2 2026 (expected)</b> — DeepSeek V4 on Ascend 950PR at $0.14–0.30/M tokens</li>
-              <li><b>Q1 earnings</b> — TSMC +58% YoY profit beat; HBM4 samples delivered to NVDA</li>
+            <h4 style="color: var(--primary); margin-top:0">Forward Q2–Q3 2026 · what's next</h4>
+            <ul style="line-height: 1.55; font-size:0.85em;">
+              <li><b>May</b> — <span class="ticker" data-ticker="NVDA">NVDA</span> Q1 FY27: Vera Rubin ramp · CoWoS allocation · margin defense vs inference mix</li>
+              <li><b>May</b> — <span class="ticker" data-ticker="MSFT">MSFT</span> Build 2026: MAI-1 frontier-model unveil expected · OpenAI partnership re-articulation</li>
+              <li><b>Jun</b> — <span class="ticker" data-ticker="AAPL">AAPL</span> WWDC: Apple Intelligence v3 · on-device reasoning · MLX v2</li>
+              <li><b>Jun</b> — Google I/O follow-on: TPU v7 external availability (key <span class="ticker" data-ticker="AVGO">AVGO</span> read-through) · Gemma 4 release</li>
+              <li><b>Q2</b> — <b>DeepSeek V4 on Huawei Ascend 950PR @ $0.14–0.30/M</b> · benchmark validation vs GPT-5.4</li>
+              <li><b>Q2</b> — SK Hynix HBM4 sample→volume; <span class="ticker" data-ticker="MU">MU</span> HBM4 ramp 2H26</li>
+              <li><b>Q2</b> — OpenAI restructuring / IPO timing signal</li>
+              <li><b>Q3</b> — Anthropic Series G or strategic round ($1T+ talks · sovereign capital)</li>
+              <li><b>Q3</b> — Hyperscaler Q2 prints: do 2026 capex guides hold? AI rev translation</li>
+              <li><b>Q3</b> — TSM Q2: 2nm yield commentary · CoWoS update · 2026 capex final</li>
             </ul>
           </div>
+        </div>
+        <div class="insight-box" style="margin-top: 14px; font-size: 0.9em;">
+          <strong>Trader read:</strong> the densest single window is <b>mid-May</b> (NVDA + MSFT in same week). Pre-position by early May; size into the prints.
         </div>
       </section>
 
@@ -604,51 +778,153 @@
         <p style="font-size:1.1em; color: var(--on-surface-variant);">Three truths most allocators haven't fully internalized.</p>
       </section>
 
-      <!-- SLIDE 28 — Tailwinds/Headwinds + risks -->
+      <!-- SLIDE 28 — Tailwinds/Headwinds, camp-specific (v2 §9.3 + §9.4) -->
       <section>
-        <h2>Tailwinds · Headwinds · Top Risks</h2>
-        <div class="two-col">
+        <h2>Tailwinds · Headwinds — by camp <span style="color: var(--primary); font-size: 0.6em;">(v2 §9.3 + §9.4)</span></h2>
+        <div class="two-col" style="grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px;">
           <div class="card card-accent card-positive">
-            <h4 style="margin-top:0; color: var(--positive)">Tailwinds</h4>
-            <ul style="font-size:0.86em; line-height:1.55; margin: 0; padding-left:18px;">
-              <li>Enterprise adoption from pilots to production; <span class="term" data-term="MCP">MCP</span> crossed 97M installs in March</li>
-              <li>Capital availability: $188B in Q1 2026 AI mega-deals</li>
-              <li>OpenAI $25B ARR, Anthropic $30B — both growing 200%+ YoY</li>
-              <li>Cost deflation: DeepSeek V3.2 ≈ 90% of GPT-5.4 quality at ~1/50 price</li>
-              <li>IPO pipeline thawing: SpaceX/xAI, OpenAI, Anthropic all telegraphing 2026–27</li>
+            <h4 style="margin-top:0; color: var(--positive); font-size: 0.95em;">Open-camp tailwinds</h4>
+            <ul style="font-size:0.78em; line-height:1.45; margin: 0; padding-left:16px;">
+              <li>Inference cost arbitrage as enterprise inference volume scales</li>
+              <li>Sovereign / regulatory mandates (EU, India, ME, ASEAN) favor self-hostable stacks</li>
+              <li>Architectural commoditization (sparse MoE, reasoning) erodes closed-weight technical moat</li>
+              <li>Chinese cohort proves frontier capability at 1–2 OOM smaller training budgets</li>
+            </ul>
+          </div>
+          <div class="card card-accent card-positive">
+            <h4 style="margin-top:0; color: var(--positive); font-size: 0.95em;">Closed-camp tailwinds</h4>
+            <ul style="font-size:0.78em; line-height:1.45; margin: 0; padding-left:16px;">
+              <li>Enterprise mix scaling faster than consumer (higher-margin, stickier)</li>
+              <li>Agentic reliability moat — hardest to replicate at frontier parity</li>
+              <li>Ecosystem lock-in via Claude Code, Codex, Cursor, GPT Apps compounding</li>
+              <li>Regulated industries (defense, healthcare, finance) closed-weight by mandate</li>
+            </ul>
+          </div>
+        </div>
+        <div class="two-col" style="grid-template-columns: 1fr 1fr; gap: 12px;">
+          <div class="card card-accent card-negative">
+            <h4 style="margin-top:0; color: var(--error); font-size: 0.95em;">Open-camp headwinds</h4>
+            <ul style="font-size:0.78em; line-height:1.45; margin: 0; padding-left:16px;">
+              <li>Monetization structurally weak — Meta no direct rev; CN labs subsidized by parent clouds</li>
+              <li>Safety / red-team / eval infra weaker → higher enterprise TCO</li>
+              <li>Talent retention hard when lab doesn't capture upside (DeepSeek, MiniMax, Mistral departures)</li>
             </ul>
           </div>
           <div class="card card-accent card-negative">
-            <h4 style="margin-top:0; color: var(--error)">Headwinds</h4>
-            <ul style="font-size:0.86em; line-height:1.55; margin: 0; padding-left:18px;">
-              <li>Energy: PJM 6GW reliability shortfall by 2027; 27 US states considering "large load" legislation</li>
-              <li>DC pipeline: only ~1/3 of announced 240GW actually being built; <span class="term" data-term="Stargate">$500B Stargate stalled</span></li>
-              <li>Regulatory: EU AI Act enforcement, state-level moratoriums, NYT copyright suit</li>
-              <li>Inference commoditization: base-intelligence layer pricing racing to zero</li>
-              <li>Float scarcity: ~$3T combined post-IPO cap with 3–8% floats could cause extreme distortion</li>
+            <h4 style="margin-top:0; color: var(--error); font-size: 0.95em;">Closed-camp headwinds</h4>
+            <ul style="font-size:0.78em; line-height:1.45; margin: 0; padding-left:16px;">
+              <li>Per-query unit economics deteriorating as reasoning compute outpaces price resets</li>
+              <li>Defending the frontier costs 3–5× per generation if capability gains slow</li>
+              <li>Open-weight floor compresses addressable price ceiling over time</li>
+              <li>Hyperscaler partner-compete (MSFT MAI-1, AMZN Nova, GOOGL prioritizing Gemini)</li>
             </ul>
           </div>
         </div>
-        <div class="insight-box" style="margin-top:16px;">
-          <strong>Top 5 risks to monitor:</strong>
-          <b>(1)</b> DeepSeek V4 launch and pricing · <b>(2)</b> hyperscaler capex cuts · <b>(3)</b> post-IPO float mechanics on ~$3T combined cap · <b>(4)</b> state-level DC moratoriums ·
-          <b>(5)</b> PJM 6GW shortfall binding by 2027.
+        <div class="insight-box" style="margin-top:14px; font-size: 0.88em;">
+          <strong>Top 5 systemic risks (v2):</strong>
+          <b>(1)</b> Capability plateau at frontier compresses closed pricing premium ·
+          <b>(2)</b> Hyperscaler capex pause (AI rev disappointment OR PJM grid binding) ·
+          <b>(3)</b> Geopolitical de-escalation reverses parallel-stack capex ·
+          <b>(4)</b> NVDA customer concentration (SK Hynix 90% to NVDA; CRWV >50% MSFT) ·
+          <b>(5)</b> Per-token pricing premium 30× → ~3–5× by 2027.
         </div>
-        <p style="font-size:0.85em; color: var(--on-surface-variant); margin-top: 12px;">
-          <b>Goldman's suggested core basket (60–70% of AI sleeve):</b> <span class="ticker" data-ticker="NVDA">NVDA</span>, <span class="ticker" data-ticker="MSFT">MSFT</span>, <span class="ticker" data-ticker="GOOGL">GOOGL</span>, <span class="ticker" data-ticker="TSM">TSM</span>, <span class="ticker" data-ticker="ASML">ASML</span>, <span class="ticker" data-ticker="AMZN">AMZN</span>, <span class="ticker" data-ticker="META">META</span>. Satellite: <span class="ticker" data-ticker="AVGO">AVGO</span>, <span class="ticker" data-ticker="MU">MU</span>, <span class="ticker" data-ticker="AMD">AMD</span>, <span class="ticker" data-ticker="DELL">DELL</span>, <span class="ticker" data-ticker="VST">VST</span>, <span class="ticker" data-ticker="CEG">CEG</span>.
+        <p style="font-size:0.78em; color: var(--on-surface-variant); margin-top: 10px;">
+          <b>Goldman v2 core basket:</b> <span class="ticker" data-ticker="NVDA">NVDA</span> · <span class="ticker" data-ticker="MSFT">MSFT</span> · <span class="ticker" data-ticker="GOOGL">GOOGL</span> · <span class="ticker" data-ticker="TSM">TSM</span> · <span class="ticker" data-ticker="ASML">ASML</span> · <span class="ticker" data-ticker="AMZN">AMZN</span> · <span class="ticker" data-ticker="AVGO">AVGO</span> · <span class="ticker" data-ticker="AAPL">AAPL</span> (NEW Tactical) ·
+          <b>Memory:</b> SK Hynix · <span class="ticker" data-ticker="MU">MU</span> · <span class="ticker" data-ticker="SNDK">SNDK</span> (NEW) ·
+          <b>Neoclouds:</b> <span class="ticker" data-ticker="CRWV">CRWV</span> · <span class="ticker" data-ticker="NBIS">NBIS</span> · <span class="ticker" data-ticker="ORCL">ORCL</span> (all NEW Overweight) ·
+          <b>Power:</b> <span class="ticker" data-ticker="CEG">CEG</span> · <span class="ticker" data-ticker="VST">VST</span> · <span class="ticker" data-ticker="TLN">TLN</span>.
+          <b>Demoted to Market Weight:</b> <span class="ticker" data-ticker="META">META</span>, <span class="ticker" data-ticker="AMD">AMD</span>, <span class="ticker" data-ticker="MRVL">MRVL</span>, <span class="ticker" data-ticker="NEE">NEE</span>.
         </p>
       </section>
 
+      <!-- SLIDE C8 — Leaders rating table (v2 §11.2 — Overweight names) -->
+      <section>
+        <h2>Leaders — Overweight conviction <span style="color: var(--primary); font-size: 0.6em;">(v2 §11.2 — narrative + numbers)</span></h2>
+        <table style="width:100%; font-size: 0.66em;">
+          <thead><tr><th>Ticker</th><th>Rating</th><th>One-line thesis</th><th>Key risk</th></tr></thead>
+          <tbody>
+            <tr><td><b><span class="ticker" data-ticker="NVDA">NVDA</span></b></td><td style="color:var(--positive)">OW</td><td>Majority TSMC CoWoS allocation; Vera Rubin ramp; ~90% data-center training share</td><td>Hyperscaler insourcing via custom ASIC</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="TSM">TSM</span></b></td><td style="color:var(--positive)">OW</td><td>Sole-supplier on advanced-node AI silicon; 2nm booked through 2028; CoWoS +30%</td><td>Geopolitical (Taiwan straits)</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="ASML">ASML</span></b></td><td style="color:var(--positive)">OW</td><td>Sole EUV + High-NA EUV monopoly; €36B backlog; ~6–8 High-NA tools/yr @ ~$380M</td><td>Cyclical equipment demand; China sales restrictions</td></tr>
+            <tr><td><b>SK Hynix</b> 000660.KS</td><td style="color:var(--positive)">OW</td><td>~62% HBM share; ~90% of NVDA HBM; 2026 fully allocated; HBM4 lead w/ TSMC 12nm base-die</td><td>Single most-leveraged AI memory name</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="MU">MU</span></b></td><td style="color:var(--positive)">OW</td><td>HBM4 ramp 2H26; ~21% HBM share; broad DRAM/NAND exposure to memory cycle</td><td>NAND pricing volatility independent of HBM</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="SNDK">SNDK</span></b></td><td style="color:var(--positive)">OW (NEW)</td><td>First standalone NAND pure-play post-WD spin Feb 2025; AI-server SSD attach rising</td><td>NAND remains structurally cyclical</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="AVGO">AVGO</span></b></td><td style="color:var(--positive)">OW</td><td>Custom ASIC partner Google TPU + Meta MTIA + 1 undisclosed; AI rev +106% YoY; >$100B by '27</td><td>Customer concentration</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="MSFT">MSFT</span></b></td><td style="color:var(--positive)">OW</td><td>27% OpenAI equity + 20% rev-share through 2032 = cleanest OpenAI proxy</td><td>OpenAI restructuring revisions</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="GOOGL">GOOGL</span></b></td><td style="color:var(--positive)">OW</td><td>Triple-vector: Gemini + Anthropic equity + TPU; 2026 capex up to $185B</td><td>Antitrust scrutiny</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="AMZN">AMZN</span></b></td><td style="color:var(--positive)">OW</td><td>AWS largest cloud beneficiary; $25B Anthropic + 2GW Trainium</td><td>AWS AI mind-share lagging Azure/GCP</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="AAPL">AAPL</span></b></td><td style="color:var(--positive)">Tactical OW (NEW)</td><td>M3 Ultra + 512GB unified = de facto local-AI reference platform; MLX framework rising</td><td>Apple Intelligence first-party model remains weak</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="ORCL">ORCL</span></b></td><td style="color:var(--positive)">OW</td><td>OCI gen-2 backlog ~$130B+; OpenAI Stargate primary partner ($300B+)</td><td>Hyperscaler-grade execution unproven at OCI scale</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="CRWV">CRWV</span></b></td><td style="color:var(--positive)">OW (NEW)</td><td>Backlog $30B+; NVIDIA-aligned; MSFT + OpenAI anchor customers</td><td>MSFT &gt;50% concentration; debt-funded buildout</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="NBIS">NBIS</span></b></td><td style="color:var(--positive)">OW (NEW)</td><td>European neocloud pure-play; Q1 ARR ~$1.5B; non-Chinese-aligned alt to CRWV</td><td>Smaller scale, less customer disclosure</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="TCEHY">TCEHY</span></b> Tencent</td><td style="color:var(--positive)">OW</td><td>Cleanest single-name Chinese AI exposure; Hunyuan T1 + Hunyuan-Open + WeChat distribution</td><td>VIE / political risk</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="BABA">BABA</span></b></td><td style="color:var(--positive)">OW</td><td>Qwen 3.5 #1 on several open leaderboards; Alibaba Cloud + MiniMax stake</td><td>Political/regulatory</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="CEG">CEG</span></b></td><td style="color:var(--positive)">OW</td><td>Largest U.S. nuclear; first-mover hyperscaler PPAs (MSFT TMI restart)</td><td>Permitting / interconnection</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="VST">VST</span></b></td><td style="color:var(--positive)">OW</td><td>Comanche Peak nuclear + Texas gas peakers; aggressive AI DC contracting</td><td>ERCOT regulatory exposure</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="TLN">TLN</span></b></td><td style="color:var(--positive)">OW (NEW)</td><td>Susquehanna nuclear PPA precedent; recent +2GW agreement</td><td>Single-asset concentration</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="AMAT">AMAT</span></b> · <b><span class="ticker" data-ticker="LRCX">LRCX</span></b> · <b><span class="ticker" data-ticker="KLAC">KLAC</span></b></td><td style="color:var(--positive)">OW (NEW)</td><td>Equipment trio: deposition / etch / metrology — leveraged to TSMC 2nm + HBM4</td><td>Equipment cyclicality</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="2317.TW">2317.TW</span></b> Hon Hai</td><td style="color:var(--positive)">OW (NEW)</td><td>Dominant AI server contract manufacturer; <b>cheapest valuation in entire AI supply chain</b></td><td>Margin compression on rack-scale</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- SLIDE C9 — Laggards (Market Weight + Speculative + Demoted) -->
+      <section>
+        <h2>Laggards — Market Weight, Speculative, demoted from v1</h2>
+        <table style="width:100%; font-size: 0.7em;">
+          <thead><tr><th>Ticker</th><th>Rating</th><th>One-line thesis / why laggard</th><th>Key risk</th></tr></thead>
+          <tbody>
+            <tr><td><b><span class="ticker" data-ticker="META">META</span></b></td><td style="color: #ffb84d;">MW (demoted)</td><td>Llama 4.5 frontier-grade open-weight, but no direct monetization. Capex burden rising w/o near-term rev translation</td><td>$65B+ capex, zero licensing rev</td></tr>
+            <tr><td><b>Samsung 005930.KS</b></td><td style="color: #ffb84d;">MW</td><td>Largest memory player but losing HBM share (~17–20%); HBM3E qualification at NVIDIA still fluid</td><td>Diversified end markets dampen pure-play AI leverage</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="AMD">AMD</span></b></td><td style="color: #ffb84d;">MW (demoted)</td><td>MI400 ramp 2026; OpenAI deal validates competitive position but trails NVDA on ROCm vs CUDA</td><td>Ecosystem moat lag; second to NVDA in training</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="MRVL">MRVL</span></b></td><td style="color: #ffb84d;">MW (NEW)</td><td>Custom ASIC + AI networking; smaller scale than AVGO</td><td>Watch for incremental hyperscaler design wins</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="APLD">APLD</span></b></td><td style="color: #ffb84d;">MW (NEW)</td><td>Vertically integrated power-and-rack operator; smaller scale; more speculative</td><td>Anchor-tenant dependence on CRWV</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="IREN">IREN</span></b></td><td style="color: #ffb84d;">MW / Spec (NEW)</td><td>Bitcoin-miner pivoting to AI; less mature AI-tenant book than CRWV/NBIS</td><td>Operational expertise transfer unproven</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="BIDU">BIDU</span></b></td><td style="color: #ffb84d;">MW</td><td>Cheapest China-AI on P/E; ERNIE 5.0 + ERNIE-X1 + Apollo + cloud</td><td><b>Structural search risk</b>; ERNIE has not closed gap to Qwen / GLM</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="DELL">DELL</span></b></td><td style="color: #ffb84d;">MW</td><td>AI server beneficiary; volume-leveraged but lower margin than NVDA/TSM/HBM</td><td>Margin compression cycle</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="SMCI">SMCI</span></b></td><td style="color: #ffb84d;">MW</td><td>Rebuilding governance post-restatement; AI server demand strong but execution risk priced</td><td>Restatement overhang</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="NEE">NEE</span></b></td><td style="color: #ffb84d;">MW (demoted)</td><td>Largest U.S. renewable; PPA counterparty for hyperscaler clean-energy. Lower AI purity</td><td>Lower direct AI capex leverage</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="OKLO">OKLO</span></b></td><td style="color: #ff8c5a;">Speculative OW</td><td>Pre-revenue SMR; first plant 2027 target; Sam Altman backing</td><td>No commercial deployment yet</td></tr>
+            <tr><td><b><span class="ticker" data-ticker="NNE">NNE</span></b></td><td style="color: #ff8c5a;">Speculative OW</td><td>Nano Nuclear Energy SMR play; pre-revenue; high-conviction tail</td><td>Highly speculative, pre-revenue</td></tr>
+          </tbody>
+        </table>
+        <div class="insight-box" style="margin-top: 14px; font-size: 0.9em;">
+          <strong>Trader read:</strong> the demoted names (META, AMD, NEE) are not shorts — they're <b>relative-value laggards</b> within the Goldman v2 framework. The pair-trade trio on the next slide isolates the cleanest divergences.
+        </div>
+      </section>
+
+      <!-- SLIDE C7 — Pair-Trade Lab (NEW v2 — replaces $50k tradeoff) -->
+      <section class="socratic-slide" data-pattern="tradeoff" data-id="to-pair-trades"></section>
+
       <!-- SLIDE 29 — Pattern G: Capstone Portfolio Builder -->
       <section class="socratic-slide" data-pattern="portfolio" data-id="cap-portfolio"></section>
+
+      <!-- ══════════════════════════════════════════════════════════════
+           Appendix — Pre-IPO Vehicles (was §04 in v1, demoted in v2)
+           ══════════════════════════════════════════════════════════════ -->
+      <section>
+        <h2>Appendix — Pre-IPO AI vehicles <span style="color: var(--on-surface-variant); font-size: 0.6em;">(allocator reference)</span></h2>
+        <p class="prompt" style="font-size: 0.95em;">v2 deprioritizes allocator mechanics for traders, but the public-market vehicles for pre-IPO AI exposure are useful reference.</p>
+        <table style="width:100%; font-size: 0.78em; margin-top: 10px;">
+          <thead><tr><th>Vehicle</th><th>Access</th><th>AI exposure</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td><span class="ticker" data-ticker="MSFT">MSFT</span> / <span class="ticker" data-ticker="GOOGL">GOOGL</span> / <span class="ticker" data-ticker="AMZN">AMZN</span></td><td>Public proxies</td><td>OpenAI / Anthropic / Anthropic respectively</td><td>Cleanest, most liquid, lowest purity</td></tr>
+            <tr><td><span class="ticker" data-ticker="DXYZ">DXYZ</span> Destiny Tech100</td><td>NYSE CEF</td><td>OpenAI · SpaceX · Anthropic · Epic Games</td><td>Trades at persistent NAV premium</td></tr>
+            <tr><td>ARKVX (ARK Venture)</td><td>Interval fund</td><td>SpaceX ~17% · OpenAI ~11% · Anthropic ~4%</td><td>Quarterly redemption; 2.9% expense ratio</td></tr>
+            <tr><td>USVC (AngelList)</td><td>Direct fund — $500 min</td><td>xAI (largest) · OpenAI · Anthropic + 4 others</td><td>Apr 22, 2026 launch; non-accredited eligible; 1% mgmt, no carry</td></tr>
+            <tr><td>Robinhood Ventures Fund I</td><td>Robinhood platform</td><td>$75M OpenAI common stock (Apr 2026)</td><td>Publicly tradable retail ticker</td></tr>
+            <tr><td>Hiive / Forge</td><td>Secondary marketplaces</td><td>Anthropic, OpenAI, xAI, Cerebras direct shares</td><td>Accredited only · $25–250k tickets · multi-year lockup</td></tr>
+          </tbody>
+        </table>
+      </section>
 
       <!-- Final thanks slide -->
       <section>
         <div class="slide-title">
           <h1>Thank You</h1>
           <div class="divider"></div>
-          <div class="subtitle">AI Deep-Dive — The Open vs Closed Divide</div>
-          <div class="meta">Questions &amp; Discussion</div>
+          <div class="subtitle">AI Deep-Dive v2 — Compute Regimes, Memory, Neoclouds, Local-AI</div>
+          <div class="meta">Questions &amp; Discussion · Ask Gemini in the FAB ↘</div>
           <div class="confidential" style="margin-top:3em;">Educational simulation. Not investment advice.</div>
         </div>
       </section>

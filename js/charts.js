@@ -5,10 +5,15 @@
 const COMPANY_NAMES = {
   MSFT: "Microsoft", GOOGL: "Alphabet", AMZN: "Amazon", META: "Meta Platforms",
   NVDA: "NVIDIA", TSM: "TSMC", ASML: "ASML Holding", AVGO: "Broadcom",
-  MU: "Micron Technology", AMD: "AMD", BABA: "Alibaba",
-  DELL: "Dell Technologies", SMCI: "Super Micro Computer",
-  CEG: "Constellation Energy", VST: "Vistra", NEE: "NextEra Energy",
+  MU: "Micron Technology", AMD: "AMD", MRVL: "Marvell Technology",
+  AAPL: "Apple", SNDK: "Sandisk",
+  CRWV: "CoreWeave", NBIS: "Nebius Group", APLD: "Applied Digital",
+  IREN: "Iris Energy", ORCL: "Oracle",
+  BABA: "Alibaba", TCEHY: "Tencent (ADR)", BIDU: "Baidu",
+  DELL: "Dell Technologies", SMCI: "Super Micro Computer", "2317.TW": "Hon Hai (Foxconn)",
+  CEG: "Constellation Energy", VST: "Vistra", TLN: "Talen Energy", NEE: "NextEra Energy",
   OKLO: "Oklo", NNE: "Nano Nuclear Energy",
+  AMAT: "Applied Materials", LRCX: "Lam Research", KLAC: "KLA Corp",
   DXYZ: "Destiny Tech100", CHAT: "Roundhill GenAI ETF",
 };
 
@@ -17,10 +22,15 @@ const COMPANY_NAMES = {
 const TV_SYMBOL = {
   MSFT: "NASDAQ:MSFT", GOOGL: "NASDAQ:GOOGL", AMZN: "NASDAQ:AMZN", META: "NASDAQ:META",
   NVDA: "NASDAQ:NVDA", AVGO: "NASDAQ:AVGO", MU: "NASDAQ:MU", AMD: "NASDAQ:AMD",
+  MRVL: "NASDAQ:MRVL", AAPL: "NASDAQ:AAPL", SNDK: "NASDAQ:SNDK",
+  CRWV: "NASDAQ:CRWV", NBIS: "NASDAQ:NBIS", APLD: "NASDAQ:APLD",
+  IREN: "NASDAQ:IREN", ORCL: "NYSE:ORCL",
   TSM: "NYSE:TSM", ASML: "NASDAQ:ASML", BABA: "NYSE:BABA",
-  DELL: "NYSE:DELL", SMCI: "NASDAQ:SMCI",
-  CEG: "NASDAQ:CEG", VST: "NYSE:VST", NEE: "NYSE:NEE",
+  TCEHY: "OTC:TCEHY", BIDU: "NASDAQ:BIDU",
+  DELL: "NYSE:DELL", SMCI: "NASDAQ:SMCI", "2317.TW": "TWSE:2317",
+  CEG: "NASDAQ:CEG", VST: "NYSE:VST", TLN: "NASDAQ:TLN", NEE: "NYSE:NEE",
   OKLO: "NYSE:OKLO", NNE: "NASDAQ:NNE",
+  AMAT: "NASDAQ:AMAT", LRCX: "NASDAQ:LRCX", KLAC: "NASDAQ:KLAC",
   DXYZ: "NYSE:DXYZ", CHAT: "AMEX:CHAT",
 };
 

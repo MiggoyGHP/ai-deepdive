@@ -17,7 +17,7 @@ except ImportError:
     sys.exit(1)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DOCX = os.path.join(HERE, "GS_AI_Coverage_Report.docx")
+DOCX = os.path.join(HERE, "GS_AI_Coverage_Report_v2.docx")
 OUT = os.path.join(HERE, "js", "report-context.js")
 
 doc = Document(DOCX)
